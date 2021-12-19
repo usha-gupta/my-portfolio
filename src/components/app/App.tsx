@@ -1,4 +1,3 @@
-import CustomAppBar from "../app-bar/CustomAppBar";
 import GlobalStyle from "../../utils/global-style";
 import createCustomTheme from "../../utils/theme";
 import { useState } from "react";
