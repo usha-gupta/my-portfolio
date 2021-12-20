@@ -9,17 +9,8 @@ import {
   School,
   Timeline,
 } from "@mui/icons-material";
-import {
-  CssBaseline,
-  Divider,
-  Drawer,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Toolbar,
-  List,
-} from "@mui/material";
-import { Box } from "@mui/system";
+import {CssBaseline, Divider, Drawer, List, ListItem, ListItemIcon, ListItemText, Toolbar,} from "@mui/material";
+import {Box} from "@mui/system";
 import CustomAppBar from "../app-bar/CustomAppBar";
 
 const drawerWidth = 240;
@@ -144,7 +135,6 @@ const ResponsiveDrawer = ({ children, darkMode, toggleDarkMode }: Props) => {
         component="main"
         sx={{
           flexGrow: 1,
-          p: 3,
           width: { sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >
