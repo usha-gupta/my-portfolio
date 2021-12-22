@@ -1,4 +1,5 @@
-import React, {useEffect} from "react";
+import { Typography } from "@mui/material";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 import Typed from "typed.js";
 
@@ -6,22 +7,68 @@ import backgroundImage from "../../assets/images/bg_header.jpg";
 
 const StyledWrapper = styled.section`
   height: 100vh;
-  width: 100vw;
-  background-image: url(${backgroundImage});
+  flex-grow: 1;
   background-size: cover;
 `;
 
-const StyledCaption = styled.p`
-  font-size: 3rem;
+const Content = styled.div`
+  position: absolute;
+  width: calc(100% - 240px);
   padding: 72px;
   padding-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: 16px;
+    padding-top: 200px;
+  }
+`;
+
+const StyledCaption = styled(Typography)`
+  font-size: 3rem;
   color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+
+  @media (max-width: 600px) {
+    font-size: 2rem;
+  }
 `;
 
 const StyledSpan = styled.span`
   background-color: #008073;
   color: white;
-  padding: 16px;
+  padding: 8px;
+`;
+
+const Overlay = styled.div`
+  position: absolute;
+  width: calc(100% - 240px);
+  flex-grow: 1;
+  z-index: 3;
+  height: 100vh;
+  background-image: url(${backgroundImage});
+  filter: blur(8px);
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+`;
+
+const StyledName = styled(Typography)`
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+
+  @media (max-width: 600px) {
+    font-size: 3.5rem;
+  }
 `;
 
 const Header = () => {
@@ -29,8 +76,8 @@ const Header = () => {
     const typed = new Typed(".positions", {
       strings: ["Developer", "Architecture", "Engineer"],
       startDelay: 300,
-      typeSpeed: 100,
-      backSpeed: 100,
+      typeSpeed: 130,
+      backSpeed: 50,
       backDelay: 100,
       loop: true,
       cursorChar: "",
@@ -42,11 +89,15 @@ const Header = () => {
   }, []);
 
   return (
-      <StyledWrapper>
+    <StyledWrapper>
+      <Overlay />
+      <Content>
+        <StyledName variant="h5">Vishnu Bochiwal</StyledName>
         <StyledCaption>
           I'm a <StyledSpan className="positions"></StyledSpan>
         </StyledCaption>
-      </StyledWrapper>
+      </Content>
+    </StyledWrapper>
   );
 };
 

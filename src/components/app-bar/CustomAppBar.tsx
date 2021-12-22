@@ -1,7 +1,7 @@
 import React from "react";
-import {DarkMode, LightMode, Menu} from "@mui/icons-material";
-import {AppBar, IconButton, Toolbar, Typography} from "@mui/material";
-import {Box} from "@mui/system";
+import { DarkMode, LightMode, Menu } from "@mui/icons-material";
+import { AppBar, IconButton, Toolbar } from "@mui/material";
+import { Box } from "@mui/system";
 
 interface Props {
   darkMode: boolean;
@@ -11,7 +11,7 @@ interface Props {
 }
 
 const CustomAppBar = ({
-                        darkMode,
+  darkMode,
   toggleDarkMode,
   toggleDrawer,
   drawerWidth,
@@ -35,11 +35,7 @@ const CustomAppBar = ({
           >
             <Menu />
           </IconButton>
-          <Box sx={{ flexGrow: 1 }}>
-            <Typography variant="h5" noWrap component="div" color="#008073">
-              Vishnu Bochiwal
-            </Typography>
-          </Box>
+          <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: "flex" }}>
             <IconButton
               size="large"

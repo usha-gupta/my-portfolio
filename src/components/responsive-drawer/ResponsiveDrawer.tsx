@@ -1,4 +1,13 @@
-import React from "react";
+import * as React from "react";
+import Box from "@mui/material/Box";
+import CssBaseline from "@mui/material/CssBaseline";
+import Divider from "@mui/material/Divider";
+import Drawer from "@mui/material/Drawer";
+import List from "@mui/material/List";
+import ListItem from "@mui/material/ListItem";
+import ListItemIcon from "@mui/material/ListItemIcon";
+import ListItemText from "@mui/material/ListItemText";
+import Toolbar from "@mui/material/Toolbar";
 import {
   AlternateEmail,
   Category,
@@ -9,8 +18,6 @@ import {
   School,
   Timeline,
 } from "@mui/icons-material";
-import {CssBaseline, Divider, Drawer, List, ListItem, ListItemIcon, ListItemText, Toolbar,} from "@mui/material";
-import {Box} from "@mui/system";
 import CustomAppBar from "../app-bar/CustomAppBar";
 
 const drawerWidth = 240;
@@ -21,7 +28,8 @@ interface Props {
   toggleDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
-const ResponsiveDrawer = ({ children, darkMode, toggleDarkMode }: Props) => {
+export default function ResponsiveDrawer(props: Props) {
+  const { children, darkMode, toggleDarkMode } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -88,12 +96,14 @@ const ResponsiveDrawer = ({ children, darkMode, toggleDarkMode }: Props) => {
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
+
       <CustomAppBar
-        toggleDrawer={handleDrawerToggle}
         darkMode={darkMode}
+        toggleDrawer={handleDrawerToggle}
         toggleDarkMode={toggleDarkMode}
         drawerWidth={drawerWidth}
       />
+
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}
@@ -101,6 +111,7 @@ const ResponsiveDrawer = ({ children, darkMode, toggleDarkMode }: Props) => {
       >
         {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Drawer
+          // container={container}
           variant="temporary"
           open={mobileOpen}
           onClose={handleDrawerToggle}
@@ -135,14 +146,11 @@ const ResponsiveDrawer = ({ children, darkMode, toggleDarkMode }: Props) => {
         component="main"
         sx={{
           flexGrow: 1,
-          width: { sm: `calc(100% - ${drawerWidth}px)` },
+          width: { xs: "100%", sm: `calc(100% - ${drawerWidth}px)` },
         }}
       >
-        <Toolbar />
         {children}
       </Box>
     </Box>
   );
-};
-
-export default ResponsiveDrawer;
+}
