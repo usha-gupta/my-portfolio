@@ -94,7 +94,7 @@ const Header = () => {
       <Content>
         <StyledName variant="h5">Vishnu Bochiwal</StyledName>
         <StyledCaption>
-          I'm a <StyledSpan className="positions"></StyledSpan>
+          I'm a Software <StyledSpan className="positions"></StyledSpan>
         </StyledCaption>
       </Content>
     </StyledWrapper>

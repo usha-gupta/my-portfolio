@@ -8,6 +8,9 @@ const createCustomTheme = (darkMode: boolean) => {
         main: "#fff",
       },
     },
+    typography: {
+      fontFamily: "Montserrat, sans-serif",
+    },
   });
 };
 
