@@ -5,7 +5,7 @@ const createCustomTheme = (darkMode: boolean) => {
     palette: {
       mode: darkMode ? "dark" : "light",
       primary: {
-        main: "#fff",
+        main: "#008073",
       },
     },
     typography: {
