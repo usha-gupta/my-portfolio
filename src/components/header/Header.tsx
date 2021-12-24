@@ -33,7 +33,7 @@ const StyledCaption = styled(Typography)`
   font-size: 3rem;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000;
 
   @media (max-width: 600px) {
     font-size: 2rem;
@@ -64,7 +64,7 @@ const StyledName = styled(Typography)`
   font-size: 5rem;
   color: white;
   text-align: center;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px #000;
 
   @media (max-width: 600px) {
     font-size: 3.5rem;
@@ -94,7 +94,8 @@ const Header = () => {
       <Content>
         <StyledName variant="h5">Vishnu Bochiwal</StyledName>
         <StyledCaption>
-          I'm a Software <StyledSpan className="positions"></StyledSpan>
+          I&apos;m a Software
+          <StyledSpan className="positions" />
         </StyledCaption>
       </Content>
     </StyledWrapper>

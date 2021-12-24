@@ -1,5 +1,7 @@
 {
-  "name": "portfolio",
+  "name": "vishnu-portfolio",
+  "description": "This is portfolio website created by Vishnu Bochiwal using ReactJS and MUI",
+  "repository": "https://github.com/the-vis-sharma/my-portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -25,14 +27,15 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "test": "jest --config ./jest.config.js",
+    "test:coverage": "jest --config ./jest.config.js --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'",
+    "prettier": "prettier --check './src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:fix": "prettier --write './src/**/*.{ts,tsx,js,jsx}'",
+    "stylelint": "stylelint './src/**/*.{ts,tsx,js,jsx}'",
+    "stylelint:fix": "stylelint --fix './src/**/*.{ts,tsx,js,jsx}'"
   },
   "browserslist": {
     "production": [
@@ -47,6 +50,44 @@
     ]
   },
   "devDependencies": {
-    "@types/styled-components": "^5.1.18"
+    "@imaginary-cloud/eslint-config-react": "^1.0.1",
+    "@types/styled-components": "^5.1.18",
+    "@typescript-eslint/eslint-plugin": "^5.8.0",
+    "@typescript-eslint/parser": "^5.8.0",
+    "eslint": "^8.5.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jest": "^25.3.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "husky": "^7.0.4",
+    "jest-html-reporters": "^2.1.6",
+    "jest-junit": "^13.0.0",
+    "jest-styled-components": "^7.0.8",
+    "lint-staged": "^12.1.4",
+    "prettier": "^2.5.1",
+    "stylelint": "^14.2.0",
+    "stylelint-config-recommended": "^6.0.0",
+    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.10.0",
+    "ts-jest": "^27.1.2"
+  },
+  "lint-staged": {
+    "src/**/*.{ts,tsx,js,jsx}": [
+      "eslint . --fix './src/**/*.{ts,tsx,js,jsx}'",
+      "prettier --write './src/**/*.{ts,tsx,js,jsx}'",
+      "stylelint --fix './src/**/*.{ts,tsx,js,jsx}'"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run-script test:coverage"
+    }
   }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import { DarkMode, LightMode, Menu } from "@mui/icons-material";
-import { AppBar, IconButton, Toolbar } from "@mui/material";
-import { Box } from "@mui/system";
+import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 
 interface Props {
   darkMode: boolean;
@@ -39,7 +38,7 @@ const CustomAppBar = ({
           <Box sx={{ display: "flex" }}>
             <IconButton
               size="large"
-              aria-label="show 4 new mails"
+              aria-label="toggle light/dark mode"
               color="inherit"
               onClick={() => toggleDarkMode(!darkMode)}
             >

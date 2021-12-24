@@ -9,7 +9,6 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import React from "react";
 import styled from "styled-components";
 
 const AvatarStyled = styled(Avatar)`
@@ -40,7 +39,7 @@ const About = () => {
             src="https://media-exp1.licdn.com/dms/image/C5603AQHbDo7yrYaOIw/profile-displayphoto-shrink_400_400/0/1640285684954?e=1645660800&v=beta&t=dngBfT-qgaYz2r-m15tHQAKDPYei27lOy1b2n6ZD5WM"
           />
           <Card variant="outlined" sx={{ pt: 12, mt: 12 }}>
-            <React.Fragment>
+            <>
               <CardContent>
                 <Typography variant="h4" component="div" textAlign="center">
                   Vishnu Bochiwal
@@ -58,7 +57,7 @@ const About = () => {
                   Resume
                 </Button>
               </CardActions>
-            </React.Fragment>
+            </>
           </Card>
         </Grid>
         <Grid item sm={6}>
@@ -67,10 +66,10 @@ const About = () => {
             and owning codes and enjoy working with people who will keep
             challenging you at every stage. I have strong problem solving,
             analytic, decision-making and excellent communication with
-            interpersonal skills. I'm self-driven and motivated with the desire
-            to work in a fast-paced, results-driven agile environment with
-            varied responsibilities. I love to challenge myself to deliver these
-            solutions with the highest quality.
+            interpersonal skills. I&apos;m self-driven and motivated with the
+            desire to work in a fast-paced, results-driven agile environment
+            with varied responsibilities. I love to challenge myself to deliver
+            these solutions with the highest quality.
           </Typography>
         </Grid>
       </Grid>
