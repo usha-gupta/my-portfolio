@@ -18,6 +18,7 @@ const CustomAppBar = ({
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
+        color="default"
         position="fixed"
         sx={{
           width: { sm: `calc(100% - ${drawerWidth}px)` },
