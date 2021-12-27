@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should verify the snapshot 1`] = `
+exports[`should verify the snapshot for dark mode 1`] = `
 <DocumentFragment>
   .c0 {
   height: 100vh;
@@ -78,6 +78,888 @@ exports[`should verify the snapshot 1`] = `
   -ms-transform: translate(-50%,0);
   transform: translate(-50%,0);
   border: 5px solid #008073;
+}
+
+.c8 {
+  height: 40px;
+}
+
+.c7 {
+  height: 0.5px;
+  background: #000;
+  background: -webkit-linear-gradient( left, rgb(255,255,255) 0%, rgb(50,50,50) 50%, rgb(255,255,255) 100% );
+}
+
+.c7:before {
+  position: relative;
+  float: left;
+  background: linear-gradient( to right, rgba(200,200,200,0), rgba(200,200,200,1) 50% );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.c7:after {
+  position: relative;
+  float: right;
+  background: linear-gradient( to left, rgba(100,200,200,0), rgba(200,200,200,1) 50% );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+@media (max-width:600px) {
+  .c2 {
+    width: 100%;
+    padding: 16px;
+    padding-top: 200px;
+  }
+}
+
+@media (max-width:600px) {
+  .c4 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:600px) {
+  .c1 {
+    width: 100%;
+  }
+}
+
+@media (max-width:600px) {
+  .c3 {
+    font-size: 3.5rem;
+  }
+}
+
+<div
+    class="MuiBox-root css-k008qs"
+  >
+    <div
+      class="MuiBox-root css-i9gxme"
+    >
+      <header
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorDefault MuiAppBar-positionFixed mui-fixed css-1rymw0b-MuiPaper-root-MuiAppBar-root"
+      >
+        <div
+          class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1t29gy6-MuiToolbar-root"
+        >
+          <button
+            aria-label="open drawer"
+            class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium css-yp5boz-MuiButtonBase-root-MuiIconButton-root"
+            tabindex="0"
+            type="button"
+          >
+            <svg
+              aria-hidden="true"
+              class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="MenuIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"
+              />
+            </svg>
+            <span
+              class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+            />
+          </button>
+          <div
+            class="MuiBox-root css-i9gxme"
+          />
+          <div
+            class="MuiBox-root css-k008qs"
+          >
+            <button
+              aria-label="toggle light/dark mode"
+              class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-sizeLarge css-v52rcf-MuiButtonBase-root-MuiIconButton-root"
+              tabindex="0"
+              type="button"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                data-testid="LightModeIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M12 7c-2.76 0-5 2.24-5 5s2.24 5 5 5 5-2.24 5-5-2.24-5-5-5zM2 13h2c.55 0 1-.45 1-1s-.45-1-1-1H2c-.55 0-1 .45-1 1s.45 1 1 1zm18 0h2c.55 0 1-.45 1-1s-.45-1-1-1h-2c-.55 0-1 .45-1 1s.45 1 1 1zM11 2v2c0 .55.45 1 1 1s1-.45 1-1V2c0-.55-.45-1-1-1s-1 .45-1 1zm0 18v2c0 .55.45 1 1 1s1-.45 1-1v-2c0-.55-.45-1-1-1s-1 .45-1 1zM5.99 4.58c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0s.39-1.03 0-1.41L5.99 4.58zm12.37 12.37c-.39-.39-1.03-.39-1.41 0-.39.39-.39 1.03 0 1.41l1.06 1.06c.39.39 1.03.39 1.41 0 .39-.39.39-1.03 0-1.41l-1.06-1.06zm1.06-10.96c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06zM7.05 18.36c.39-.39.39-1.03 0-1.41-.39-.39-1.03-.39-1.41 0l-1.06 1.06c-.39.39-.39 1.03 0 1.41s1.03.39 1.41 0l1.06-1.06z"
+                />
+              </svg>
+              <span
+                class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+              />
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <nav
+      aria-label="mailbox folders"
+      class="MuiBox-root css-1o5pq7n"
+    >
+      <div
+        class="MuiDrawer-root MuiDrawer-docked css-d9ml5t-MuiDrawer-docked"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-15b8vjn-MuiPaper-root-MuiDrawer-paper"
+        >
+          <div>
+            <ul
+              class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
+            >
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="PersonIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    About
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="TimelineIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M23 8c0 1.1-.9 2-2 2-.18 0-.35-.02-.51-.07l-3.56 3.55c.05.16.07.34.07.52 0 1.1-.9 2-2 2s-2-.9-2-2c0-.18.02-.36.07-.52l-2.55-2.55c-.16.05-.34.07-.52.07s-.36-.02-.52-.07l-4.55 4.56c.05.16.07.33.07.51 0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2c.18 0 .35.02.51.07l4.56-4.55C8.02 9.36 8 9.18 8 9c0-1.1.9-2 2-2s2 .9 2 2c0 .18-.02.36-.07.52l2.55 2.55c.16-.05.34-.07.52-.07s.36.02.52.07l3.55-3.56C19.02 8.35 19 8.18 19 8c0-1.1.9-2 2-2s2 .9 2 2z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Experience
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CategoryIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="m12 2-5.5 9h11z"
+                    />
+                    <circle
+                      cx="17.5"
+                      cy="17.5"
+                      r="4.5"
+                    />
+                    <path
+                      d="M3 13.5h8v8H3z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Projects
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="DataObjectIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M4 7v2c0 .55-.45 1-1 1H2v4h1c.55 0 1 .45 1 1v2c0 1.65 1.35 3 3 3h3v-2H7c-.55 0-1-.45-1-1v-2c0-1.3-.84-2.42-2-2.83v-.34C5.16 11.42 6 10.3 6 9V7c0-.55.45-1 1-1h3V4H7C5.35 4 4 5.35 4 7zm17 3c-.55 0-1-.45-1-1V7c0-1.65-1.35-3-3-3h-3v2h3c.55 0 1 .45 1 1v2c0 1.3.84 2.42 2 2.83v.34c-1.16.41-2 1.52-2 2.83v2c0 .55-.45 1-1 1h-3v2h3c1.65 0 3-1.35 3-3v-2c0-.55.45-1 1-1h1v-4h-1z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Skills
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="GradeIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Certifications
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="SchoolIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Education
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AlternateEmailIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Contact
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+              <div
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                role="button"
+                tabindex="0"
+              >
+                <div
+                  class="MuiListItemIcon-root css-qklaqr-MuiListItemIcon-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="CloudDownloadIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
+                >
+                  <span
+                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
+                  >
+                    Resume
+                  </span>
+                </div>
+                <span
+                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                />
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main
+      class="MuiBox-root css-40q11x"
+    >
+      <div
+        class="MuiBox-root css-0"
+      >
+        <section
+          class="c0"
+        >
+          <div
+            class="c1"
+          />
+          <div
+            class="c2"
+          >
+            <h5
+              class="MuiTypography-root MuiTypography-h5 c3 css-1n1jaap-MuiTypography-root"
+            >
+              Vishnu Bochiwal
+            </h5>
+            <p
+              class="MuiTypography-root MuiTypography-body1 c4 css-1adtc89-MuiTypography-root"
+            >
+              I'm a Software
+              <span
+                class="c5 positions"
+              />
+              <span
+                aria-hidden="true"
+                class="typed-cursor"
+              />
+            </p>
+          </div>
+        </section>
+        <div
+          class="MuiBox-root css-1wcaknn"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+          >
+            About
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-1spq2xo-MuiGrid-root"
+            >
+              <div
+                class="MuiAvatar-root MuiAvatar-circular c6 css-frviz4-MuiAvatar-root"
+              >
+                <img
+                  alt="Vishnu Bochiwal"
+                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQHbDo7yrYaOIw/profile-displayphoto-shrink_400_400/0/1640285684954?e=1645660800&v=beta&t=dngBfT-qgaYz2r-m15tHQAKDPYei27lOy1b2n6ZD5WM"
+                />
+              </div>
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-r1egar-MuiPaper-root-MuiCard-root"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h4 css-1jkvi1x-MuiTypography-root"
+                  >
+                    Vishnu Bochiwal
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-h5salg-MuiTypography-root"
+                  >
+                    Software Engineer @ ThoughtWorks
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-ryb467-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-195mai-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="CloudDownloadIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
+                        />
+                      </svg>
+                    </span>
+                    Resume
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-6dzwqk-MuiGrid-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1wcaknn"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+          >
+            Experiences
+          </h3>
+          <div
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-18mfl0s-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-out6mg"
+              >
+                <img
+                  alt="Thoughtworks logo"
+                  class="c8"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                  >
+                    Full Stack Developer
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                  >
+                    Bangalore, IN
+                  </h6>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+              >
+                ACCOMPLISHMENTS
+              </h6>
+              <ul>
+                <li
+                  style="text-align: justify;"
+                >
+                  Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Oct 2021 - Present
+              </button>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-18mfl0s-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-out6mg"
+              >
+                <img
+                  alt="IBM logo"
+                  class="c8"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                  >
+                    Full Stack Developer
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                  >
+                    Bangalore, IN
+                  </h6>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+              >
+                ACCOMPLISHMENTS
+              </h6>
+              <ul>
+                <li
+                  style="text-align: justify;"
+                >
+                  Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Improved live tracking speed by 15% by optimising code
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Completed 400+ user stories and implemented 15+ new features.
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Jun 2019 - Oct 2021
+              </button>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-18mfl0s-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-out6mg"
+              >
+                <img
+                  alt="C-DAC logo"
+                  class="c8"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                  >
+                    Machine Learning Trainee
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                  >
+                    Jaipur, IN
+                  </h6>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+              >
+                ACCOMPLISHMENTS
+              </h6>
+              <ul>
+                <li
+                  style="text-align: justify;"
+                >
+                  Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                </li>
+              </ul>
+            </div>
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                May 2018 - Jul 2018
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should verify the snapshot for light mode 1`] = `
+<DocumentFragment>
+  .c0 {
+  height: 100vh;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background-size: cover;
+}
+
+.c2 {
+  position: absolute;
+  width: calc(100% - 240px);
+  padding: 72px;
+  padding-top: 200px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  z-index: 5;
+}
+
+.c4 {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.c5 {
+  background-color: #008073;
+  color: white;
+  padding: 8px;
+}
+
+.c1 {
+  position: absolute;
+  width: calc(100% - 240px);
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  z-index: 3;
+  height: 100vh;
+  background-image: url(test-file-stub);
+  -webkit-filter: blur(8px);
+  filter: blur(8px);
+}
+
+.c3 {
+  font-size: 5rem;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.c6 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%,0);
+  -ms-transform: translate(-50%,0);
+  transform: translate(-50%,0);
+  border: 5px solid #008073;
+}
+
+.c8 {
+  height: 40px;
+}
+
+.c7 {
+  height: 0.5px;
+  background: #fff;
+  background: -webkit-linear-gradient( left, rgb(90,90,90) 0%, rgb(255,255,255) 50%, rgb(90,90,90) 100% );
+}
+
+.c7:before {
+  position: relative;
+  float: left;
+  background: linear-gradient( to right, rgba(100,100,100,0), rgba(100,100,100,1) 50% );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
+}
+
+.c7:after {
+  position: relative;
+  float: right;
+  background: linear-gradient( to left, rgba(100,100,100,0), rgba(100,100,100,1) 50% );
+  margin-top: 2px;
+  width: 50%;
+  height: 0.5px;
+  content: "";
 }
 
 @media (max-width:600px) {
@@ -576,6 +1458,339 @@ exports[`should verify the snapshot 1`] = `
               </p>
             </div>
           </div>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1wcaknn"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+          >
+            Experiences
+          </h3>
+          <ul
+            class="MuiTimeline-root MuiTimeline-positionRight css-55vwbm-MuiTimeline-root"
+          >
+            <li
+              class="MuiTimelineItem-root MuiTimelineItem-positionRight css-ny8qih-MuiTimelineItem-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-body2 MuiTimelineOppositeContent-root MuiTimelineOppositeContent-positionRight css-89rx6e-MuiTypography-root-MuiTimelineOppositeContent-root"
+              >
+                <div
+                  class="MuiBox-root css-v7v99c"
+                >
+                  Oct 2021 - Present
+                </div>
+              </div>
+              <div
+                class="MuiTimelineSeparator-root css-1fe7e6p-MuiTimelineSeparator-root"
+              >
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+                <span
+                  class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledPrimary css-18aap9a-MuiTimelineDot-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AccessTimeFilledIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+              </div>
+              <div
+                class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-1pfkyee-MuiTypography-root-MuiTimelineContent-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+                >
+                  <div
+                    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                  >
+                    <div
+                      class="MuiBox-root css-out6mg"
+                    >
+                      <img
+                        alt="Thoughtworks logo"
+                        class="c8"
+                        src="test-file-stub"
+                      />
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                        >
+                          Full Stack Developer
+                        </h6>
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                        >
+                          Bangalore, IN
+                        </h6>
+                      </div>
+                    </div>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                    />
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+                    >
+                      Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+                    </p>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+                    >
+                      ACCOMPLISHMENTS
+                    </h6>
+                    <ul>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="MuiTimelineItem-root MuiTimelineItem-positionRight css-ny8qih-MuiTimelineItem-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-body2 MuiTimelineOppositeContent-root MuiTimelineOppositeContent-positionRight css-89rx6e-MuiTypography-root-MuiTimelineOppositeContent-root"
+              >
+                <div
+                  class="MuiBox-root css-v7v99c"
+                >
+                  Jun 2019 - Oct 2021
+                </div>
+              </div>
+              <div
+                class="MuiTimelineSeparator-root css-1fe7e6p-MuiTimelineSeparator-root"
+              >
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+                <span
+                  class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledPrimary css-18aap9a-MuiTimelineDot-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AccessTimeFilledIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+              </div>
+              <div
+                class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-1pfkyee-MuiTypography-root-MuiTimelineContent-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+                >
+                  <div
+                    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                  >
+                    <div
+                      class="MuiBox-root css-out6mg"
+                    >
+                      <img
+                        alt="IBM logo"
+                        class="c8"
+                        src="test-file-stub"
+                      />
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                        >
+                          Full Stack Developer
+                        </h6>
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                        >
+                          Bangalore, IN
+                        </h6>
+                      </div>
+                    </div>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                    />
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+                    >
+                      International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
+                    </p>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+                    >
+                      ACCOMPLISHMENTS
+                    </h6>
+                    <ul>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Improved live tracking speed by 15% by optimising code
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Completed 400+ user stories and implemented 15+ new features.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="MuiTimelineItem-root MuiTimelineItem-positionRight css-ny8qih-MuiTimelineItem-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-body2 MuiTimelineOppositeContent-root MuiTimelineOppositeContent-positionRight css-89rx6e-MuiTypography-root-MuiTimelineOppositeContent-root"
+              >
+                <div
+                  class="MuiBox-root css-v7v99c"
+                >
+                  May 2018 - Jul 2018
+                </div>
+              </div>
+              <div
+                class="MuiTimelineSeparator-root css-1fe7e6p-MuiTimelineSeparator-root"
+              >
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+                <span
+                  class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledPrimary css-18aap9a-MuiTimelineDot-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AccessTimeFilledIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+              </div>
+              <div
+                class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-1pfkyee-MuiTypography-root-MuiTimelineContent-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+                >
+                  <div
+                    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                  >
+                    <div
+                      class="MuiBox-root css-out6mg"
+                    >
+                      <img
+                        alt="C-DAC logo"
+                        class="c8"
+                        src="test-file-stub"
+                      />
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                        >
+                          Machine Learning Trainee
+                        </h6>
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                        >
+                          Jaipur, IN
+                        </h6>
+                      </div>
+                    </div>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                    />
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+                    >
+                      The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+                    </p>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle1 css-ksi4vj-MuiTypography-root"
+                    >
+                      ACCOMPLISHMENTS
+                    </h6>
+                    <ul>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </main>

@@ -19,7 +19,13 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react", "@typescript-eslint", "jest"],
-  ignorePatterns: ["coverage", "build", "node_module"],
+  ignorePatterns: [
+    "coverage",
+    "build",
+    "node_module",
+    "src/utils/global-style.ts",
+    "src/utils/theme.ts",
+  ],
   rules: {
     "react/jsx-filename-extension": [
       1,
