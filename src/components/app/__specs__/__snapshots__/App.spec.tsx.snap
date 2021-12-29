@@ -240,7 +240,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <span
                     class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
                   >
-                    About
+                    About Me
                   </span>
                 </div>
                 <span
@@ -531,7 +531,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
           <h3
             class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
           >
-            About
+            About Me
           </h3>
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
@@ -846,6 +846,366 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
         </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1wcaknn"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+          >
+            Projects
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Paisa Vasool
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    It's a expense management and tracker app which also let you split the expenses amoung your friends and groups.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    U-Move: Bike Rental App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Smart Queuing System
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    People Counter App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Status Downloader for WhatsApp
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    This is a android application to download and share WhatsApp status into your.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    DP & Videos Downloader
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Red Basket - Groceries Shopping App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    This is a clone of Big Basket App.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Fuel Trades
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
+                  >
+                    Web app that helps Boston teens find the nearest available short-term housing.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </div>
@@ -1092,7 +1452,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <span
                     class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
                   >
-                    About
+                    About Me
                   </span>
                 </div>
                 <span
@@ -1383,7 +1743,7 @@ exports[`should verify the snapshot for light mode 1`] = `
           <h3
             class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
           >
-            About
+            About Me
           </h3>
           <div
             class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
@@ -1791,6 +2151,366 @@ exports[`should verify the snapshot for light mode 1`] = `
               </div>
             </li>
           </ul>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1wcaknn"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+          >
+            Projects
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Paisa Vasool
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    It's a expense management and tracker app which also let you split the expenses amoung your friends and groups.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    U-Move: Bike Rental App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Smart Queuing System
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    People Counter App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Status Downloader for WhatsApp
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    This is a android application to download and share WhatsApp status into your.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    DP & Videos Downloader
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Red Basket - Groceries Shopping App
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    This is a clone of Big Basket App.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+              >
+                <img
+                  alt="green iguana"
+                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+                  height="140"
+                  src="test-file-stub"
+                />
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                  >
+                    Fuel Trades
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
+                  >
+                    Web app that helps Boston teens find the nearest available short-term housing.
+                  </p>
+                </div>
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
+                    tabindex="0"
+                    type="button"
+                  >
+                    Learn More
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

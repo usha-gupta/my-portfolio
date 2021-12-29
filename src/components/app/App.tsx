@@ -7,6 +7,7 @@ import ResponsiveDrawer from "../responsive-drawer/ResponsiveDrawer";
 import About from "../about/About";
 import Experiences from "../experiences/Experiences";
 import Divider from "../divider/Divider";
+import Projects from "../projects/Projects";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -24,6 +25,8 @@ function App() {
           <About />
           <Divider width="60%" variant={darkMode ? "dark" : "light"} />
           <Experiences />
+          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+          <Projects />
         </Box>
       </ResponsiveDrawer>
     </ThemeProvider>

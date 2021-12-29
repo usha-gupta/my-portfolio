@@ -8,6 +8,6 @@
   "rules": {
     "string-quotes": "double",
     "selector-class-pattern": null,
-    "declaration-colon-newline-after": false
+    "declaration-colon-newline-after": null
   }
 }

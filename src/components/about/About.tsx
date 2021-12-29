@@ -29,7 +29,7 @@ const About = () => {
       }}
     >
       <Typography variant="h3" textAlign="center" gutterBottom>
-        About
+        About Me
       </Typography>
 
       <Grid container spacing={2} justifyContent="center" alignItems="center">

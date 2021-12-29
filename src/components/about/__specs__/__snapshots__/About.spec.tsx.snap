@@ -20,7 +20,7 @@ exports[`should verify the snapshot 1`] = `
     <h3
       class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-lxmg88-MuiTypography-root"
     >
-      About
+      About Me
     </h3>
     <div
       class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"

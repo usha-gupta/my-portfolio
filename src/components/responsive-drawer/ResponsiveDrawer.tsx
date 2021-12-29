@@ -41,7 +41,7 @@ export default function ResponsiveDrawer(props: Props) {
           <ListItemIcon>
             <Person />
           </ListItemIcon>
-          <ListItemText primary="About" />
+          <ListItemText primary="About Me" />
         </ListItem>
         <ListItem button key="experience">
           <ListItemIcon>
