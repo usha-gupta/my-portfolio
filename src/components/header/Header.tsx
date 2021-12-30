@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import Typed from "typed.js";
 
-import backgroundImage from "../../assets/images/bg_header.jpg";
+import backgroundImage from "../../assets/images/bg-intro.jpg";
 
 const StyledWrapper = styled.section`
   height: 100vh;
@@ -14,8 +14,7 @@ const StyledWrapper = styled.section`
 const Content = styled.div`
   position: absolute;
   width: calc(100% - 240px);
-  padding: 72px;
-  padding-top: 200px;
+  padding: 200px 72px 72px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,8 +23,7 @@ const Content = styled.div`
 
   @media (max-width: 600px) {
     width: 100%;
-    padding: 16px;
-    padding-top: 200px;
+    padding: 200px 16px 16px;
   }
 `;
 
@@ -54,6 +52,7 @@ const Overlay = styled.div`
   height: 100vh;
   background-image: url(${backgroundImage});
   filter: blur(8px);
+  background-position: center;
 
   @media (max-width: 600px) {
     width: 100%;

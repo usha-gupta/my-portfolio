@@ -52,7 +52,9 @@ const About = () => {
                   Software Engineer @ ThoughtWorks
                 </Typography>
               </CardContent>
-              <CardActions sx={{ display: "flex", justifyContent: "center" }}>
+              <CardActions
+                sx={{ display: "flex", justifyContent: "center", pb: 2 }}
+              >
                 <Button variant="outlined" startIcon={<CloudDownload />}>
                   Resume
                 </Button>
@@ -62,9 +64,11 @@ const About = () => {
         </Grid>
         <Grid item sm={6}>
           <Typography textAlign="justify">
-            I have a deep interest and passion for technology. I love writing
-            and owning codes and enjoy working with people who will keep
-            challenging you at every stage. I have strong problem solving,
+            I&apos;m a full stack software engineer having almost 3 years of
+            experience developing and delivering which are handling millions of
+            users daily. I have a deep interest and passion for technology. I
+            love writing and owning codes and enjoy working with people who will
+            keep challenging you at every stage. I have strong problem solving,
             analytic, decision-making and excellent communication with
             interpersonal skills. I&apos;m self-driven and motivated with the
             desire to work in a fast-paced, results-driven agile environment

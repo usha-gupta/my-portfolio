@@ -14,8 +14,7 @@ exports[`should verify the snapshot 1`] = `
 .c2 {
   position: absolute;
   width: calc(100% - 240px);
-  padding: 72px;
-  padding-top: 200px;
+  padding: 200px 72px 72px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,6 +58,7 @@ exports[`should verify the snapshot 1`] = `
   background-image: url(test-file-stub);
   -webkit-filter: blur(8px);
   filter: blur(8px);
+  background-position: center;
 }
 
 .c3 {
@@ -71,8 +71,7 @@ exports[`should verify the snapshot 1`] = `
 @media (max-width:600px) {
   .c2 {
     width: 100%;
-    padding: 16px;
-    padding-top: 200px;
+    padding: 200px 16px 16px;
   }
 }
 

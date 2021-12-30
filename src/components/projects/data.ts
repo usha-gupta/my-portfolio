@@ -12,7 +12,7 @@ const projects: Project[] = [
   {
     name: "Paisa Vasool",
     description:
-      "It's a expense management and tracker app which also let you split the expenses amoung your friends and groups.",
+      "It's a expense management and tracker app which also let you split the expenses among your friends and groups.",
     image: PaisaVasoolImg,
     accomplishments: [
       "Using firebase for backend",
@@ -23,6 +23,13 @@ const projects: Project[] = [
     ],
     githubLink: "https://github.com/the-vis-sharma/paisa-vasool",
     websiteLink: "https://paisa-vasool-beta.web.app/",
+    skills: [
+      "Angular",
+      "Material Design",
+      "Firebase Hosting",
+      "Firestore",
+      "OAuth2",
+    ],
   },
   {
     name: "U-Move: Bike Rental App",
@@ -38,6 +45,16 @@ const projects: Project[] = [
     ],
     githubLink: "https://github.com/the-vis-sharma/UMove",
     websiteLink: "https://www.youtube.com/watch?v=wEHTTPIlUCom",
+    skills: [
+      "Angular",
+      "Material Design",
+      "Spring Boot",
+      "Microservices",
+      "AWS",
+      "RabbitMQ",
+      "MongoDB",
+      "MySQL",
+    ],
   },
   {
     name: "Smart Queuing System",
@@ -51,6 +68,14 @@ const projects: Project[] = [
     ],
     githubLink: "https://github.com/the-vis-sharma/Smart-Queuing-System",
     websiteLink: "https://www.youtube.com/watch?v=-tVJ1eeIWNg",
+    skills: [
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "Intel Dev Cloud",
+      "AI at Edge",
+      "Intel OpenVino Toolkit",
+    ],
   },
   {
     name: "People Counter App",
@@ -65,6 +90,14 @@ const projects: Project[] = [
     ],
     githubLink: "https://github.com/the-vis-sharma/people-counter-app",
     websiteLink: "https://www.youtube.com/watch?v=TIaPByaEIUs",
+    skills: [
+      "Python",
+      "Computer Vision",
+      "Machine Learning",
+      "Intel Dev Cloud",
+      "AI at Edge",
+      "Intel OpenVino Toolkit",
+    ],
   },
   {
     name: "Status Downloader for WhatsApp",
@@ -80,6 +113,7 @@ const projects: Project[] = [
     githubLink: "",
     websiteLink:
       "https://play.google.com/store/apps/details?id=com.techbuddy.statusdownloader",
+    skills: ["Java", "Android", "Material Design"],
   },
   {
     name: "DP & Videos Downloader",
@@ -94,6 +128,7 @@ const projects: Project[] = [
     githubLink: "https://github.com/the-vis-sharma/paisa-vasool",
     websiteLink:
       "https://play.google.com/store/apps/details?id=com.techbuddy.instadp",
+    skills: ["Java", "Android", "Material Design", "JSOUP"],
   },
   {
     name: "Red Basket - Groceries Shopping App",
@@ -108,6 +143,7 @@ const projects: Project[] = [
     githubLink:
       "https://github.com/the-vis-sharma/Red-Basket-Online-Shopping-App",
     websiteLink: "",
+    skills: ["Java", "Android", "Material Design", "PHP", "MySQL"],
   },
   {
     name: "Fuel Trades",
@@ -122,6 +158,13 @@ const projects: Project[] = [
     ],
     githubLink: "https://github.com/the-vis-sharma/Fuel-Trades",
     websiteLink: "",
+    skills: [
+      "Java",
+      "Android",
+      "Material Design",
+      "Toll & Fuel API",
+      "Google Map SDK",
+    ],
   },
 ];
 

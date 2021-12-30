@@ -5,4 +5,5 @@ export interface Project {
   accomplishments: string[];
   githubLink: string;
   websiteLink: string;
+  skills: string[];
 }

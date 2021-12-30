@@ -14,8 +14,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
 .c2 {
   position: absolute;
   width: calc(100% - 240px);
-  padding: 72px;
-  padding-top: 200px;
+  padding: 200px 72px 72px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -59,6 +58,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
   background-image: url(test-file-stub);
   -webkit-filter: blur(8px);
   filter: blur(8px);
+  background-position: center;
 }
 
 .c3 {
@@ -113,8 +113,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
 @media (max-width:600px) {
   .c2 {
     width: 100%;
-    padding: 16px;
-    padding-top: 200px;
+    padding: 200px 16px 16px;
   }
 }
 
@@ -566,7 +565,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   </p>
                 </div>
                 <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-ryb467-MuiCardActions-root"
+                  class="MuiCardActions-root MuiCardActions-spacing css-p1d7ot-MuiCardActions-root"
                 >
                   <button
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-195mai-MuiButtonBase-root-MuiButton-root"
@@ -602,7 +601,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
+                I'm a full stack software engineer having almost 3 years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
               </p>
             </div>
           </div>
@@ -873,6 +872,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -885,13 +885,14 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Paisa Vasool
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-uium7x-MuiTypography-root"
                   >
-                    It's a expense management and tracker app which also let you split the expenses amoung your friends and groups.
+                    It's a expense management and tracker app which also let you split the expenses among your friends and groups.
                   </p>
                 </div>
                 <div
@@ -915,6 +916,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -927,6 +929,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     U-Move: Bike Rental App
                   </div>
@@ -957,6 +960,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -969,6 +973,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Smart Queuing System
                   </div>
@@ -999,6 +1004,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -1011,6 +1017,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     People Counter App
                   </div>
@@ -1041,6 +1048,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -1053,6 +1061,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
                   </div>
@@ -1083,6 +1092,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -1095,6 +1105,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     DP & Videos Downloader
                   </div>
@@ -1125,6 +1136,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -1137,6 +1149,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
                   </div>
@@ -1167,6 +1180,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -1179,6 +1193,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Fuel Trades
                   </div>
@@ -1226,8 +1241,7 @@ exports[`should verify the snapshot for light mode 1`] = `
 .c2 {
   position: absolute;
   width: calc(100% - 240px);
-  padding: 72px;
-  padding-top: 200px;
+  padding: 200px 72px 72px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1271,6 +1285,7 @@ exports[`should verify the snapshot for light mode 1`] = `
   background-image: url(test-file-stub);
   -webkit-filter: blur(8px);
   filter: blur(8px);
+  background-position: center;
 }
 
 .c3 {
@@ -1325,8 +1340,7 @@ exports[`should verify the snapshot for light mode 1`] = `
 @media (max-width:600px) {
   .c2 {
     width: 100%;
-    padding: 16px;
-    padding-top: 200px;
+    padding: 200px 16px 16px;
   }
 }
 
@@ -1778,7 +1792,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   </p>
                 </div>
                 <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-ryb467-MuiCardActions-root"
+                  class="MuiCardActions-root MuiCardActions-spacing css-p1d7ot-MuiCardActions-root"
                 >
                   <button
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1f78ynr-MuiButtonBase-root-MuiButton-root"
@@ -1814,7 +1828,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
+                I'm a full stack software engineer having almost 3 years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
               </p>
             </div>
           </div>
@@ -2179,6 +2193,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2191,13 +2206,14 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Paisa Vasool
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-wuv35j-MuiTypography-root"
                   >
-                    It's a expense management and tracker app which also let you split the expenses amoung your friends and groups.
+                    It's a expense management and tracker app which also let you split the expenses among your friends and groups.
                   </p>
                 </div>
                 <div
@@ -2221,6 +2237,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2233,6 +2250,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     U-Move: Bike Rental App
                   </div>
@@ -2263,6 +2281,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2275,6 +2294,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Smart Queuing System
                   </div>
@@ -2305,6 +2325,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2317,6 +2338,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     People Counter App
                   </div>
@@ -2347,6 +2369,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2359,6 +2382,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
                   </div>
@@ -2389,6 +2413,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2401,6 +2426,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     DP & Videos Downloader
                   </div>
@@ -2431,6 +2457,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2443,6 +2470,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
                   </div>
@@ -2473,6 +2501,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <div
                 class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                data-testid="project-card"
               >
                 <img
                   alt="green iguana"
@@ -2485,6 +2514,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <div
                     class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    data-testid="project-title"
                   >
                     Fuel Trades
                   </div>

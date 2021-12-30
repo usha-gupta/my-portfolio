@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Box,
   Button,
@@ -9,8 +10,17 @@ import {
   Typography,
 } from "@mui/material";
 import projects from "./data";
+import ProjectDetail from "./ProjectDetail";
+import { Project } from "./project.model";
 
 const Projects = () => {
+  const [openProjectDetail, setOpenProjectDetail] = useState(false);
+  const [selectedProject, setSelectedProject] = useState(projects[0]);
+
+  const handleCardClick = (project: Project) => {
+    setSelectedProject(project);
+    setOpenProjectDetail(true);
+  };
   return (
     <Box
       sx={{
@@ -31,7 +41,10 @@ const Projects = () => {
             sm={12}
             sx={{ position: "relative" }}
           >
-            <Card>
+            <Card
+              onClick={() => handleCardClick(project)}
+              data-testid="project-card"
+            >
               <CardMedia
                 component="img"
                 alt="green iguana"
@@ -39,7 +52,12 @@ const Projects = () => {
                 image={project.image}
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  data-testid="project-title"
+                >
                   {project.name}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
@@ -53,6 +71,11 @@ const Projects = () => {
           </Grid>
         ))}
       </Grid>
+      <ProjectDetail
+        project={selectedProject}
+        open={openProjectDetail}
+        handleClose={() => setOpenProjectDetail(false)}
+      />
     </Box>
   );
 };
