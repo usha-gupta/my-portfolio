@@ -12,18 +12,17 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
-import { Close } from "@mui/icons-material";
+import { ArrowForward, Close, GitHub } from "@mui/icons-material";
 import styled from "styled-components";
 import { Project } from "./project.model";
 
 const StyledImage = styled.img`
   width: 100%;
-  border: ${({ theme }) => `4px solid ${theme.palette.primary.main}`};
 `;
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
-    padding: theme.spacing(2),
+    padding: theme.spacing(0),
   },
   "& .MuiDialogActions-root": {
     padding: theme.spacing(1),
@@ -92,28 +91,52 @@ const ProjectDetail = (props: ProjectDetailProps) => {
           src={project.image}
           alt={`${project.name} screenshot`}
         />
-        <Typography gutterBottom>{project.description}</Typography>
-        <Box sx={{ mx: 2, mb: 2 }}>
-          <ul>
-            {project.accomplishments.map((accomplishment) => (
-              <li key={accomplishment}>{accomplishment}</li>
+        <Box sx={{ p: 2 }}>
+          <Typography gutterBottom variant="body1">
+            {project.description}
+          </Typography>
+          <Box sx={{ mx: 2, mb: 2 }}>
+            <ul>
+              {project.accomplishments.map((accomplishment) => (
+                <li key={accomplishment}>
+                  <Typography variant="body1">{accomplishment}</Typography>
+                </li>
+              ))}
+            </ul>
+          </Box>
+          <div>
+            {project.skills.map((skill) => (
+              <Chip
+                key={skill}
+                label={skill}
+                variant="outlined"
+                sx={{ mr: 1, mb: 1 }}
+              />
             ))}
-          </ul>
+          </div>
         </Box>
-        <div>
-          {project.skills.map((skill) => (
-            <Chip
-              key={skill}
-              label={skill}
-              variant="outlined"
-              sx={{ mr: 1, mb: 1 }}
-            />
-          ))}
-        </div>
       </DialogContent>
       <DialogActions>
-        <Button onClick={handleClose}>Github</Button>
-        <Button onClick={handleClose}>View</Button>
+        {project.githubLink && (
+          <Button
+            target="_blank"
+            href={project.githubLink}
+            startIcon={<GitHub />}
+            variant="outlined"
+          >
+            Github
+          </Button>
+        )}
+        {project.websiteLink && (
+          <Button
+            target="_blank"
+            href={project.websiteLink}
+            endIcon={<ArrowForward />}
+            variant="outlined"
+          >
+            View
+          </Button>
+        )}
       </DialogActions>
     </BootstrapDialog>
   );

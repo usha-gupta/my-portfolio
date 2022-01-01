@@ -1,10 +1,10 @@
 import { Project } from "./project.model";
 import PaisaVasoolImg from "../../assets/images/ss-paisa-vasool.png";
-import UMoveImg from "../../assets/images/ss-umove.png";
+import UMoveImg from "../../assets/images/ss-umove.jpg";
 import SmartQueuingSystemImg from "../../assets/images/ss-sqs.png";
 import PeopleCounterImg from "../../assets/images/ss-people-counter.png";
-import StatusDownloaderImg from "../../assets/images/ss-status-downloader.jpeg";
-import InstaDPImg from "../../assets/images/ss-insta-dp.jpeg";
+import StatusDownloaderImg from "../../assets/images/ss-status-downloader.jpg";
+import InstaDPImg from "../../assets/images/ss-insta-dp.jpg";
 import RedBasketImg from "../../assets/images/ss-red-basket.jpg";
 import FuelTradesImg from "../../assets/images/ss-fuel-trades.jpg";
 
@@ -125,7 +125,7 @@ const projects: Project[] = [
       "Built for Android using Java",
       "Used Glide lib for image caching.",
     ],
-    githubLink: "https://github.com/the-vis-sharma/paisa-vasool",
+    githubLink: "",
     websiteLink:
       "https://play.google.com/store/apps/details?id=com.techbuddy.instadp",
     skills: ["Java", "Android", "Material Design", "JSOUP"],
