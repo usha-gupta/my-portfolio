@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Box, ThemeProvider, useMediaQuery } from "@mui/material";
+import {useEffect, useState} from "react";
+import {Box, ThemeProvider, useMediaQuery} from "@mui/material";
 import GlobalStyle from "../../utils/global-style";
 import createCustomTheme from "../../utils/theme";
 import Header from "../header/Header";
@@ -8,6 +8,7 @@ import About from "../about/About";
 import Experiences from "../experiences/Experiences";
 import Divider from "../divider/Divider";
 import Projects from "../projects/Projects";
+import Skills from "../skills/Skills";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -27,6 +28,8 @@ function App() {
           <Experiences />
           <Divider width="60%" variant={darkMode ? "dark" : "light"} />
           <Projects />
+          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+          <Skills />
         </Box>
       </ResponsiveDrawer>
     </ThemeProvider>

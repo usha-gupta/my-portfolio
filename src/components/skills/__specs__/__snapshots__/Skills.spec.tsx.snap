@@ -1,0 +1,879 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should verify snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="MuiBox-root css-1wcaknn"
+  >
+    <h3
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-lxmg88-MuiTypography-root"
+    >
+      Skills
+    </h3>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Front-End
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="ReactJS"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              ReactJS
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Angular 9"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Angular 9
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="HTML5"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              HTML5
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="CSS3"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              CSS3
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Material Design"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Material Design
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="JavaScript"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              JavaScript
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Back-End
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Spring Boot"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Spring Boot
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Spring Framework"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Spring Framework
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Node.Js"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Node.Js
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Core PHP"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Core PHP
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Testing Frameworks
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="JUnit 5"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              JUnit 5
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Mockito"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Mockito
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Spock Framework"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Spock Framework
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Jest"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Jest
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="React Testing Library"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              React Testing Library
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Mobile
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Android Development"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Android Development
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Flutter"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Flutter
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Ionic 4"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Ionic 4
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Databases
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="MySQL"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              MySQL
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="MongoDB"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              MongoDB
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Cassandra"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Cassandra
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Redis"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Redis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Cloud
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Google Cloud"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Google Cloud
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="AWS"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              AWS
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Microsoft Azure"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Microsoft Azure
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Firebase"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Firebase
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          DevOps Tools
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Docker"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Docker
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Ansible"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Ansible
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Jenkins"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Jenkins
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Grafana"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Grafana
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Prometheus"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Prometheus
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Programming Languages
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Java 11"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Java 11
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Python 3"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Python 3
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="C/C++"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              C/C++
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Shell Scripting"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Shell Scripting
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <h5
+          class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+        >
+          Other
+        </h5>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <div
+          class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+        >
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Github"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Github
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Kibana"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Kibana
+            </p>
+          </div>
+          <div
+            class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+          >
+            <div
+              class="MuiBox-root css-1cojkpq"
+            >
+              <img
+                alt="Cucumber"
+                src="test-file-stub"
+                style="max-width: 100px; max-height: 100px;"
+              />
+            </div>
+            <p
+              class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
+            >
+              Cucumber
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

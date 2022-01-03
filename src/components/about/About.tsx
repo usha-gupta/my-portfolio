@@ -1,15 +1,7 @@
-import { CloudDownload } from "@mui/icons-material";
-import {
-  Avatar,
-  Box,
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  Grid,
-  Typography,
-} from "@mui/material";
+import {CloudDownload} from "@mui/icons-material";
+import {Avatar, Box, Button, Card, CardActions, CardContent, Grid, Typography,} from "@mui/material";
 import styled from "styled-components";
+import ProfilePic from "../../assets/images/profile.jpeg";
 
 const AvatarStyled = styled(Avatar)`
   width: 200px;
@@ -36,7 +28,7 @@ const About = () => {
         <Grid item sm={6} sx={{ position: "relative" }}>
           <AvatarStyled
             alt="Vishnu Bochiwal"
-            src="https://media-exp1.licdn.com/dms/image/C5603AQHbDo7yrYaOIw/profile-displayphoto-shrink_400_400/0/1640285684954?e=1645660800&v=beta&t=dngBfT-qgaYz2r-m15tHQAKDPYei27lOy1b2n6ZD5WM"
+            src={ProfilePic}
           />
           <Card variant="outlined" sx={{ pt: 12, mt: 12 }}>
             <>
