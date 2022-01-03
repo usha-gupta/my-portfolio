@@ -1,5 +1,5 @@
-import {useEffect, useState} from "react";
-import {Box, ThemeProvider, useMediaQuery} from "@mui/material";
+import { useEffect, useState } from "react";
+import { Box, ThemeProvider, useMediaQuery } from "@mui/material";
 import GlobalStyle from "../../utils/global-style";
 import createCustomTheme from "../../utils/theme";
 import Header from "../header/Header";

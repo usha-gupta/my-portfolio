@@ -1,4 +1,4 @@
-import {Skill} from "./skill.model";
+import { Skill } from "./skill.model";
 
 export interface SkillCategory {
   name: string;

@@ -1,5 +1,14 @@
-import {CloudDownload} from "@mui/icons-material";
-import {Avatar, Box, Button, Card, CardActions, CardContent, Grid, Typography,} from "@mui/material";
+import { CloudDownload } from "@mui/icons-material";
+import {
+  Avatar,
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  Grid,
+  Typography,
+} from "@mui/material";
 import styled from "styled-components";
 import ProfilePic from "../../assets/images/profile.jpeg";
 
@@ -26,10 +35,7 @@ const About = () => {
 
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid item sm={6} sx={{ position: "relative" }}>
-          <AvatarStyled
-            alt="Vishnu Bochiwal"
-            src={ProfilePic}
-          />
+          <AvatarStyled alt="Vishnu Bochiwal" src={ProfilePic} />
           <Card variant="outlined" sx={{ pt: 12, mt: 12 }}>
             <>
               <CardContent>

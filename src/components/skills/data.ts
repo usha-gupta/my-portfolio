@@ -1,4 +1,4 @@
-import {SkillCategory} from "./skill-category.model";
+import { SkillCategory } from "./skill-category.model";
 import ReactJSLogo from "../../assets/images/react.png";
 import AngularLogo from "../../assets/images/angular.png";
 import HTML5Logo from "../../assets/images/html5.png";
@@ -34,7 +34,7 @@ import KibanaLogo from "../../assets/images/kibana.png";
 import CucumberLogo from "../../assets/images/cucumber.png";
 import JUnitLogo from "../../assets/images/junit.png";
 import SpockLogo from "../../assets/images/spock.png";
-import MockitoLogo from "../../assets/images/mokito.png"
+import MockitoLogo from "../../assets/images/mokito.png";
 import JestLogo from "../../assets/images/jest.png";
 import ReactTestingLibLogo from "../../assets/images/react-testing-lib.png";
 
@@ -44,198 +44,198 @@ const skills: SkillCategory[] = [
     skills: [
       {
         name: "ReactJS",
-        logo: ReactJSLogo
+        logo: ReactJSLogo,
       },
       {
         name: "Angular 9",
-        logo: AngularLogo
+        logo: AngularLogo,
       },
       {
         name: "HTML5",
-        logo: HTML5Logo
+        logo: HTML5Logo,
       },
       {
         name: "CSS3",
-        logo: CSS3Logo
+        logo: CSS3Logo,
       },
       {
         name: "Material Design",
-        logo: MaterialDesignLogo
+        logo: MaterialDesignLogo,
       },
       {
         name: "JavaScript",
-        logo: JSLogo
-      }
-    ]
+        logo: JSLogo,
+      },
+    ],
   },
   {
     name: "Back-End",
     skills: [
       {
         name: "Spring Boot",
-        logo: SpringBootLogo
+        logo: SpringBootLogo,
       },
       {
         name: "Spring Framework",
-        logo: SpringLogo
+        logo: SpringLogo,
       },
       {
         name: "Node.Js",
-        logo: NodeJSLogo
+        logo: NodeJSLogo,
       },
       {
         name: "Core PHP",
-        logo: PHPLogo
-      }
-    ]
+        logo: PHPLogo,
+      },
+    ],
   },
   {
     name: "Testing Frameworks",
     skills: [
       {
         name: "JUnit 5",
-        logo: JUnitLogo
+        logo: JUnitLogo,
       },
       {
         name: "Mockito",
-        logo: MockitoLogo
+        logo: MockitoLogo,
       },
       {
         name: "Spock Framework",
-        logo: SpockLogo
+        logo: SpockLogo,
       },
       {
         name: "Jest",
-        logo: JestLogo
+        logo: JestLogo,
       },
       {
         name: "React Testing Library",
-        logo: ReactTestingLibLogo
-      }
-    ]
+        logo: ReactTestingLibLogo,
+      },
+    ],
   },
   {
     name: "Mobile",
     skills: [
       {
         name: "Android Development",
-        logo: AndroidLogo
+        logo: AndroidLogo,
       },
       {
         name: "Flutter",
-        logo: FlutterLogo
+        logo: FlutterLogo,
       },
       {
         name: "Ionic 4",
-        logo: IonicLogo
-      }
-    ]
+        logo: IonicLogo,
+      },
+    ],
   },
   {
     name: "Databases",
     skills: [
       {
         name: "MySQL",
-        logo: MySqlLogo
+        logo: MySqlLogo,
       },
       {
         name: "MongoDB",
-        logo: MongoDBLogo
+        logo: MongoDBLogo,
       },
       {
         name: "Cassandra",
-        logo: CassandraLogo
+        logo: CassandraLogo,
       },
       {
         name: "Redis",
-        logo: RedisLogo
-      }
-    ]
+        logo: RedisLogo,
+      },
+    ],
   },
   {
     name: "Cloud",
     skills: [
       {
         name: "Google Cloud",
-        logo: GCPLogo
+        logo: GCPLogo,
       },
       {
         name: "AWS",
-        logo: AWSLogo
+        logo: AWSLogo,
       },
       {
         name: "Microsoft Azure",
-        logo: AzureLogo
+        logo: AzureLogo,
       },
       {
         name: "Firebase",
-        logo: FirebaseLogo
-      }
-    ]
+        logo: FirebaseLogo,
+      },
+    ],
   },
   {
     name: "DevOps Tools",
     skills: [
       {
         name: "Docker",
-        logo: DockerLogo
+        logo: DockerLogo,
       },
       {
         name: "Ansible",
-        logo: AnsibleLogo
+        logo: AnsibleLogo,
       },
       {
         name: "Jenkins",
-        logo: JenkinsLogo
+        logo: JenkinsLogo,
       },
       {
         name: "Grafana",
-        logo: GrafanaLogo
+        logo: GrafanaLogo,
       },
       {
         name: "Prometheus",
-        logo: PrometheusLogo
-      }
-    ]
+        logo: PrometheusLogo,
+      },
+    ],
   },
   {
     name: "Programming Languages",
     skills: [
       {
         name: "Java 11",
-        logo: JavaLogo
+        logo: JavaLogo,
       },
       {
         name: "Python 3",
-        logo: PythonLogo
+        logo: PythonLogo,
       },
       {
         name: "C/C++",
-        logo: CLogo
+        logo: CLogo,
       },
       {
         name: "Shell Scripting",
-        logo: ShellScriptingLogo
-      }
-    ]
+        logo: ShellScriptingLogo,
+      },
+    ],
   },
   {
     name: "Other",
     skills: [
       {
         name: "Github",
-        logo: GitHubLogo
+        logo: GitHubLogo,
       },
       {
         name: "Kibana",
-        logo: KibanaLogo
+        logo: KibanaLogo,
       },
       {
         name: "Cucumber",
-        logo: CucumberLogo
-      }
-    ]
-  }
-]
+        logo: CucumberLogo,
+      },
+    ],
+  },
+];
 
 export default skills;
