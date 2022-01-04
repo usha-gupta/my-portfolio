@@ -21,10 +21,16 @@ const Experiences = () => {
       id="experiences-section"
       sx={{
         p: 4,
-        pt: 8
+        pt: 8,
       }}
     >
-      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
+      <Typography
+        variant="h3"
+        textAlign="center"
+        gutterBottom
+        color="primary"
+        fontWeight="500"
+      >
         Experiences
       </Typography>
 

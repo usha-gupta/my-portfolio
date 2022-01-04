@@ -26,10 +26,16 @@ const Projects = () => {
       id="projects-section"
       sx={{
         p: 4,
-        pt: 8
+        pt: 8,
       }}
     >
-      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
+      <Typography
+        variant="h3"
+        textAlign="center"
+        gutterBottom
+        color="primary"
+        fontWeight="500"
+      >
         Projects
       </Typography>
 

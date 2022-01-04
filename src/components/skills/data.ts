@@ -243,7 +243,7 @@ const skills: SkillCategory[] = [
       {
         name: "Kibana",
         logo: KibanaLogo,
-      }
+      },
     ],
   },
 ];

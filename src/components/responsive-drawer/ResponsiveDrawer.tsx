@@ -41,34 +41,61 @@ export default function ResponsiveDrawer(props: Props) {
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   const drawer = (
     <div>
-      <Box sx={{ mr: 2, display: { xs: "none", sm: "flex" }, justifyContent: "center", alignItems: "center" }}>
-        <img src={Logo} alt="Vishnu Bochiwal Logo" style={{height: "8rem"}} />
+      <Box
+        sx={{
+          mr: 2,
+          display: { xs: "none", sm: "flex" },
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
+        <img src={Logo} alt="Vishnu Bochiwal Logo" style={{ height: "8rem" }} />
       </Box>
       <Divider />
       <List>
-        <ListItem button key="about" data-testid="about" onClick={() => handleMenuItemClick("about-section")}>
+        <ListItem
+          button
+          key="about"
+          data-testid="about"
+          onClick={() => handleMenuItemClick("about-section")}
+        >
           <ListItemIcon>
             <Person />
           </ListItemIcon>
           <ListItemText primary="About Me" />
         </ListItem>
-        <ListItem button key="experiences" data-testid="experiences" onClick={() => handleMenuItemClick("experiences-section")}>
+        <ListItem
+          button
+          key="experiences"
+          data-testid="experiences"
+          onClick={() => handleMenuItemClick("experiences-section")}
+        >
           <ListItemIcon>
             <Timeline />
           </ListItemIcon>
           <ListItemText primary="Experiences" />
         </ListItem>
-        <ListItem button key="projects" data-testid="projects" onClick={() => handleMenuItemClick("projects-section")}>
+        <ListItem
+          button
+          key="projects"
+          data-testid="projects"
+          onClick={() => handleMenuItemClick("projects-section")}
+        >
           <ListItemIcon>
             <Category />
           </ListItemIcon>
           <ListItemText primary="Projects" />
         </ListItem>
-        <ListItem button key="skills" data-testid="skills" onClick={() => handleMenuItemClick("skills-section")}>
+        <ListItem
+          button
+          key="skills"
+          data-testid="skills"
+          onClick={() => handleMenuItemClick("skills-section")}
+        >
           <ListItemIcon>
             <DataObject />
           </ListItemIcon>

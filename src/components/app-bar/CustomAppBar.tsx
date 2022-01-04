@@ -37,7 +37,11 @@ const CustomAppBar = ({
             <Menu />
           </IconButton>
           <Box sx={{ mr: 2, display: { sm: "none" } }}>
-            <img src={Logo} alt="Vishnu Bochiwal Logo" style={{height: "3.5rem"}} />
+            <img
+              src={Logo}
+              alt="Vishnu Bochiwal Logo"
+              style={{ height: "3.5rem" }}
+            />
           </Box>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: "flex" }}>

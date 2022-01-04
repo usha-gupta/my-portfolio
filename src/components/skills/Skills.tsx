@@ -12,13 +12,21 @@ import SkillsData from "./data";
 const Skills = () => {
   return (
     <Box sx={{ p: 4, pt: 8 }} id="skills-section">
-      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
+      <Typography
+        variant="h3"
+        textAlign="center"
+        gutterBottom
+        color="primary"
+        fontWeight="500"
+      >
         Skills
       </Typography>
       {SkillsData.map((skillCategory) => (
         <Card sx={{ mb: 2 }}>
           <CardContent>
-            <Typography variant="h5" color="primary">{skillCategory.name}</Typography>
+            <Typography variant="h5" color="primary">
+              {skillCategory.name}
+            </Typography>
             <Divider sx={{ my: 2 }} />
             <Grid container spacing={2}>
               {skillCategory.skills.map((skill) => (
