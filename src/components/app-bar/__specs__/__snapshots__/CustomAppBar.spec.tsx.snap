@@ -33,6 +33,15 @@ exports[`should verify the snapshot 1`] = `
           />
         </button>
         <div
+          class="MuiBox-root css-71padf"
+        >
+          <img
+            alt="Vishnu Bochiwal Logo"
+            src="test-file-stub"
+            style="height: 3.5rem;"
+          />
+        </div>
+        <div
           class="MuiBox-root css-i9gxme"
         />
         <div

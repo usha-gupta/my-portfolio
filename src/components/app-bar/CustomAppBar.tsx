@@ -1,6 +1,7 @@
 import React from "react";
 import { DarkMode, LightMode, Menu } from "@mui/icons-material";
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
+import Logo from "../../assets/images/logo.png";
 
 interface Props {
   darkMode: boolean;
@@ -35,6 +36,9 @@ const CustomAppBar = ({
           >
             <Menu />
           </IconButton>
+          <Box sx={{ mr: 2, display: { sm: "none" } }}>
+            <img src={Logo} alt="Vishnu Bochiwal Logo" style={{height: "3.5rem"}} />
+          </Box>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: "flex" }}>
             <IconButton

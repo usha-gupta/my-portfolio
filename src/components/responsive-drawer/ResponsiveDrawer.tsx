@@ -16,7 +16,9 @@ import {
   School,
   Timeline,
 } from "@mui/icons-material";
+import Divider from "@mui/material/Divider";
 import CustomAppBar from "../app-bar/CustomAppBar";
+import Logo from "../../assets/images/logo.png";
 
 const drawerWidth = 240;
 
@@ -34,28 +36,39 @@ export default function ResponsiveDrawer(props: Props) {
     setMobileOpen(!mobileOpen);
   };
 
+  const handleMenuItemClick = (id: string) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+
   const drawer = (
     <div>
+      <Box sx={{ mr: 2, display: { xs: "none", sm: "flex" }, justifyContent: "center", alignItems: "center" }}>
+        <img src={Logo} alt="Vishnu Bochiwal Logo" style={{height: "8rem"}} />
+      </Box>
+      <Divider />
       <List>
-        <ListItem button key="about">
+        <ListItem button key="about" data-testid="about" onClick={() => handleMenuItemClick("about-section")}>
           <ListItemIcon>
             <Person />
           </ListItemIcon>
           <ListItemText primary="About Me" />
         </ListItem>
-        <ListItem button key="experience">
+        <ListItem button key="experiences" data-testid="experiences" onClick={() => handleMenuItemClick("experiences-section")}>
           <ListItemIcon>
             <Timeline />
           </ListItemIcon>
-          <ListItemText primary="Experience" />
+          <ListItemText primary="Experiences" />
         </ListItem>
-        <ListItem button key="projects">
+        <ListItem button key="projects" data-testid="projects" onClick={() => handleMenuItemClick("projects-section")}>
           <ListItemIcon>
             <Category />
           </ListItemIcon>
           <ListItemText primary="Projects" />
         </ListItem>
-        <ListItem button key="skills">
+        <ListItem button key="skills" data-testid="skills" onClick={() => handleMenuItemClick("skills-section")}>
           <ListItemIcon>
             <DataObject />
           </ListItemIcon>

@@ -23,11 +23,13 @@ const Projects = () => {
   };
   return (
     <Box
+      id="projects-section"
       sx={{
         p: 4,
+        pt: 8
       }}
     >
-      <Typography variant="h3" textAlign="center" gutterBottom>
+      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
         Projects
       </Typography>
 
@@ -57,6 +59,7 @@ const Projects = () => {
                   variant="h5"
                   component="div"
                   data-testid="project-title"
+                  color="primary"
                 >
                   {project.name}
                 </Typography>

@@ -18,11 +18,13 @@ const Experiences = () => {
   );
   return (
     <Box
+      id="experiences-section"
       sx={{
         p: 4,
+        pt: 8
       }}
     >
-      <Typography variant="h3" textAlign="center" gutterBottom>
+      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
         Experiences
       </Typography>
 

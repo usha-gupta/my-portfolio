@@ -15,10 +15,11 @@ exports[`should verify the snapshot 1`] = `
 }
 
 <div
-    class="MuiBox-root css-1wcaknn"
+    class="MuiBox-root css-wy212j"
+    id="about-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-lxmg88-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
     >
       About Me
     </h3>

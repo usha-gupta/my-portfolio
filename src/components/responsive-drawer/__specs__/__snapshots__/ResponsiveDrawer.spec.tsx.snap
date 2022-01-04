@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should verify the snapshot 1`] = `
+exports[`Responsive Drawer should verify the snapshot 1`] = `
 <DocumentFragment>
   <div
     class="MuiBox-root css-k008qs"
@@ -35,6 +35,15 @@ exports[`should verify the snapshot 1`] = `
               class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
             />
           </button>
+          <div
+            class="MuiBox-root css-71padf"
+          >
+            <img
+              alt="Vishnu Bochiwal Logo"
+              src="test-file-stub"
+              style="height: 3.5rem;"
+            />
+          </div>
           <div
             class="MuiBox-root css-i9gxme"
           />
@@ -77,11 +86,24 @@ exports[`should verify the snapshot 1`] = `
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper"
         >
           <div>
+            <div
+              class="MuiBox-root css-1cm0z6j"
+            >
+              <img
+                alt="Vishnu Bochiwal Logo"
+                src="test-file-stub"
+                style="height: 8rem;"
+              />
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+            />
             <ul
               class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
             >
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                data-testid="about"
                 role="button"
                 tabindex="0"
               >
@@ -115,6 +137,7 @@ exports[`should verify the snapshot 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                data-testid="experiences"
                 role="button"
                 tabindex="0"
               >
@@ -139,7 +162,7 @@ exports[`should verify the snapshot 1`] = `
                   <span
                     class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
                   >
-                    Experience
+                    Experiences
                   </span>
                 </div>
                 <span
@@ -148,6 +171,7 @@ exports[`should verify the snapshot 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                data-testid="projects"
                 role="button"
                 tabindex="0"
               >
@@ -189,6 +213,7 @@ exports[`should verify the snapshot 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                data-testid="skills"
                 role="button"
                 tabindex="0"
               >

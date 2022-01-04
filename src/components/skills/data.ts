@@ -37,6 +37,8 @@ import SpockLogo from "../../assets/images/spock.png";
 import MockitoLogo from "../../assets/images/mokito.png";
 import JestLogo from "../../assets/images/jest.png";
 import ReactTestingLibLogo from "../../assets/images/react-testing-lib.png";
+import ReduxLogo from "../../assets/images/redux.png";
+import TSLogo from "../../assets/images/typescript.png";
 
 const skills: SkillCategory[] = [
   {
@@ -45,6 +47,10 @@ const skills: SkillCategory[] = [
       {
         name: "ReactJS",
         logo: ReactJSLogo,
+      },
+      {
+        name: "Redux",
+        logo: ReduxLogo,
       },
       {
         name: "Angular 9",
@@ -61,10 +67,6 @@ const skills: SkillCategory[] = [
       {
         name: "Material Design",
         logo: MaterialDesignLogo,
-      },
-      {
-        name: "JavaScript",
-        logo: JSLogo,
       },
     ],
   },
@@ -101,6 +103,10 @@ const skills: SkillCategory[] = [
         logo: MockitoLogo,
       },
       {
+        name: "Cucumber",
+        logo: CucumberLogo,
+      },
+      {
         name: "Spock Framework",
         logo: SpockLogo,
       },
@@ -111,6 +117,35 @@ const skills: SkillCategory[] = [
       {
         name: "React Testing Library",
         logo: ReactTestingLibLogo,
+      },
+    ],
+  },
+  {
+    name: "Programming Languages",
+    skills: [
+      {
+        name: "Java 11",
+        logo: JavaLogo,
+      },
+      {
+        name: "Python 3",
+        logo: PythonLogo,
+      },
+      {
+        name: "C/C++",
+        logo: CLogo,
+      },
+      {
+        name: "Shell Scripting",
+        logo: ShellScriptingLogo,
+      },
+      {
+        name: "JavaScript",
+        logo: JSLogo,
+      },
+      {
+        name: "TypeScript",
+        logo: TSLogo,
       },
     ],
   },
@@ -199,27 +234,6 @@ const skills: SkillCategory[] = [
     ],
   },
   {
-    name: "Programming Languages",
-    skills: [
-      {
-        name: "Java 11",
-        logo: JavaLogo,
-      },
-      {
-        name: "Python 3",
-        logo: PythonLogo,
-      },
-      {
-        name: "C/C++",
-        logo: CLogo,
-      },
-      {
-        name: "Shell Scripting",
-        logo: ShellScriptingLogo,
-      },
-    ],
-  },
-  {
     name: "Other",
     skills: [
       {
@@ -229,11 +243,7 @@ const skills: SkillCategory[] = [
       {
         name: "Kibana",
         logo: KibanaLogo,
-      },
-      {
-        name: "Cucumber",
-        logo: CucumberLogo,
-      },
+      }
     ],
   },
 ];

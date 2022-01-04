@@ -169,6 +169,15 @@ exports[`should verify the snapshot for dark mode 1`] = `
             />
           </button>
           <div
+            class="MuiBox-root css-71padf"
+          >
+            <img
+              alt="Vishnu Bochiwal Logo"
+              src="test-file-stub"
+              style="height: 3.5rem;"
+            />
+          </div>
+          <div
             class="MuiBox-root css-i9gxme"
           />
           <div
@@ -210,11 +219,24 @@ exports[`should verify the snapshot for dark mode 1`] = `
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-15b8vjn-MuiPaper-root-MuiDrawer-paper"
         >
           <div>
+            <div
+              class="MuiBox-root css-1cm0z6j"
+            >
+              <img
+                alt="Vishnu Bochiwal Logo"
+                src="test-file-stub"
+                style="height: 8rem;"
+              />
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
             <ul
               class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
             >
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="about"
                 role="button"
                 tabindex="0"
               >
@@ -248,6 +270,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="experiences"
                 role="button"
                 tabindex="0"
               >
@@ -272,7 +295,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <span
                     class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
                   >
-                    Experience
+                    Experiences
                   </span>
                 </div>
                 <span
@@ -281,6 +304,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="projects"
                 role="button"
                 tabindex="0"
               >
@@ -322,6 +346,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="skills"
                 role="button"
                 tabindex="0"
               >
@@ -525,10 +550,11 @@ exports[`should verify the snapshot for dark mode 1`] = `
           </div>
         </section>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="about-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             About Me
           </h3>
@@ -618,10 +644,11 @@ exports[`should verify the snapshot for dark mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="experiences-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Experiences
           </h3>
@@ -857,10 +884,11 @@ exports[`should verify the snapshot for dark mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="projects-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Projects
           </h3>
@@ -884,7 +912,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Paisa Vasool
@@ -928,7 +956,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     U-Move: Bike Rental App
@@ -972,7 +1000,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Smart Queuing System
@@ -1016,7 +1044,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     People Counter App
@@ -1060,7 +1088,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
@@ -1104,7 +1132,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     DP & Videos Downloader
@@ -1148,7 +1176,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
@@ -1192,7 +1220,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Fuel Trades
@@ -1233,10 +1261,11 @@ exports[`should verify the snapshot for dark mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="skills-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Skills
           </h3>
@@ -1247,7 +1276,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Front-End
               </h5>
@@ -1273,6 +1302,24 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     ReactJS
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Redux"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Redux
                   </p>
                 </div>
                 <div
@@ -1347,24 +1394,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     Material Design
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="JavaScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    JavaScript
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -1375,7 +1404,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Back-End
               </h5>
@@ -1467,7 +1496,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Testing Frameworks
               </h5>
@@ -1511,6 +1540,24 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Mockito
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Cucumber"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Cucumber
                   </p>
                 </div>
                 <div
@@ -1577,7 +1624,135 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
+              >
+                Programming Languages
+              </h5>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Java 11"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Java 11
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Python 3"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Python 3
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="C/C++"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    C/C++
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Shell Scripting"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Shell Scripting
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="JavaScript"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    JavaScript
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="TypeScript"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    TypeScript
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Mobile
               </h5>
@@ -1651,7 +1826,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Databases
               </h5>
@@ -1743,7 +1918,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Cloud
               </h5>
@@ -1835,7 +2010,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 DevOps Tools
               </h5>
@@ -1945,99 +2120,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
-              >
-                Programming Languages
-              </h5>
-              <hr
-                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
-              />
-              <div
-                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
-              >
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Java 11"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Java 11
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Python 3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Python 3
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="C/C++"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    C/C++
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Shell Scripting"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Shell Scripting
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
-          >
-            <div
-              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-            >
-              <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Other
               </h5>
@@ -2081,24 +2164,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Kibana
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Cucumber"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cucumber
                   </p>
                 </div>
               </div>
@@ -2280,6 +2345,15 @@ exports[`should verify the snapshot for light mode 1`] = `
             />
           </button>
           <div
+            class="MuiBox-root css-71padf"
+          >
+            <img
+              alt="Vishnu Bochiwal Logo"
+              src="test-file-stub"
+              style="height: 3.5rem;"
+            />
+          </div>
+          <div
             class="MuiBox-root css-i9gxme"
           />
           <div
@@ -2321,11 +2395,24 @@ exports[`should verify the snapshot for light mode 1`] = `
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper"
         >
           <div>
+            <div
+              class="MuiBox-root css-1cm0z6j"
+            >
+              <img
+                alt="Vishnu Bochiwal Logo"
+                src="test-file-stub"
+                style="height: 8rem;"
+              />
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+            />
             <ul
               class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
             >
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                data-testid="about"
                 role="button"
                 tabindex="0"
               >
@@ -2359,6 +2446,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                data-testid="experiences"
                 role="button"
                 tabindex="0"
               >
@@ -2383,7 +2471,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <span
                     class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
                   >
-                    Experience
+                    Experiences
                   </span>
                 </div>
                 <span
@@ -2392,6 +2480,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                data-testid="projects"
                 role="button"
                 tabindex="0"
               >
@@ -2433,6 +2522,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                data-testid="skills"
                 role="button"
                 tabindex="0"
               >
@@ -2636,10 +2726,11 @@ exports[`should verify the snapshot for light mode 1`] = `
           </div>
         </section>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="about-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             About Me
           </h3>
@@ -2729,10 +2820,11 @@ exports[`should verify the snapshot for light mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="experiences-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Experiences
           </h3>
@@ -3062,10 +3154,11 @@ exports[`should verify the snapshot for light mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="projects-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Projects
           </h3>
@@ -3089,7 +3182,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Paisa Vasool
@@ -3133,7 +3226,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     U-Move: Bike Rental App
@@ -3177,7 +3270,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Smart Queuing System
@@ -3221,7 +3314,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     People Counter App
@@ -3265,7 +3358,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
@@ -3309,7 +3402,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     DP & Videos Downloader
@@ -3353,7 +3446,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
@@ -3397,7 +3490,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-3wuh0p-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Fuel Trades
@@ -3438,10 +3531,11 @@ exports[`should verify the snapshot for light mode 1`] = `
           </div>
         </div>
         <div
-          class="MuiBox-root css-1wcaknn"
+          class="MuiBox-root css-wy212j"
+          id="skills-section"
         >
           <h3
-            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-8snpas-MuiTypography-root"
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
           >
             Skills
           </h3>
@@ -3452,7 +3546,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Front-End
               </h5>
@@ -3478,6 +3572,24 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     ReactJS
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Redux"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Redux
                   </p>
                 </div>
                 <div
@@ -3552,24 +3664,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     Material Design
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="JavaScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    JavaScript
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -3580,7 +3674,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Back-End
               </h5>
@@ -3672,7 +3766,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Testing Frameworks
               </h5>
@@ -3716,6 +3810,24 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Mockito
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Cucumber"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Cucumber
                   </p>
                 </div>
                 <div
@@ -3782,7 +3894,135 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
+              >
+                Programming Languages
+              </h5>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+              />
+              <div
+                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+              >
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Java 11"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Java 11
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Python 3"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Python 3
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="C/C++"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    C/C++
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="Shell Scripting"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Shell Scripting
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="JavaScript"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    JavaScript
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <img
+                      alt="TypeScript"
+                      src="test-file-stub"
+                      style="max-width: 100px; max-height: 100px;"
+                    />
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    TypeScript
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Mobile
               </h5>
@@ -3856,7 +4096,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Databases
               </h5>
@@ -3948,7 +4188,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Cloud
               </h5>
@@ -4040,7 +4280,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 DevOps Tools
               </h5>
@@ -4150,99 +4390,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
             >
               <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
-              >
-                Programming Languages
-              </h5>
-              <hr
-                class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-              />
-              <div
-                class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
-              >
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Java 11"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Java 11
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Python 3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Python 3
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="C/C++"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    C/C++
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Shell Scripting"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Shell Scripting
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
-          >
-            <div
-              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-            >
-              <h5
-                class="MuiTypography-root MuiTypography-h5 css-1n1jaap-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-h5 css-kmk3ps-MuiTypography-root"
               >
                 Other
               </h5>
@@ -4286,24 +4434,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Kibana
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-4 MuiGrid-grid-lg-2 css-7mx6jl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <img
-                      alt="Cucumber"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cucumber
                   </p>
                 </div>
               </div>

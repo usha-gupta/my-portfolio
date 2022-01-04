@@ -25,11 +25,13 @@ const AvatarStyled = styled(Avatar)`
 const About = () => {
   return (
     <Box
+      id="about-section"
       sx={{
         p: 4,
+        pt: 8
       }}
     >
-      <Typography variant="h3" textAlign="center" gutterBottom>
+      <Typography variant="h3" textAlign="center" gutterBottom color="primary" fontWeight="500">
         About Me
       </Typography>
 
