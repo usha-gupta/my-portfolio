@@ -62,7 +62,7 @@ describe("Responsive Drawer", () => {
       fireEvent.click(getAllByTestId("experiences")[0]);
     });
 
-    expect(getElementByIdMock).toBeCalledWith("Experiences-section");
+    expect(getElementByIdMock).toBeCalledWith("experiences-section");
     expect(scrollIntoViewMock).toBeCalledTimes(1);
   });
 
