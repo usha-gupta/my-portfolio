@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import {
   Box,
   Card,
@@ -9,9 +9,9 @@ import {
 } from "@mui/material";
 import SkillsData from "./data";
 
-const Skills = () => {
+const Skills = forwardRef((_, ref) => {
   return (
-    <Box sx={{ p: 4, pt: 8 }} id="skills-section">
+    <Box ref={ref} sx={{ p: 4, pt: 8 }} id="skills-section">
       <Typography
         variant="h3"
         textAlign="center"
@@ -67,6 +67,6 @@ const Skills = () => {
       ))}
     </Box>
   );
-};
+});
 
 export default Skills;

@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@mui/material";
 import styled from "styled-components";
+import { forwardRef } from "react";
 import ProfilePic from "../../assets/images/profile.jpeg";
 
 const AvatarStyled = styled(Avatar)`
@@ -22,9 +23,10 @@ const AvatarStyled = styled(Avatar)`
   border: 5px solid #008073;
 `;
 
-const About = () => {
+const About = forwardRef((_, ref) => {
   return (
     <Box
+      ref={ref}
       id="about-section"
       sx={{
         p: 4,
@@ -85,6 +87,6 @@ const About = () => {
       </Grid>
     </Box>
   );
-};
+});
 
 export default About;

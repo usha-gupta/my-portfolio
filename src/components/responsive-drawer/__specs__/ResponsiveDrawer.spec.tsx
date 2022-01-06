@@ -16,7 +16,11 @@ describe("Responsive Drawer", () => {
   });
   it("should verify the snapshot", () => {
     const { asFragment } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={0}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -26,7 +30,11 @@ describe("Responsive Drawer", () => {
   it("should verify drawer open close", () => {
     global.innerWidth = 400;
     const { getByLabelText } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={0}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -38,7 +46,11 @@ describe("Responsive Drawer", () => {
 
   it("verify on click of About menu on drawer should scroll to About section", () => {
     const { getAllByTestId } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={0}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -53,7 +65,11 @@ describe("Responsive Drawer", () => {
 
   it("verify on click of Experiences menu on drawer should scroll to Experiences section", () => {
     const { getAllByTestId } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={1}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -68,7 +84,11 @@ describe("Responsive Drawer", () => {
 
   it("verify on click of Projects menu on drawer should scroll to Projects section", () => {
     const { getAllByTestId } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={2}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -83,7 +103,11 @@ describe("Responsive Drawer", () => {
 
   it("verify on click of Skill menu on drawer should scroll to skills section", () => {
     const { getAllByTestId } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={3}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );
@@ -98,7 +122,11 @@ describe("Responsive Drawer", () => {
 
   it("verify on click of Certifications menu on drawer should scroll to Certifications section", () => {
     const { getAllByTestId } = render(
-      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+      <ResponsiveDrawer
+        selectedIndex={4}
+        darkMode
+        toggleDarkMode={toggleDarkModeMock}
+      >
         <p>This is test content</p>
       </ResponsiveDrawer>
     );

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { forwardRef, useState } from "react";
 import {
   Box,
   Button,
@@ -13,7 +13,7 @@ import projects from "./data";
 import ProjectDetail from "./ProjectDetail";
 import { Project } from "./project.model";
 
-const Projects = () => {
+const Projects = forwardRef((_, ref) => {
   const [openProjectDetail, setOpenProjectDetail] = useState(false);
   const [selectedProject, setSelectedProject] = useState(projects[0]);
 
@@ -23,6 +23,7 @@ const Projects = () => {
   };
   return (
     <Box
+      ref={ref}
       id="projects-section"
       sx={{
         p: 4,
@@ -88,6 +89,6 @@ const Projects = () => {
       />
     </Box>
   );
-};
+});
 
 export default Projects;

@@ -379,7 +379,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 />
               </div>
               <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
                 data-testid="certifications"
                 role="button"
                 tabindex="0"
@@ -2950,7 +2950,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 />
               </div>
               <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
                 data-testid="certifications"
                 role="button"
                 tabindex="0"

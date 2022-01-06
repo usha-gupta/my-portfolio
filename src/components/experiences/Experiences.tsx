@@ -1,3 +1,4 @@
+import { forwardRef } from "react";
 import { AccessTimeFilled } from "@mui/icons-material";
 import {
   Timeline,
@@ -12,12 +13,13 @@ import { Box, Theme, Typography, useMediaQuery } from "@mui/material";
 import CompanyDetail from "./CompanyDetail";
 import CompanyList from "./data";
 
-const Experiences = () => {
+const Experiences = forwardRef((_, ref) => {
   const isTabletOrSmaller = useMediaQuery((theme: Theme) =>
     theme.breakpoints.down("md")
   );
   return (
     <Box
+      ref={ref}
       id="experiences-section"
       sx={{
         p: 4,
@@ -65,6 +67,6 @@ const Experiences = () => {
       )}
     </Box>
   );
-};
+});
 
 export default Experiences;

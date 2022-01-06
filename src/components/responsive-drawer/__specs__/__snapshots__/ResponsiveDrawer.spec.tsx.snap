@@ -102,7 +102,7 @@ exports[`Responsive Drawer should verify the snapshot 1`] = `
               class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
             >
               <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-bshv44-MuiButtonBase-root-MuiListItem-root"
                 data-testid="about"
                 role="button"
                 tabindex="0"

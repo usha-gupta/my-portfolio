@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { Box, ThemeProvider, useMediaQuery } from "@mui/material";
+import { Scrollspy } from "@makotot/ghostui";
 import GlobalStyle from "../../utils/global-style";
 import createCustomTheme from "../../utils/theme";
 import Header from "../header/Header";
@@ -18,23 +19,39 @@ function App() {
     setDarkMode(prefersDarkMode);
   }, [prefersDarkMode]);
 
+  const sectionsRefs = [
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+    useRef<HTMLDivElement>(null),
+  ];
+
   return (
     <ThemeProvider theme={createCustomTheme(darkMode)}>
       <GlobalStyle />
-      <ResponsiveDrawer darkMode={darkMode} toggleDarkMode={setDarkMode}>
-        <Box>
-          <Header />
-          <About />
-          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
-          <Experiences />
-          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
-          <Projects />
-          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
-          <Skills />
-          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
-          <Certifications />
-        </Box>
-      </ResponsiveDrawer>
+      <Scrollspy sectionRefs={sectionsRefs}>
+        {({ currentElementIndexInViewport }) => (
+          <ResponsiveDrawer
+            selectedIndex={currentElementIndexInViewport}
+            darkMode={darkMode}
+            toggleDarkMode={setDarkMode}
+          >
+            <Box>
+              <Header />
+              <About ref={sectionsRefs[0]} />
+              <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+              <Experiences ref={sectionsRefs[1]} />
+              <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+              <Projects ref={sectionsRefs[2]} />
+              <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+              <Skills ref={sectionsRefs[3]} />
+              <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+              <Certifications ref={sectionsRefs[4]} />
+            </Box>
+          </ResponsiveDrawer>
+        )}
+      </Scrollspy>
     </ThemeProvider>
   );
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { forwardRef } from "react";
 import {
   Box,
   Button,
@@ -13,9 +13,9 @@ import {
 import { ArrowForward } from "@mui/icons-material";
 import certifications from "./data";
 
-const Certifications = () => {
+const Certifications = forwardRef((_, ref) => {
   return (
-    <Box sx={{ p: 4, pt: 8 }} id="certifications-section">
+    <Box ref={ref} sx={{ p: 4, pt: 8 }} id="certifications-section">
       <Typography
         variant="h3"
         textAlign="center"
@@ -85,6 +85,6 @@ const Certifications = () => {
       </Grid>
     </Box>
   );
-};
+});
 
 export default Certifications;

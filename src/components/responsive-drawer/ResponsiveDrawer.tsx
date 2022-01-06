@@ -26,10 +26,11 @@ interface Props {
   children: JSX.Element;
   darkMode: boolean;
   toggleDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
+  selectedIndex: number;
 }
 
 export default function ResponsiveDrawer(props: Props) {
-  const { children, darkMode, toggleDarkMode } = props;
+  const { children, darkMode, toggleDarkMode, selectedIndex } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
@@ -62,6 +63,7 @@ export default function ResponsiveDrawer(props: Props) {
           key="about"
           data-testid="about"
           onClick={() => handleMenuItemClick("about-section")}
+          selected={selectedIndex === 0}
         >
           <ListItemIcon>
             <Person />
@@ -73,6 +75,7 @@ export default function ResponsiveDrawer(props: Props) {
           key="experiences"
           data-testid="experiences"
           onClick={() => handleMenuItemClick("experiences-section")}
+          selected={selectedIndex === 1}
         >
           <ListItemIcon>
             <Timeline />
@@ -84,6 +87,7 @@ export default function ResponsiveDrawer(props: Props) {
           key="projects"
           data-testid="projects"
           onClick={() => handleMenuItemClick("projects-section")}
+          selected={selectedIndex === 2}
         >
           <ListItemIcon>
             <Category />
@@ -95,6 +99,7 @@ export default function ResponsiveDrawer(props: Props) {
           key="skills"
           data-testid="skills"
           onClick={() => handleMenuItemClick("skills-section")}
+          selected={selectedIndex === 3}
         >
           <ListItemIcon>
             <DataObject />
@@ -106,6 +111,7 @@ export default function ResponsiveDrawer(props: Props) {
           key="certifications"
           data-testid="certifications"
           onClick={() => handleMenuItemClick("certifications-section")}
+          selected={selectedIndex === 4}
         >
           <ListItemIcon>
             <Grade />
