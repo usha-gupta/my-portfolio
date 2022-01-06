@@ -52,6 +52,7 @@ const Projects = () => {
             <Card
               onClick={() => handleCardClick(project)}
               data-testid="project-card"
+              variant="outlined"
             >
               <CardMedia
                 component="img"

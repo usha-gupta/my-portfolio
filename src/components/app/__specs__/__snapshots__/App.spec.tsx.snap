@@ -380,6 +380,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="certifications"
                 role="button"
                 tabindex="0"
               >
@@ -712,6 +713,9 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 </li>
               </ul>
             </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
             <div
               class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
             >
@@ -790,6 +794,9 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 </li>
               </ul>
             </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
             <div
               class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
             >
@@ -858,6 +865,9 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 </li>
               </ul>
             </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
             <div
               class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
             >
@@ -899,7 +909,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -943,7 +953,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -987,7 +997,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1031,7 +1041,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1075,7 +1085,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1119,7 +1129,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1163,7 +1173,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1207,7 +1217,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bj2p8a-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -1270,7 +1280,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             Skills
           </h3>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1398,7 +1408,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1490,7 +1500,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1618,7 +1628,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1746,7 +1756,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1820,7 +1830,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -1912,7 +1922,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -2004,7 +2014,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -2114,7 +2124,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-vx0ow2-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1xdidnb-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -2165,6 +2175,391 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   >
                     Kibana
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-wy212j"
+          id="certifications-section"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
+          >
+            Certifications
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Google Cloud Certified Professional Cloud Architect
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
+                  >
+                    A Google Cloud Certified - Professional Cloud Architect enables organizations to leverage Google Cloud technologies. Through an understanding of cloud architecture and Google technology, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Google | June 2021 - June 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      AWS Certified Cloud Practitioner
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
+                  >
+                    Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Amazon Web Services (AWS) | August 2020 - August 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Microsoft Certified: Azure Data Scientist Associate
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
+                  >
+                    Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Microsoft | January 2021 - January 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Microsoft Certified: Azure Fundamentals
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
+                  >
+                    Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Microsoft | March 2021
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://confirm.udacity.com/PRCEZS2R"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Intel® Edge AI For IoT Developers Nanodegree
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
+                  >
+                    Earner of this certificate knows the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of computer vision and deep learning inference applications and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Udacity | July 2020
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    href="https://confirm.udacity.com/PRCEZS2R"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
                 </div>
               </div>
             </div>
@@ -2556,6 +2951,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
+                data-testid="certifications"
                 role="button"
                 tabindex="0"
               >
@@ -3169,7 +3565,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3213,7 +3609,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3257,7 +3653,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3301,7 +3697,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3345,7 +3741,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3389,7 +3785,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3433,7 +3829,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3477,7 +3873,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
             >
               <div
-                class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
                 <img
@@ -3540,7 +3936,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             Skills
           </h3>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -3668,7 +4064,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -3760,7 +4156,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -3888,7 +4284,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4016,7 +4412,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4090,7 +4486,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4182,7 +4578,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4274,7 +4670,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4384,7 +4780,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             </div>
           </div>
           <div
-            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -4435,6 +4831,391 @@ exports[`should verify the snapshot for light mode 1`] = `
                   >
                     Kibana
                   </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-wy212j"
+          id="certifications-section"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
+          >
+            Certifications
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Google Cloud Certified Professional Cloud Architect
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
+                  >
+                    A Google Cloud Certified - Professional Cloud Architect enables organizations to leverage Google Cloud technologies. Through an understanding of cloud architecture and Google technology, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Google | June 2021 - June 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      AWS Certified Cloud Practitioner
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
+                  >
+                    Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Amazon Web Services (AWS) | August 2020 - August 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Microsoft Certified: Azure Data Scientist Associate
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
+                  >
+                    Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Microsoft | January 2021 - January 2023
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Microsoft Certified: Azure Fundamentals
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
+                  >
+                    Earners of the Azure Fundamentals certification have demonstrated foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Microsoft | March 2021
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="certification-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    <a
+                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
+                      href="https://confirm.udacity.com/PRCEZS2R"
+                      style="text-decoration: none;"
+                      target="_blank"
+                    >
+                      Intel® Edge AI For IoT Developers Nanodegree
+                    </a>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
+                  >
+                    Earner of this certificate knows the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of computer vision and deep learning inference applications and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types.
+                  </p>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    Udacity | July 2020
+                  </button>
+                  <a
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    href="https://confirm.udacity.com/PRCEZS2R"
+                    tabindex="0"
+                    target="_blank"
+                  >
+                    View
+                    <span
+                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="ArrowForwardIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
+                        />
+                      </svg>
+                    </span>
+                    <span
+                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                    />
+                  </a>
                 </div>
               </div>
             </div>

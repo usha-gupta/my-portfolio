@@ -12,7 +12,7 @@ exports[`should verify snapshot 1`] = `
       Skills
     </h3>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -140,7 +140,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -232,7 +232,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -360,7 +360,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -488,7 +488,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -562,7 +562,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -654,7 +654,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -746,7 +746,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -856,7 +856,7 @@ exports[`should verify snapshot 1`] = `
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-xaep3o-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-p86gk6-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"

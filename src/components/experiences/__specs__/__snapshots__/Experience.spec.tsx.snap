@@ -407,6 +407,9 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           </li>
         </ul>
       </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
       <div
         class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
       >
@@ -485,6 +488,9 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           </li>
         </ul>
       </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
       <div
         class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
       >
@@ -553,6 +559,9 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           </li>
         </ul>
       </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
       <div
         class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
       >

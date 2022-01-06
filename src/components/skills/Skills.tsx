@@ -22,7 +22,7 @@ const Skills = () => {
         Skills
       </Typography>
       {SkillsData.map((skillCategory) => (
-        <Card key={skillCategory.name} sx={{ mb: 2 }}>
+        <Card key={skillCategory.name} sx={{ mb: 2 }} variant="outlined">
           <CardContent>
             <Typography variant="h5" color="primary">
               {skillCategory.name}

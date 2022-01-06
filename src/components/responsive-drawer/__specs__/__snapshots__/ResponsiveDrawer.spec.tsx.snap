@@ -247,6 +247,7 @@ exports[`Responsive Drawer should verify the snapshot 1`] = `
               </div>
               <div
                 class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-bshv44-MuiButtonBase-root-MuiListItem-root"
+                data-testid="certifications"
                 role="button"
                 tabindex="0"
               >

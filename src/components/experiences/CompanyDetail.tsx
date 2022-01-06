@@ -71,11 +71,14 @@ const CompanyDetail = (props: Company) => {
         </ul>
       </CardContent>
       {isTabletOrSmaller && (
-        <CardActions>
-          <Button variant="text" disabled>
-            {duration}
-          </Button>
-        </CardActions>
+        <>
+          <Divider />
+          <CardActions>
+            <Button variant="text" disabled>
+              {duration}
+            </Button>
+          </CardActions>
+        </>
       )}
     </Card>
   );

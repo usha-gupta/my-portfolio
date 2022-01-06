@@ -101,7 +101,12 @@ export default function ResponsiveDrawer(props: Props) {
           </ListItemIcon>
           <ListItemText primary="Skills" />
         </ListItem>
-        <ListItem button key="certifications">
+        <ListItem
+          button
+          key="certifications"
+          data-testid="certifications"
+          onClick={() => handleMenuItemClick("certifications-section")}
+        >
           <ListItemIcon>
             <Grade />
           </ListItemIcon>

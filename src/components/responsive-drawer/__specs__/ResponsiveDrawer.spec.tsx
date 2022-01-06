@@ -95,4 +95,19 @@ describe("Responsive Drawer", () => {
     expect(getElementByIdMock).toBeCalledWith("skills-section");
     expect(scrollIntoViewMock).toBeCalledTimes(1);
   });
+
+  it("verify on click of Certifications menu on drawer should scroll to Certifications section", () => {
+    const { getAllByTestId } = render(
+      <ResponsiveDrawer darkMode toggleDarkMode={toggleDarkModeMock}>
+        <p>This is test content</p>
+      </ResponsiveDrawer>
+    );
+
+    act(() => {
+      fireEvent.click(getAllByTestId("certifications")[0]);
+    });
+
+    expect(getElementByIdMock).toBeCalledWith("certifications-section");
+    expect(scrollIntoViewMock).toBeCalledTimes(1);
+  });
 });

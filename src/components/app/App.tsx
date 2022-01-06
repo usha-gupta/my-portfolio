@@ -9,6 +9,7 @@ import Experiences from "../experiences/Experiences";
 import Divider from "../divider/Divider";
 import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
+import Certifications from "../certifications/Certifications";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -30,6 +31,8 @@ function App() {
           <Projects />
           <Divider width="60%" variant={darkMode ? "dark" : "light"} />
           <Skills />
+          <Divider width="60%" variant={darkMode ? "dark" : "light"} />
+          <Certifications />
         </Box>
       </ResponsiveDrawer>
     </ThemeProvider>
