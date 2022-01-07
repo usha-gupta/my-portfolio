@@ -213,7 +213,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
       class="MuiBox-root css-1o5pq7n"
     >
       <div
-        class="MuiDrawer-root MuiDrawer-docked css-d9ml5t-MuiDrawer-docked"
+        class="MuiDrawer-root MuiDrawer-docked css-3lrix-MuiDrawer-docked"
       >
         <div
           class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-15b8vjn-MuiPaper-root-MuiDrawer-paper"
@@ -379,7 +379,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 />
               </div>
               <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
                 data-testid="certifications"
                 role="button"
                 tabindex="0"
@@ -413,7 +413,8 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 />
               </div>
               <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-1odl3jx-MuiButtonBase-root-MuiListItem-root"
+                data-testid="education"
                 role="button"
                 tabindex="0"
               >
@@ -2565,6 +2566,346 @@ exports[`should verify the snapshot for dark mode 1`] = `
             </div>
           </div>
         </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-wy212j"
+          id="education-section"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
+          >
+            Education
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: B.Tech (Computer Science)
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Board/University: Poornima College Of Engineering
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Rajasthan Technical University, Kota
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    August 2018 - April 2019
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaipur IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    67.20%
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: Senior Secondary (Science Math)
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Board/University: Adarsh Vidya Mandir
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Board Of Secondary Education Rajasthan
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    May 2013 - March 2014
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaswantgarh IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    70.60%
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: Secondary
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Board/University: Adarsh Vidya Mandir
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-1llzq1w-MuiTypography-root"
+                  >
+                    Board Of Secondary Education Rajasthan
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    May 2011 - March 2012
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaswantgarh IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    77.83%
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   </div>
@@ -2782,311 +3123,7 @@ exports[`should verify the snapshot for light mode 1`] = `
     <nav
       aria-label="mailbox folders"
       class="MuiBox-root css-1o5pq7n"
-    >
-      <div
-        class="MuiDrawer-root MuiDrawer-docked css-d9ml5t-MuiDrawer-docked"
-      >
-        <div
-          class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-12i7wg6-MuiPaper-root-MuiDrawer-paper"
-        >
-          <div>
-            <div
-              class="MuiBox-root css-1cm0z6j"
-            >
-              <img
-                alt="Vishnu Bochiwal Logo"
-                src="test-file-stub"
-                style="height: 8rem;"
-              />
-            </div>
-            <hr
-              class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-            />
-            <ul
-              class="MuiList-root MuiList-padding css-h4y409-MuiList-root"
-            >
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                data-testid="about"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="PersonIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    About Me
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                data-testid="experiences"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="TimelineIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M23 8c0 1.1-.9 2-2 2-.18 0-.35-.02-.51-.07l-3.56 3.55c.05.16.07.34.07.52 0 1.1-.9 2-2 2s-2-.9-2-2c0-.18.02-.36.07-.52l-2.55-2.55c-.16.05-.34.07-.52.07s-.36-.02-.52-.07l-4.55 4.56c.05.16.07.33.07.51 0 1.1-.9 2-2 2s-2-.9-2-2 .9-2 2-2c.18 0 .35.02.51.07l4.56-4.55C8.02 9.36 8 9.18 8 9c0-1.1.9-2 2-2s2 .9 2 2c0 .18-.02.36-.07.52l2.55 2.55c.16-.05.34-.07.52-.07s.36.02.52.07l3.55-3.56C19.02 8.35 19 8.18 19 8c0-1.1.9-2 2-2s2 .9 2 2z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Experiences
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                data-testid="projects"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="CategoryIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="m12 2-5.5 9h11z"
-                    />
-                    <circle
-                      cx="17.5"
-                      cy="17.5"
-                      r="4.5"
-                    />
-                    <path
-                      d="M3 13.5h8v8H3z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Projects
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                data-testid="skills"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="DataObjectIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M4 7v2c0 .55-.45 1-1 1H2v4h1c.55 0 1 .45 1 1v2c0 1.65 1.35 3 3 3h3v-2H7c-.55 0-1-.45-1-1v-2c0-1.3-.84-2.42-2-2.83v-.34C5.16 11.42 6 10.3 6 9V7c0-.55.45-1 1-1h3V4H7C5.35 4 4 5.35 4 7zm17 3c-.55 0-1-.45-1-1V7c0-1.65-1.35-3-3-3h-3v2h3c.55 0 1 .45 1 1v2c0 1.3.84 2.42 2 2.83v.34c-1.16.41-2 1.52-2 2.83v2c0 .55-.45 1-1 1h-3v2h3c1.65 0 3-1.35 3-3v-2c0-.55.45-1 1-1h1v-4h-1z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Skills
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button Mui-selected css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                data-testid="certifications"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="GradeIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Certifications
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="SchoolIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3 1 9l11 6 9-4.91V17h2V9L12 3z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Education
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="AlternateEmailIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Contact
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-              <div
-                class="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-l0c1qe-MuiButtonBase-root-MuiListItem-root"
-                role="button"
-                tabindex="0"
-              >
-                <div
-                  class="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="CloudDownloadIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M19.35 10.04C18.67 6.59 15.64 4 12 4 9.11 4 6.6 5.64 5.35 8.04 2.34 8.36 0 10.91 0 14c0 3.31 2.69 6 6 6h13c2.76 0 5-2.24 5-5 0-2.64-2.05-4.78-4.65-4.96zM17 13l-5 5-5-5h3V9h4v4h3z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="MuiListItemText-root css-tlelie-MuiListItemText-root"
-                >
-                  <span
-                    class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-1a8jk2a-MuiTypography-root"
-                  >
-                    Resume
-                  </span>
-                </div>
-                <span
-                  class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                />
-              </div>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </nav>
+    />
     <main
       class="MuiBox-root css-40q11x"
     >
@@ -5216,6 +5253,346 @@ exports[`should verify the snapshot for light mode 1`] = `
                       class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
                     />
                   </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-1n2mv2k"
+        >
+          <div
+            class="MuiBox-root css-a6rva7"
+          >
+            <div
+              class="c7"
+            />
+          </div>
+        </div>
+        <div
+          class="MuiBox-root css-wy212j"
+          id="education-section"
+        >
+          <h3
+            class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-537iaw-MuiTypography-root"
+          >
+            Education
+          </h3>
+          <div
+            class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-6s1xft-MuiGrid-root"
+          >
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: B.Tech (Computer Science)
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Board/University: Poornima College Of Engineering
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Rajasthan Technical University, Kota
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    August 2018 - April 2019
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaipur IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    67.20%
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: Senior Secondary (Science Math)
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Board/University: Adarsh Vidya Mandir
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Board Of Secondary Education Rajasthan
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    May 2013 - March 2014
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaswantgarh IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    70.60%
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
+            >
+              <div
+                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
+                data-testid="education-card"
+              >
+                <div
+                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                >
+                  <div
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
+                    data-testid="certification-title"
+                  >
+                    School/College: Secondary
+                  </div>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Board/University: Adarsh Vidya Mandir
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-7pwtn8-MuiTypography-root"
+                  >
+                    Board Of Secondary Education Rajasthan
+                  </h6>
+                </div>
+                <hr
+                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+                />
+                <div
+                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
+                >
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="TimelapseIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M16.24 7.76C15.07 6.59 13.54 6 12 6v6l-4.24 4.24c2.34 2.34 6.14 2.34 8.49 0 2.34-2.34 2.34-6.14-.01-8.48zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+                        />
+                      </svg>
+                    </span>
+                    May 2011 - March 2012
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="LocationOnIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
+                        />
+                      </svg>
+                    </span>
+                    Jaswantgarh IN
+                  </button>
+                  <button
+                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
+                    disabled=""
+                    tabindex="-1"
+                    type="button"
+                  >
+                    <span
+                      class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
+                    >
+                      <svg
+                        aria-hidden="true"
+                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                        data-testid="GradeIcon"
+                        focusable="false"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          d="M12 17.27 18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                        />
+                      </svg>
+                    </span>
+                    77.83%
+                  </button>
                 </div>
               </div>
             </div>
