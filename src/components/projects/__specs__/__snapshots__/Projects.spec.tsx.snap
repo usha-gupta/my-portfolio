@@ -3,11 +3,11 @@
 exports[`Projects verify snapshot for projects 1`] = `
 <DocumentFragment>
   <div
-    class="MuiBox-root css-wy212j"
+    class="MuiBox-root css-eeo3ga"
     id="projects-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1oe6gg4-MuiTypography-root"
     >
       Projects
     </h3>
@@ -37,7 +37,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               Paisa Vasool
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               It's a expense management and tracker app which also let you split the expenses among your friends and groups.
             </p>
@@ -81,7 +81,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               U-Move: Bike Rental App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
             </p>
@@ -125,7 +125,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               Smart Queuing System
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
             </p>
@@ -169,7 +169,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               People Counter App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
             </p>
@@ -213,7 +213,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               Status Downloader for WhatsApp
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               This is a android application to download and share WhatsApp status into your.
             </p>
@@ -257,7 +257,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               DP & Videos Downloader
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
             </p>
@@ -301,7 +301,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               Red Basket - Groceries Shopping App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               This is a clone of Big Basket App.
             </p>
@@ -345,7 +345,7 @@ exports[`Projects verify snapshot for projects 1`] = `
               Fuel Trades
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-r40f8v-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
             >
               Web app that helps Boston teens find the nearest available short-term housing.
             </p>

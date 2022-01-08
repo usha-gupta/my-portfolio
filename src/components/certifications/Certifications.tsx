@@ -15,13 +15,18 @@ import certifications from "./data";
 
 const Certifications = forwardRef((_, ref) => {
   return (
-    <Box ref={ref} sx={{ p: 4, pt: 8 }} id="certifications-section">
+    <Box
+      ref={ref}
+      sx={{ p: { xs: 2, sm: 4 }, pt: 8 }}
+      id="certifications-section"
+    >
       <Typography
         variant="h3"
         textAlign="center"
         gutterBottom
         color="primary"
         fontWeight="500"
+        fontSize={{ xs: "2.125rem", sm: "3rem" }}
       >
         Certifications
       </Typography>

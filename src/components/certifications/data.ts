@@ -11,7 +11,7 @@ const certifications: Certification[] = [
   },
   {
     name: "AWS Certified Cloud Practitioner",
-    vendor: "Amazon Web Services (AWS)",
+    vendor: "AWS",
     duration: "August 2020 - August 2023",
     description:
       "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",

@@ -29,7 +29,7 @@ const About = forwardRef((_, ref) => {
       ref={ref}
       id="about-section"
       sx={{
-        p: 4,
+        p: { xs: 2, sm: 4 },
         pt: 8,
       }}
     >
@@ -39,6 +39,8 @@ const About = forwardRef((_, ref) => {
         gutterBottom
         color="primary"
         fontWeight="500"
+        m={4}
+        fontSize={{ xs: "2.125rem", sm: "3rem" }}
       >
         About Me
       </Typography>
@@ -63,7 +65,12 @@ const About = forwardRef((_, ref) => {
               <CardActions
                 sx={{ display: "flex", justifyContent: "center", pb: 2 }}
               >
-                <Button variant="outlined" startIcon={<CloudDownload />}>
+                <Button
+                  variant="outlined"
+                  startIcon={<CloudDownload />}
+                  target="_blank"
+                  href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                >
                   Resume
                 </Button>
               </CardActions>

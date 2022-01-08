@@ -73,7 +73,7 @@ const StyledName = styled(Typography)`
 const Header = () => {
   useEffect(() => {
     const typed = new Typed(".positions", {
-      strings: ["Developer", "Architecture", "Engineer"],
+      strings: ["Developer", "Architecture", "Engineer", "Consultant"],
       startDelay: 300,
       typeSpeed: 130,
       backSpeed: 50,

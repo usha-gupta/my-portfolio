@@ -31,7 +31,7 @@ const CompanyDetail = (props: Company) => {
     theme.breakpoints.down("md")
   );
   return (
-    <Card variant="outlined" sx={{ p: 4, my: 2 }}>
+    <Card variant="outlined" sx={{ p: { xs: 2, sm: 4 }, my: 2 }}>
       <CardContent>
         <Box
           display="flex"
@@ -61,11 +61,13 @@ const CompanyDetail = (props: Company) => {
         <Typography variant="body1" textAlign="justify">
           {description}
         </Typography>
-        <Typography variant="subtitle1">ACCOMPLISHMENTS</Typography>
+        <Typography variant="subtitle2">ACCOMPLISHMENTS</Typography>
         <ul>
           {accomplishments.map((accomplishment) => (
             <li key={accomplishment} style={{ textAlign: "justify" }}>
-              {accomplishment}
+              <Typography variant="body2" textAlign="justify">
+                {accomplishment}
+              </Typography>
             </li>
           ))}
         </ul>

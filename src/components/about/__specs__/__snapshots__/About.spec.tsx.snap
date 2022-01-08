@@ -15,11 +15,11 @@ exports[`should verify the snapshot 1`] = `
 }
 
 <div
-    class="MuiBox-root css-wy212j"
+    class="MuiBox-root css-eeo3ga"
     id="about-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1al5q4t-MuiTypography-root"
     >
       About Me
     </h3>
@@ -58,10 +58,11 @@ exports[`should verify the snapshot 1`] = `
           <div
             class="MuiCardActions-root MuiCardActions-spacing css-p1d7ot-MuiCardActions-root"
           >
-            <button
+            <a
               class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
+              href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
               tabindex="0"
-              type="button"
+              target="_blank"
             >
               <span
                 class="MuiButton-startIcon MuiButton-iconSizeMedium css-1d6wzja-MuiButton-startIcon"
@@ -82,7 +83,7 @@ exports[`should verify the snapshot 1`] = `
               <span
                 class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
               />
-            </button>
+            </a>
           </div>
         </div>
       </div>

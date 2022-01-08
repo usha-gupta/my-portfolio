@@ -3,11 +3,11 @@
 exports[`should verify snapshot 1`] = `
 <DocumentFragment>
   <div
-    class="MuiBox-root css-wy212j"
+    class="MuiBox-root css-eeo3ga"
     id="certifications-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1oe6gg4-MuiTypography-root"
     >
       Certifications
     </h3>
@@ -127,7 +127,7 @@ exports[`should verify snapshot 1`] = `
               tabindex="-1"
               type="button"
             >
-              Amazon Web Services (AWS) | August 2020 - August 2023
+              AWS | August 2020 - August 2023
             </button>
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"

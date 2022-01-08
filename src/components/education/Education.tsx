@@ -14,13 +14,18 @@ import educations from "./data";
 
 const Education = forwardRef((_, ref) => {
   return (
-    <Box ref={ref} sx={{ p: 4, pt: 8 }} id="education-section">
+    <Box
+      ref={ref}
+      sx={{ p: { xs: 2, sm: 4 }, pt: 8, mb: 4 }}
+      id="education-section"
+    >
       <Typography
         variant="h3"
         textAlign="center"
         gutterBottom
         color="primary"
         fontWeight="500"
+        fontSize={{ xs: "2.125rem", sm: "3rem" }}
       >
         Education
       </Typography>
@@ -42,26 +47,26 @@ const Education = forwardRef((_, ref) => {
                   data-testid="certification-title"
                   color="primary"
                 >
-                  {`School/College: ${education.class}`}
+                  {education.class}
                 </Typography>
-                <Typography
-                  variant="subtitle1"
-                  color="text.secondary"
-                  textAlign="justify"
-                >
-                  {`Board/University: ${education.school}`}
+                <Typography variant="subtitle1" color="text.secondary">
+                  <span style={{ fontWeight: "bold" }}>School/College:</span>
+                  &nbsp;
+                  {education.school}
                 </Typography>
-                <Typography
-                  variant="subtitle1"
-                  color="text.secondary"
-                  textAlign="justify"
-                >
+                <Typography variant="subtitle1" color="text.secondary">
+                  <span style={{ fontWeight: "bold" }}>Board/University:</span>
+                  &nbsp;
                   {education.board}
                 </Typography>
               </CardContent>
               <Divider />
               <CardActions
-                sx={{ display: "flex", justifyContent: "space-between" }}
+                sx={{
+                  display: "flex",
+                  justifyContent: "space-between",
+                  flexDirection: { xs: "column", md: "row" },
+                }}
               >
                 <Button
                   variant="text"

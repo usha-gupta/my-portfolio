@@ -7,11 +7,11 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
 }
 
 <div
-    class="MuiBox-root css-wy212j"
+    class="MuiBox-root css-eeo3ga"
     id="experiences-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1oe6gg4-MuiTypography-root"
     >
       Experiences
     </h3>
@@ -59,7 +59,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
           class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-ghevlx-MuiTypography-root-MuiTimelineContent-root"
         >
           <div
-            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -96,7 +96,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
               </p>
               <h6
-                class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
               >
                 ACCOMPLISHMENTS
               </h6>
@@ -104,17 +104,29 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 <li
                   style="text-align: justify;"
                 >
-                  Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                  </p>
                 </li>
               </ul>
             </div>
@@ -162,7 +174,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
           class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-ghevlx-MuiTypography-root-MuiTimelineContent-root"
         >
           <div
-            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -199,7 +211,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
               </p>
               <h6
-                class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
               >
                 ACCOMPLISHMENTS
               </h6>
@@ -207,22 +219,38 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 <li
                   style="text-align: justify;"
                 >
-                  Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Improved live tracking speed by 15% by optimising code
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Improved live tracking speed by 15% by optimising code
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Completed 400+ user stories and implemented 15+ new features.
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Completed 400+ user stories and implemented 15+ new features.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -270,7 +298,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
           class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-ghevlx-MuiTypography-root-MuiTimelineContent-root"
         >
           <div
-            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
           >
             <div
               class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -307,7 +335,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
               </p>
               <h6
-                class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+                class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
               >
                 ACCOMPLISHMENTS
               </h6>
@@ -315,12 +343,20 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
                 <li
                   style="text-align: justify;"
                 >
-                  Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                  </p>
                 </li>
                 <li
                   style="text-align: justify;"
                 >
-                  Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+                  >
+                    Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                  </p>
                 </li>
               </ul>
             </div>
@@ -339,16 +375,16 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
 }
 
 <div
-    class="MuiBox-root css-wy212j"
+    class="MuiBox-root css-eeo3ga"
     id="experiences-section"
   >
     <h3
-      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1fim401-MuiTypography-root"
+      class="MuiTypography-root MuiTypography-h3 MuiTypography-gutterBottom css-1oe6gg4-MuiTypography-root"
     >
       Experiences
     </h3>
     <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -385,7 +421,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
         </p>
         <h6
-          class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
         >
           ACCOMPLISHMENTS
         </h6>
@@ -393,17 +429,29 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           <li
             style="text-align: justify;"
           >
-            Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+            </p>
           </li>
         </ul>
       </div>
@@ -424,7 +472,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -461,7 +509,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
         </p>
         <h6
-          class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
         >
           ACCOMPLISHMENTS
         </h6>
@@ -469,22 +517,38 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           <li
             style="text-align: justify;"
           >
-            Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Improved live tracking speed by 15% by optimising code
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Improved live tracking speed by 15% by optimising code
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Completed 400+ user stories and implemented 15+ new features.
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Completed 400+ user stories and implemented 15+ new features.
+            </p>
           </li>
         </ul>
       </div>
@@ -505,7 +569,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
       </div>
     </div>
     <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-2l7wv8-MuiPaper-root-MuiCard-root"
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
     >
       <div
         class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
@@ -542,7 +606,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
         </p>
         <h6
-          class="MuiTypography-root MuiTypography-subtitle1 css-10wpov9-MuiTypography-root"
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
         >
           ACCOMPLISHMENTS
         </h6>
@@ -550,12 +614,20 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           <li
             style="text-align: justify;"
           >
-            Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+            </p>
           </li>
           <li
             style="text-align: justify;"
           >
-            Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+            </p>
           </li>
         </ul>
       </div>

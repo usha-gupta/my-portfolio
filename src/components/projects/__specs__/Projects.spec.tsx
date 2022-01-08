@@ -1,4 +1,4 @@
-import { act, fireEvent, render } from "@testing-library/react";
+import { act, fireEvent, render, waitFor } from "@testing-library/react";
 import Projects from "../Projects";
 
 describe("Projects", () => {
@@ -17,5 +17,25 @@ describe("Projects", () => {
     expect(getByTestId("modal-project-title").textContent).toEqual(
       getAllByTestId("project-title")[2].textContent
     );
+  });
+
+  it("project detail modal should close on click of close icon", async () => {
+    const { getAllByTestId, queryByTestId, getByRole } = render(<Projects />);
+    const projectCard = getAllByTestId("project-card");
+    act(() => {
+      fireEvent.click(projectCard[2]);
+    });
+
+    await waitFor(() => {
+      expect(queryByTestId("modal-project-title")).not.toBeNull();
+    });
+
+    act(() => {
+      fireEvent.click(getByRole("button", { name: "close" }));
+    });
+
+    await waitFor(() => {
+      expect(queryByTestId("modal-project-title")).toBeNull();
+    });
   });
 });

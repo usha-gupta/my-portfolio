@@ -22,7 +22,7 @@ const Experiences = forwardRef((_, ref) => {
       ref={ref}
       id="experiences-section"
       sx={{
-        p: 4,
+        p: { xs: 2, sm: 4 },
         pt: 8,
       }}
     >
@@ -32,6 +32,7 @@ const Experiences = forwardRef((_, ref) => {
         gutterBottom
         color="primary"
         fontWeight="500"
+        fontSize={{ xs: "2.125rem", sm: "3rem" }}
       >
         Experiences
       </Typography>

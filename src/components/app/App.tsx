@@ -12,6 +12,7 @@ import Projects from "../projects/Projects";
 import Skills from "../skills/Skills";
 import Certifications from "../certifications/Certifications";
 import Education from "../education/Education";
+import Footer from "../footer/Footer";
 
 function App() {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
@@ -21,6 +22,7 @@ function App() {
   }, [prefersDarkMode]);
 
   const sectionsRefs = [
+    useRef<HTMLDivElement>(null),
     useRef<HTMLDivElement>(null),
     useRef<HTMLDivElement>(null),
     useRef<HTMLDivElement>(null),
@@ -52,6 +54,7 @@ function App() {
               <Certifications ref={sectionsRefs[4]} />
               <Divider width="60%" variant={darkMode ? "dark" : "light"} />
               <Education ref={sectionsRefs[5]} />
+              <Footer ref={sectionsRefs[6]} />
             </Box>
           </ResponsiveDrawer>
         )}
