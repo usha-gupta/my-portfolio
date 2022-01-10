@@ -91,9 +91,7 @@ const Footer = forwardRef((_, ref) => {
         variant="body2"
         color="white"
       >
-        © 2022 Vishnu Bochiwal |
-        All Right Reserved |
-        &nbsp;
+        © 2022 Vishnu Bochiwal | All Right Reserved | &nbsp;
         {`v${AppInfo.version}`}
       </Typography>
     </Box>

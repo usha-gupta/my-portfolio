@@ -7,7 +7,7 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import {GitHub} from "@mui/icons-material";
+import { GitHub } from "@mui/icons-material";
 import SkillsData from "./data";
 
 const Skills = forwardRef((_, ref) => {
@@ -55,17 +55,15 @@ const Skills = forwardRef((_, ref) => {
                       alignItems: "center",
                     }}
                   >
-                    {
-                      skill.name === "Github"
-                      ? <GitHub sx={{fontSize: "6rem"}} />
-                      : (
-                        <img
-                          src={skill.logo}
-                          alt={skill.name}
-                          style={{maxWidth: "100px", maxHeight: "100px"}}
-                        />
-                      )
-                    }
+                    {skill.name === "Github" ? (
+                      <GitHub sx={{ fontSize: "6rem" }} />
+                    ) : (
+                      <img
+                        src={skill.logo}
+                        alt={skill.name}
+                        style={{ maxWidth: "100px", maxHeight: "100px" }}
+                      />
+                    )}
                   </Box>
                   <Typography textAlign="center">{skill.name}</Typography>
                 </Grid>
