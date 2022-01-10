@@ -2,7 +2,7 @@
   "name": "vishnu-portfolio",
   "description": "This is portfolio website created by Vishnu Bochiwal using ReactJS and MUI",
   "repository": "https://github.com/the-vis-sharma/my-portfolio",
-  "version": "0.1.0",
+  "version": "0.0.0",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
