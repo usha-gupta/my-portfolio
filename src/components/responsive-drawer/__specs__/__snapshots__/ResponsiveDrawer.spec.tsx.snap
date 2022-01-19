@@ -38,11 +38,21 @@ exports[`Responsive Drawer should verify the snapshot 1`] = `
           <div
             class="MuiBox-root css-71padf"
           >
-            <img
-              alt="Vishnu Bochiwal Logo"
-              src="test-file-stub"
-              style="height: 3.5rem;"
-            />
+            <picture>
+              <source
+                srcset="test-file-stub"
+                type="image/webp"
+              />
+              <source
+                srcset="test-file-stub"
+                type="image/jpeg"
+              />
+              <img
+                alt="Vishnu Bochiwal's Logo"
+                src="test-file-stub"
+                style="height: 3.5rem;"
+              />
+            </picture>
           </div>
           <div
             class="MuiBox-root css-i9gxme"

@@ -69,28 +69,12 @@ exports[`should verify the snapshot for dark mode 1`] = `
 }
 
 .c6 {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-  border: 5px solid #008073;
-}
-
-.c8 {
-  height: 40px;
-}
-
-.c7 {
   height: 0.5px;
   background: #000;
   background: linear-gradient( to left, rgb(255 255 255) 0%, rgb(50 50 50) 50%, rgb(255 255 255) 100% );
 }
 
-.c7::before {
+.c6::before {
   position: relative;
   float: left;
   background: linear-gradient( to right, rgb(200 200 200 / 0%), rgb(200 200 200 / 100%) 50% );
@@ -100,7 +84,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
   content: "";
 }
 
-.c7::after {
+.c6::after {
   position: relative;
   float: right;
   background: linear-gradient( to left, rgb(100 200 200 / 0%), rgb(200 200 200 / 100%) 50% );
@@ -171,11 +155,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
           <div
             class="MuiBox-root css-71padf"
           >
-            <img
-              alt="Vishnu Bochiwal Logo"
-              src="test-file-stub"
-              style="height: 3.5rem;"
-            />
+            <picture>
+              <source
+                srcset="test-file-stub"
+                type="image/webp"
+              />
+              <source
+                srcset="test-file-stub"
+                type="image/jpeg"
+              />
+              <img
+                alt="Vishnu Bochiwal's Logo"
+                src="test-file-stub"
+                style="height: 3.5rem;"
+              />
+            </picture>
           </div>
           <div
             class="MuiBox-root css-i9gxme"
@@ -222,11 +216,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
             <div
               class="MuiBox-root css-1cm0z6j"
             >
-              <img
-                alt="Vishnu Bochiwal Logo"
-                src="test-file-stub"
-                style="height: 8rem;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Vishnu Bochiwal's Logo"
+                  src="test-file-stub"
+                  style="height: 8rem;"
+                />
+              </picture>
             </div>
             <hr
               class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
@@ -483,6 +487,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-12zeqyk-MuiTypography-root-MuiLink-root-MuiButtonBase-root-MuiListItem-root"
                 href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                rel="noopener"
                 tabindex="0"
                 target="_blank"
               >
@@ -568,15 +573,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-1spq2xo-MuiGrid-root"
             >
-              <div
-                class="MuiAvatar-root MuiAvatar-circular c6 css-frviz4-MuiAvatar-root"
-              >
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
                 <img
                   alt="Vishnu Bochiwal"
-                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
                   src="test-file-stub"
+                  style="width: 200px; height: 200px; position: absolute; top: 0px; left: 50%; transform: translate(-50%, 0); border: 5px solid #008073; border-radius: 50%;"
                 />
-              </div>
+              </picture>
               <div
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-r1egar-MuiPaper-root-MuiCard-root"
               >
@@ -600,6 +611,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-195mai-MuiButtonBase-root-MuiButton-root"
                     href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -644,7 +656,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -666,11 +678,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <div
                 class="MuiBox-root css-out6mg"
               >
-                <img
-                  alt="Thoughtworks logo"
-                  class="c8"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset=""
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Thoughtworks Logo"
+                    src="test-file-stub"
+                    style="height: 40px;"
+                  />
+                </picture>
                 <div
                   class="MuiBox-root css-0"
                 >
@@ -754,11 +776,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <div
                 class="MuiBox-root css-out6mg"
               >
-                <img
-                  alt="IBM logo"
-                  class="c8"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="IBM Logo"
+                    src="test-file-stub"
+                    style="height: 40px;"
+                  />
+                </picture>
                 <div
                   class="MuiBox-root css-0"
                 >
@@ -851,11 +883,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <div
                 class="MuiBox-root css-out6mg"
               >
-                <img
-                  alt="C-DAC logo"
-                  class="c8"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="C-DAC Logo"
+                    src="test-file-stub"
+                    style="height: 40px;"
+                  />
+                </picture>
                 <div
                   class="MuiBox-root css-0"
                 >
@@ -929,7 +971,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -952,12 +994,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Paisa Vasool screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -996,12 +1047,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="U-Move: Bike Rental App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1040,12 +1100,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Smart Queuing System screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1084,12 +1153,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="People Counter App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1128,12 +1206,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Status Downloader for WhatsApp screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1172,12 +1259,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="DP & Videos Downloader screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1216,12 +1312,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Red Basket - Groceries Shopping App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1260,12 +1365,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Fuel Trades screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -1306,7 +1420,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -1342,11 +1456,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="ReactJS"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="ReactJS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1360,11 +1484,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Redux"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Redux logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1378,11 +1512,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Angular 9"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Angular 9 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1396,11 +1540,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="HTML5"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="HTML5 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1414,11 +1568,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="CSS3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="CSS3 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1432,11 +1596,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Material Design"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Material Design logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1470,11 +1644,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spring Boot"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spring Boot logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1488,11 +1672,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spring Framework"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spring Framework logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1506,11 +1700,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Node.Js"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Node.Js logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1524,11 +1728,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Core PHP"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Core PHP logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1562,11 +1776,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="JUnit 5"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="JUnit 5 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1580,11 +1804,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Mockito"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Mockito logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1598,11 +1832,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Cucumber"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Cucumber logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1616,11 +1860,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spock Framework"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spock Framework logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1634,11 +1888,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Jest"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Jest logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1652,11 +1916,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="React Testing Library"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="React Testing Library logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1690,11 +1964,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Java 11"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Java 11 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1708,11 +1992,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Python 3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Python 3 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1726,11 +2020,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="C/C++"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="C/C++ logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1744,11 +2048,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Shell Scripting"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Shell Scripting logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1762,11 +2076,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="JavaScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="JavaScript logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1780,11 +2104,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="TypeScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="TypeScript logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1818,11 +2152,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Android Development"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Android Development logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1836,11 +2180,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Flutter"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Flutter logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1854,11 +2208,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Ionic 4"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Ionic 4 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1892,11 +2256,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="MySQL"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="MySQL logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1910,11 +2284,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="MongoDB"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="MongoDB logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1928,11 +2312,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Cassandra"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Cassandra logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1946,11 +2340,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Redis"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Redis logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -1984,11 +2388,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Google Cloud"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Google Cloud logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2002,11 +2416,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="AWS"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="AWS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2020,11 +2444,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Microsoft Azure"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Microsoft Azure logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2038,11 +2472,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Firebase"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Firebase logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2076,11 +2520,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Docker"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Docker logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2094,11 +2548,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Ansible"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Ansible logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2112,11 +2576,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Jenkins"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Jenkins logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2130,11 +2604,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Grafana"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Grafana logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2148,11 +2632,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Prometheus"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Prometheus logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2210,11 +2704,21 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Kibana"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Kibana logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -2233,7 +2737,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -2266,6 +2770,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -2295,6 +2800,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
                     href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -2338,6 +2844,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -2367,6 +2874,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -2410,6 +2918,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -2439,6 +2948,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -2482,6 +2992,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -2511,6 +3022,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -2554,6 +3066,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://confirm.udacity.com/PRCEZS2R"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -2583,6 +3096,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
                     href="https://confirm.udacity.com/PRCEZS2R"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -2618,7 +3132,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -2994,6 +3508,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="mailto:the.vis.sharma@gmail.com"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -3021,6 +3536,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="mailto:bochiwal.visnu@gmail.com"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -3048,6 +3564,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="https://www.linkedin.com/in/the-vis-sharma/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -3075,6 +3592,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="https://github.com/the-vis-sharma"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -3190,28 +3708,12 @@ exports[`should verify the snapshot for light mode 1`] = `
 }
 
 .c6 {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-  border: 5px solid #008073;
-}
-
-.c8 {
-  height: 40px;
-}
-
-.c7 {
   height: 0.5px;
   background: #fff;
   background: linear-gradient( to left, rgb(90 90 90) 0%, rgb(255 255 255) 50%, rgb(90 90 90) 100% );
 }
 
-.c7::before {
+.c6::before {
   position: relative;
   float: left;
   background: linear-gradient( to right, rgb(100 100 100 / 0%), rgb(100 100 100 / 100%) 50% );
@@ -3221,7 +3723,7 @@ exports[`should verify the snapshot for light mode 1`] = `
   content: "";
 }
 
-.c7::after {
+.c6::after {
   position: relative;
   float: right;
   background: linear-gradient( to left, rgba(100 100 100 / 0%), rgba(100 100 100 / 100%) 50% );
@@ -3292,11 +3794,21 @@ exports[`should verify the snapshot for light mode 1`] = `
           <div
             class="MuiBox-root css-71padf"
           >
-            <img
-              alt="Vishnu Bochiwal Logo"
-              src="test-file-stub"
-              style="height: 3.5rem;"
-            />
+            <picture>
+              <source
+                srcset="test-file-stub"
+                type="image/webp"
+              />
+              <source
+                srcset="test-file-stub"
+                type="image/jpeg"
+              />
+              <img
+                alt="Vishnu Bochiwal's Logo"
+                src="test-file-stub"
+                style="height: 3.5rem;"
+              />
+            </picture>
           </div>
           <div
             class="MuiBox-root css-i9gxme"
@@ -3382,15 +3894,21 @@ exports[`should verify the snapshot for light mode 1`] = `
             <div
               class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-1spq2xo-MuiGrid-root"
             >
-              <div
-                class="MuiAvatar-root MuiAvatar-circular c6 css-frviz4-MuiAvatar-root"
-              >
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
                 <img
                   alt="Vishnu Bochiwal"
-                  class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
                   src="test-file-stub"
+                  style="width: 200px; height: 200px; position: absolute; top: 0px; left: 50%; transform: translate(-50%, 0); border: 5px solid #008073; border-radius: 50%;"
                 />
-              </div>
+              </picture>
               <div
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1r2vpgk-MuiPaper-root-MuiCard-root"
               >
@@ -3414,6 +3932,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1f78ynr-MuiButtonBase-root-MuiButton-root"
                     href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -3458,7 +3977,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -3523,11 +4042,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <div
                       class="MuiBox-root css-out6mg"
                     >
-                      <img
-                        alt="Thoughtworks logo"
-                        class="c8"
-                        src="test-file-stub"
-                      />
+                      <picture>
+                        <source
+                          srcset=""
+                          type="image/webp"
+                        />
+                        <source
+                          srcset="test-file-stub"
+                          type="image/jpeg"
+                        />
+                        <img
+                          alt="Thoughtworks Logo"
+                          src="test-file-stub"
+                          style="height: 40px;"
+                        />
+                      </picture>
                       <div
                         class="MuiBox-root css-0"
                       >
@@ -3638,11 +4167,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <div
                       class="MuiBox-root css-out6mg"
                     >
-                      <img
-                        alt="IBM logo"
-                        class="c8"
-                        src="test-file-stub"
-                      />
+                      <picture>
+                        <source
+                          srcset="test-file-stub"
+                          type="image/webp"
+                        />
+                        <source
+                          srcset="test-file-stub"
+                          type="image/jpeg"
+                        />
+                        <img
+                          alt="IBM Logo"
+                          src="test-file-stub"
+                          style="height: 40px;"
+                        />
+                      </picture>
                       <div
                         class="MuiBox-root css-0"
                       >
@@ -3762,11 +4301,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <div
                       class="MuiBox-root css-out6mg"
                     >
-                      <img
-                        alt="C-DAC logo"
-                        class="c8"
-                        src="test-file-stub"
-                      />
+                      <picture>
+                        <source
+                          srcset="test-file-stub"
+                          type="image/webp"
+                        />
+                        <source
+                          srcset="test-file-stub"
+                          type="image/jpeg"
+                        />
+                        <img
+                          alt="C-DAC Logo"
+                          src="test-file-stub"
+                          style="height: 40px;"
+                        />
+                      </picture>
                       <div
                         class="MuiBox-root css-0"
                       >
@@ -3828,7 +4377,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -3851,12 +4400,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Paisa Vasool screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -3895,12 +4453,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="U-Move: Bike Rental App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -3939,12 +4506,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Smart Queuing System screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -3983,12 +4559,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="People Counter App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -4027,12 +4612,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Status Downloader for WhatsApp screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -4071,12 +4665,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="DP & Videos Downloader screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -4115,12 +4718,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Red Basket - Groceries Shopping App screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -4159,12 +4771,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                 class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
                 data-testid="project-card"
               >
-                <img
-                  alt="green iguana"
-                  class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-                  height="140"
-                  src="test-file-stub"
-                />
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Fuel Trades screenshot"
+                    src="test-file-stub"
+                    style="display: block; width: 100%; height: 300px;"
+                  />
+                </picture>
                 <div
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
@@ -4205,7 +4826,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -4241,11 +4862,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="ReactJS"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="ReactJS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4259,11 +4890,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Redux"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Redux logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4277,11 +4918,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Angular 9"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Angular 9 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4295,11 +4946,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="HTML5"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="HTML5 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4313,11 +4974,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="CSS3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="CSS3 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4331,11 +5002,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Material Design"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Material Design logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4369,11 +5050,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spring Boot"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spring Boot logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4387,11 +5078,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spring Framework"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spring Framework logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4405,11 +5106,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Node.Js"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Node.Js logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4423,11 +5134,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Core PHP"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Core PHP logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4461,11 +5182,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="JUnit 5"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="JUnit 5 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4479,11 +5210,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Mockito"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Mockito logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4497,11 +5238,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Cucumber"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Cucumber logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4515,11 +5266,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Spock Framework"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Spock Framework logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4533,11 +5294,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Jest"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Jest logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4551,11 +5322,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="React Testing Library"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="React Testing Library logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4589,11 +5370,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Java 11"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Java 11 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4607,11 +5398,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Python 3"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Python 3 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4625,11 +5426,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="C/C++"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="C/C++ logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4643,11 +5454,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Shell Scripting"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Shell Scripting logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4661,11 +5482,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="JavaScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="JavaScript logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4679,11 +5510,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="TypeScript"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="TypeScript logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4717,11 +5558,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Android Development"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Android Development logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4735,11 +5586,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Flutter"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Flutter logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4753,11 +5614,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Ionic 4"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Ionic 4 logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4791,11 +5662,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="MySQL"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="MySQL logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4809,11 +5690,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="MongoDB"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="MongoDB logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4827,11 +5718,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Cassandra"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Cassandra logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4845,11 +5746,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Redis"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Redis logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4883,11 +5794,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Google Cloud"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Google Cloud logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4901,11 +5822,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="AWS"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="AWS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4919,11 +5850,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Microsoft Azure"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Microsoft Azure logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4937,11 +5878,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Firebase"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Firebase logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4975,11 +5926,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Docker"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Docker logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -4993,11 +5954,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Ansible"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Ansible logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -5011,11 +5982,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Jenkins"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Jenkins logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -5029,11 +6010,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Grafana"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Grafana logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -5047,11 +6038,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Prometheus"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Prometheus logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -5109,11 +6110,21 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiBox-root css-1cojkpq"
                   >
-                    <img
-                      alt="Kibana"
-                      src="test-file-stub"
-                      style="max-width: 100px; max-height: 100px;"
-                    />
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Kibana logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
@@ -5132,7 +6143,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -5165,6 +6176,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -5194,6 +6206,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
                     href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -5237,6 +6250,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -5266,6 +6280,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -5309,6 +6324,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -5338,6 +6354,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -5381,6 +6398,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -5410,6 +6428,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
                     href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -5453,6 +6472,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
                       href="https://confirm.udacity.com/PRCEZS2R"
+                      rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
                     >
@@ -5482,6 +6502,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
                     href="https://confirm.udacity.com/PRCEZS2R"
+                    rel="noreferrer"
                     tabindex="0"
                     target="_blank"
                   >
@@ -5517,7 +6538,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             class="MuiBox-root css-a6rva7"
           >
             <div
-              class="c7"
+              class="c6"
             />
           </div>
         </div>
@@ -5893,6 +6914,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="mailto:the.vis.sharma@gmail.com"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -5920,6 +6942,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="mailto:bochiwal.visnu@gmail.com"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -5947,6 +6970,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="https://www.linkedin.com/in/the-vis-sharma/"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg
@@ -5974,6 +6998,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
                 href="https://github.com/the-vis-sharma"
+                rel="noreferrer"
                 target="_blank"
               >
                 <svg

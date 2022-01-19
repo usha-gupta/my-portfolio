@@ -34,11 +34,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="ReactJS"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="ReactJS logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -52,11 +62,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Redux"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Redux logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -70,11 +90,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Angular 9"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Angular 9 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -88,11 +118,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="HTML5"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="HTML5 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -106,11 +146,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="CSS3"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="CSS3 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -124,11 +174,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Material Design"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Material Design logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -162,11 +222,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Spring Boot"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Spring Boot logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -180,11 +250,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Spring Framework"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Spring Framework logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -198,11 +278,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Node.Js"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Node.Js logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -216,11 +306,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Core PHP"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Core PHP logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -254,11 +354,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="JUnit 5"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="JUnit 5 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -272,11 +382,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Mockito"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Mockito logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -290,11 +410,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Cucumber"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Cucumber logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -308,11 +438,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Spock Framework"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Spock Framework logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -326,11 +466,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Jest"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Jest logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -344,11 +494,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="React Testing Library"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="React Testing Library logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -382,11 +542,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Java 11"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Java 11 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -400,11 +570,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Python 3"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Python 3 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -418,11 +598,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="C/C++"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="C/C++ logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -436,11 +626,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Shell Scripting"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Shell Scripting logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -454,11 +654,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="JavaScript"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="JavaScript logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -472,11 +682,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="TypeScript"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="TypeScript logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -510,11 +730,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Android Development"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Android Development logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -528,11 +758,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Flutter"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Flutter logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -546,11 +786,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Ionic 4"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Ionic 4 logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -584,11 +834,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="MySQL"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="MySQL logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -602,11 +862,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="MongoDB"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="MongoDB logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -620,11 +890,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Cassandra"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Cassandra logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -638,11 +918,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Redis"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Redis logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -676,11 +966,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Google Cloud"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Google Cloud logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -694,11 +994,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="AWS"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="AWS logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -712,11 +1022,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Microsoft Azure"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Microsoft Azure logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -730,11 +1050,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Firebase"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Firebase logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -768,11 +1098,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Docker"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Docker logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -786,11 +1126,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Ansible"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Ansible logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -804,11 +1154,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Jenkins"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Jenkins logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -822,11 +1182,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Grafana"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Grafana logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -840,11 +1210,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Prometheus"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Prometheus logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"
@@ -902,11 +1282,21 @@ exports[`should verify snapshot 1`] = `
             <div
               class="MuiBox-root css-1cojkpq"
             >
-              <img
-                alt="Kibana"
-                src="test-file-stub"
-                style="max-width: 100px; max-height: 100px;"
-              />
+              <picture>
+                <source
+                  srcset="test-file-stub"
+                  type="image/webp"
+                />
+                <source
+                  srcset="test-file-stub"
+                  type="image/jpeg"
+                />
+                <img
+                  alt="Kibana logo"
+                  src="test-file-stub"
+                  style="max-width: 100px; max-height: 100px;"
+                />
+              </picture>
             </div>
             <p
               class="MuiTypography-root MuiTypography-body1 css-1uwgr7b-MuiTypography-root"

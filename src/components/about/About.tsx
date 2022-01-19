@@ -12,16 +12,8 @@ import {
 import styled from "styled-components";
 import { forwardRef } from "react";
 import ProfilePic from "../../assets/images/profile.jpeg";
-
-const AvatarStyled = styled(Avatar)`
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%, 0);
-  border: 5px solid #008073;
-`;
+import ProfilePicWebp from "../../assets/images/profile.webp";
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const About = forwardRef((_, ref) => {
   return (
@@ -47,7 +39,21 @@ const About = forwardRef((_, ref) => {
 
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid item sm={6} sx={{ position: "relative" }}>
-          <AvatarStyled alt="Vishnu Bochiwal" src={ProfilePic} />
+          <AdvanceImg
+            altText="Vishnu Bochiwal"
+            srcWebp={ProfilePicWebp}
+            src={ProfilePic}
+            style={{
+              width: "200px",
+              height: "200px",
+              position: "absolute",
+              top: 0,
+              left: "50%",
+              transform: "translate(-50%, 0)",
+              border: "5px solid #008073",
+              borderRadius: "50%",
+            }}
+          />
           <Card variant="outlined" sx={{ pt: 12, mt: 12 }}>
             <>
               <CardContent>
@@ -69,6 +75,7 @@ const About = forwardRef((_, ref) => {
                   variant="outlined"
                   startIcon={<CloudDownload />}
                   target="_blank"
+                  rel="noreferrer"
                   href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
                 >
                   Resume

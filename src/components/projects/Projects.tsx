@@ -12,6 +12,7 @@ import {
 import projects from "./data";
 import ProjectDetail from "./ProjectDetail";
 import { Project } from "./project.model";
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const Projects = forwardRef((_, ref) => {
   const [openProjectDetail, setOpenProjectDetail] = useState(false);
@@ -56,11 +57,15 @@ const Projects = forwardRef((_, ref) => {
               data-testid="project-card"
               variant="outlined"
             >
-              <CardMedia
-                component="img"
-                alt="green iguana"
-                height="140"
-                image={project.image}
+              <AdvanceImg
+                src={project.image}
+                srcWebp={project.imageWebp}
+                altText={`${project.name} screenshot`}
+                style={{
+                  display: "block",
+                  width: "100%",
+                  height: "300px",
+                }}
               />
               <CardContent>
                 <Typography

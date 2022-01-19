@@ -3,9 +3,13 @@ import TWLogo from "../../assets/images/thoughtworks-logo.svg";
 import IbmLogo from "../../assets/images/ibm-logo.png";
 import CDacLogo from "../../assets/images/c-dac-logo.png";
 
+import IbmLogoWebp from "../../assets/images/ibm-logo.webp";
+import CDacLogoWebp from "../../assets/images/c-dac-logo.webp";
+
 const companies: Company[] = [
   {
     logo: TWLogo,
+    logoWeb: "",
     name: "Thoughtworks",
     position: "Full Stack Developer",
     location: "Bangalore, IN",
@@ -20,6 +24,7 @@ const companies: Company[] = [
   },
   {
     logo: IbmLogo,
+    logoWeb: IbmLogoWebp,
     name: "IBM",
     position: "Full Stack Developer",
     location: "Bangalore, IN",
@@ -35,6 +40,7 @@ const companies: Company[] = [
   },
   {
     logo: CDacLogo,
+    logoWeb: CDacLogoWebp,
     name: "C-DAC",
     position: "Machine Learning Trainee",
     location: "Jaipur, IN",

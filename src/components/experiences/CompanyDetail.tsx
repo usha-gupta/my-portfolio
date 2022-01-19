@@ -8,17 +8,15 @@ import {
   Theme,
   Typography,
   useMediaQuery,
+  useTheme,
 } from "@mui/material";
-import styled from "styled-components";
 import { Company } from "./company.model";
-
-const Logo = styled.img`
-  height: 40px;
-`;
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const CompanyDetail = (props: Company) => {
   const {
     logo,
+    logoWeb,
     name,
     position,
     description,
@@ -26,10 +24,8 @@ const CompanyDetail = (props: Company) => {
     location,
     duration,
   } = props;
-
-  const isTabletOrSmaller = useMediaQuery((theme: Theme) =>
-    theme.breakpoints.down("md")
-  );
+  const theme = useTheme();
+  const isTabletOrSmaller = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <Card variant="outlined" sx={{ p: { xs: 2, sm: 4 }, my: 2 }}>
       <CardContent>
@@ -41,7 +37,12 @@ const CompanyDetail = (props: Company) => {
             justifyContent: { xs: "center", sm: "space-between" },
           }}
         >
-          <Logo src={logo} alt={`${name} logo`} />
+          <AdvanceImg
+            src={logo}
+            srcWebp={logoWeb}
+            altText={`${name} Logo`}
+            style={{ height: "40px" }}
+          />
           <Box>
             <Typography
               variant="subtitle1"

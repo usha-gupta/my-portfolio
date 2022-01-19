@@ -21,12 +21,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Paisa Vasool screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -65,12 +74,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="U-Move: Bike Rental App screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -109,12 +127,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Smart Queuing System screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -153,12 +180,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="People Counter App screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -197,12 +233,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Status Downloader for WhatsApp screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -241,12 +286,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="DP & Videos Downloader screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -285,12 +339,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Red Basket - Groceries Shopping App screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
@@ -329,12 +392,21 @@ exports[`Projects verify snapshot for projects 1`] = `
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
           data-testid="project-card"
         >
-          <img
-            alt="green iguana"
-            class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
-            height="140"
-            src="test-file-stub"
-          />
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Fuel Trades screenshot"
+              src="test-file-stub"
+              style="display: block; width: 100%; height: 300px;"
+            />
+          </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >

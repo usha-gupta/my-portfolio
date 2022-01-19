@@ -2,19 +2,7 @@
 
 exports[`should verify the snapshot 1`] = `
 <DocumentFragment>
-  .c0 {
-  width: 200px;
-  height: 200px;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-  transform: translate(-50%,0);
-  border: 5px solid #008073;
-}
-
-<div
+  <div
     class="MuiBox-root css-eeo3ga"
     id="about-section"
   >
@@ -29,15 +17,21 @@ exports[`should verify the snapshot 1`] = `
       <div
         class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-6 css-1spq2xo-MuiGrid-root"
       >
-        <div
-          class="MuiAvatar-root MuiAvatar-circular c0 css-1wlk0hk-MuiAvatar-root"
-        >
+        <picture>
+          <source
+            srcset="test-file-stub"
+            type="image/webp"
+          />
+          <source
+            srcset="test-file-stub"
+            type="image/jpeg"
+          />
           <img
             alt="Vishnu Bochiwal"
-            class="MuiAvatar-img css-1pqm26d-MuiAvatar-img"
             src="test-file-stub"
+            style="width: 200px; height: 200px; position: absolute; top: 0px; left: 50%; transform: translate(-50%, 0); border: 5px solid #008073; border-radius: 50%;"
           />
-        </div>
+        </picture>
         <div
           class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1r2vpgk-MuiPaper-root-MuiCard-root"
         >
@@ -61,6 +55,7 @@ exports[`should verify the snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1rwt2y5-MuiButtonBase-root-MuiButton-root"
               href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >

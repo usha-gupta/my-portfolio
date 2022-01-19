@@ -15,6 +15,7 @@ exports[`should verify snapshot 1`] = `
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
           href="mailto:the.vis.sharma@gmail.com"
+          rel="noreferrer"
           target="_blank"
         >
           <svg
@@ -42,6 +43,7 @@ exports[`should verify snapshot 1`] = `
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
           href="mailto:bochiwal.visnu@gmail.com"
+          rel="noreferrer"
           target="_blank"
         >
           <svg
@@ -69,6 +71,7 @@ exports[`should verify snapshot 1`] = `
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
           href="https://www.linkedin.com/in/the-vis-sharma/"
+          rel="noreferrer"
           target="_blank"
         >
           <svg
@@ -96,6 +99,7 @@ exports[`should verify snapshot 1`] = `
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
           href="https://github.com/the-vis-sharma"
+          rel="noreferrer"
           target="_blank"
         >
           <svg

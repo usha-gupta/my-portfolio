@@ -52,6 +52,7 @@ const Certifications = forwardRef((_, ref) => {
                     target="_blank"
                     href={certification.url}
                     style={{ textDecoration: "none" }}
+                    rel="noreferrer"
                   >
                     {certification.name}
                   </Link>
@@ -80,6 +81,7 @@ const Certifications = forwardRef((_, ref) => {
                   href={certification.url}
                   endIcon={<ArrowForward />}
                   variant="text"
+                  rel="noreferrer"
                 >
                   View
                 </Button>

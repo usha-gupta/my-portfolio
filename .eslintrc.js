@@ -35,6 +35,7 @@ module.exports = {
     "no-console": "off",
     "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": "off",
+    "react/require-default-props": "off",
     "no-use-before-define": "off",
     "import/extensions": "off",
     "jsx-a11y/click-events-have-key-events": "off",

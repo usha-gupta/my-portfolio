@@ -9,14 +9,13 @@ import {
   TimelineOppositeContent,
   TimelineSeparator,
 } from "@mui/lab";
-import { Box, Theme, Typography, useMediaQuery } from "@mui/material";
+import { Box, Theme, Typography, useMediaQuery, useTheme } from "@mui/material";
 import CompanyDetail from "./CompanyDetail";
 import CompanyList from "./data";
 
 const Experiences = forwardRef((_, ref) => {
-  const isTabletOrSmaller = useMediaQuery((theme: Theme) =>
-    theme.breakpoints.down("md")
-  );
+  const theme = useTheme();
+  const isTabletOrSmaller = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <Box
       ref={ref}

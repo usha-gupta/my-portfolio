@@ -1,12 +1,20 @@
 import { Project } from "./project.model";
 import PaisaVasoolImg from "../../assets/images/ss-paisa-vasool.png";
+import PaisaVasoolWebp from "../../assets/images/ss-paisa-vasool.webp";
 import UMoveImg from "../../assets/images/ss-umove.jpg";
+import UMoveWebp from "../../assets/images/ss-umove.webp";
 import SmartQueuingSystemImg from "../../assets/images/ss-sqs.png";
+import SmartQueuingSystemWebp from "../../assets/images/ss-sqs.webp";
 import PeopleCounterImg from "../../assets/images/ss-people-counter.png";
+import PeopleCounterWebp from "../../assets/images/ss-people-counter.webp";
 import StatusDownloaderImg from "../../assets/images/ss-status-downloader.jpg";
+import StatusDownloaderWebp from "../../assets/images/ss-status-downloader.webp";
 import InstaDPImg from "../../assets/images/ss-insta-dp.jpg";
+import InstaDPWebp from "../../assets/images/ss-insta-dp.webp";
 import RedBasketImg from "../../assets/images/ss-red-basket.jpg";
+import RedBasketWebp from "../../assets/images/ss-red-basket.webp";
 import FuelTradesImg from "../../assets/images/ss-fuel-trades.jpg";
+import FuelTradesWebp from "../../assets/images/ss-fuel-trades.webp";
 
 const projects: Project[] = [
   {
@@ -14,6 +22,7 @@ const projects: Project[] = [
     description:
       "It's a expense management and tracker app which also let you split the expenses among your friends and groups.",
     image: PaisaVasoolImg,
+    imageWebp: PaisaVasoolWebp,
     accomplishments: [
       "Using firebase for backend",
       "Angular 9 frontend",
@@ -36,6 +45,7 @@ const projects: Project[] = [
     description:
       "A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.",
     image: UMoveImg,
+    imageWebp: UMoveWebp,
     accomplishments: [
       "Built on micro-service architecture.",
       "Backend on Spring Boot and RabbitMQ for communcation between each micro-service.",
@@ -61,6 +71,7 @@ const projects: Project[] = [
     description:
       "This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.",
     image: SmartQueuingSystemImg,
+    imageWebp: SmartQueuingSystemWebp,
     accomplishments: [
       "This project is build as part of my Intel AI Edge for IoT developer Nenodegree from Udacity",
       "Tested on CPU, IGPU, VPU & FPGA on Intel DevCloud",
@@ -82,6 +93,7 @@ const projects: Project[] = [
     description:
       "The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.",
     image: PeopleCounterImg,
+    imageWebp: PeopleCounterWebp,
     accomplishments: [
       "Used Intel OpenVino Toolkit to build this app.",
       "Implemented with Tensorflow SSD MobileNet COCO V2 object detection model.",
@@ -104,6 +116,7 @@ const projects: Project[] = [
     description:
       "This is a android application to download and share WhatsApp status into your.",
     image: StatusDownloaderImg,
+    imageWebp: StatusDownloaderWebp,
     accomplishments: [
       "Native android application using Java",
       "Used File System lib to develop the status download feature.",
@@ -120,6 +133,7 @@ const projects: Project[] = [
     description:
       "View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.",
     image: InstaDPImg,
+    imageWebp: InstaDPWebp,
     accomplishments: [
       "Used web scrapping to download the HD Display Picture and Videos from Instagram using JSOUP lib.",
       "Built for Android using Java",
@@ -134,6 +148,7 @@ const projects: Project[] = [
     name: "Red Basket - Groceries Shopping App",
     description: "This is a clone of Big Basket App.",
     image: RedBasketImg,
+    imageWebp: RedBasketWebp,
     accomplishments: [
       "Built application on Android using Java.",
       "Usede PHP and MySQL for Backend.",
@@ -150,6 +165,7 @@ const projects: Project[] = [
     description:
       "Web app that helps Boston teens find the nearest available short-term housing.",
     image: FuelTradesImg,
+    imageWebp: FuelTradesWebp,
     accomplishments: [
       "Manage your fuel Cards.",
       "Calculate driving cost for your trips easily.",

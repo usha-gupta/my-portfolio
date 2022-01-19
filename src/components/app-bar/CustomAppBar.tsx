@@ -2,6 +2,8 @@ import React from "react";
 import { DarkMode, LightMode, Menu } from "@mui/icons-material";
 import { AppBar, Box, IconButton, Toolbar } from "@mui/material";
 import Logo from "../../assets/images/logo.png";
+import LogoWebp from "../../assets/images/logo.webp";
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 interface Props {
   darkMode: boolean;
@@ -37,9 +39,10 @@ const CustomAppBar = ({
             <Menu />
           </IconButton>
           <Box sx={{ mr: 2, display: { sm: "none" } }}>
-            <img
+            <AdvanceImg
               src={Logo}
-              alt="Vishnu Bochiwal Logo"
+              srcWebp={LogoWebp}
+              altText="Vishnu Bochiwal's Logo"
               style={{ height: "3.5rem" }}
             />
           </Box>

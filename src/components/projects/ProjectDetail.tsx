@@ -15,10 +15,7 @@ import {
 import { ArrowForward, Close, GitHub } from "@mui/icons-material";
 import styled from "styled-components";
 import { Project } from "./project.model";
-
-const StyledImage = styled.img`
-  width: 100%;
-`;
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   "& .MuiDialogContent-root": {
@@ -41,7 +38,7 @@ const BootstrapDialogTitle = (props: DialogTitleProps) => {
   return (
     <DialogTitle sx={{ m: 0, p: 2 }} {...other}>
       {children}
-      {onClose ? (
+      {onClose && (
         <IconButton
           aria-label="close"
           onClick={onClose}
@@ -54,7 +51,7 @@ const BootstrapDialogTitle = (props: DialogTitleProps) => {
         >
           <Close />
         </IconButton>
-      ) : null}
+      )}
     </DialogTitle>
   );
 };
@@ -86,10 +83,11 @@ const ProjectDetail = (props: ProjectDetailProps) => {
         {project.name}
       </BootstrapDialogTitle>
       <DialogContent dividers>
-        <StyledImage
-          theme={theme}
+        <AdvanceImg
           src={project.image}
-          alt={`${project.name} screenshot`}
+          srcWebp={project.imageWebp}
+          altText={`${project.name} screenshot`}
+          style={{ width: "100%" }}
         />
         <Box sx={{ p: 2 }}>
           <Typography gutterBottom variant="body1">

@@ -10,7 +10,9 @@ import { CloudDownload } from "@mui/icons-material";
 import { Divider, Link, useMediaQuery, useTheme } from "@mui/material";
 import CustomAppBar from "../app-bar/CustomAppBar";
 import Logo from "../../assets/images/logo.png";
+import LogoWebp from "../../assets/images/logo.webp";
 import drawerListItems from "./data";
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const drawerWidth = 240;
 
@@ -48,7 +50,12 @@ export default function ResponsiveDrawer(props: Props) {
           alignItems: "center",
         }}
       >
-        <img src={Logo} alt="Vishnu Bochiwal Logo" style={{ height: "8rem" }} />
+        <AdvanceImg
+          src={Logo}
+          srcWebp={LogoWebp}
+          altText="Vishnu Bochiwal's Logo"
+          style={{ height: "8rem" }}
+        />
       </Box>
       <Divider />
       <List>
@@ -68,6 +75,7 @@ export default function ResponsiveDrawer(props: Props) {
           button
           key="resume"
           component={Link}
+          rel="noopener"
           target="_blank"
           href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
         >

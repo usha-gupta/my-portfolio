@@ -31,6 +31,7 @@ exports[`should verify snapshot 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1iwtne7-MuiTypography-root-MuiLink-root"
                 href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+                rel="noreferrer"
                 style="text-decoration: none;"
                 target="_blank"
               >
@@ -60,6 +61,7 @@ exports[`should verify snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
               href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >
@@ -103,6 +105,7 @@ exports[`should verify snapshot 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1iwtne7-MuiTypography-root-MuiLink-root"
                 href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+                rel="noreferrer"
                 style="text-decoration: none;"
                 target="_blank"
               >
@@ -132,6 +135,7 @@ exports[`should verify snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
               href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >
@@ -175,6 +179,7 @@ exports[`should verify snapshot 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1iwtne7-MuiTypography-root-MuiLink-root"
                 href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+                rel="noreferrer"
                 style="text-decoration: none;"
                 target="_blank"
               >
@@ -204,6 +209,7 @@ exports[`should verify snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
               href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >
@@ -247,6 +253,7 @@ exports[`should verify snapshot 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1iwtne7-MuiTypography-root-MuiLink-root"
                 href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                rel="noreferrer"
                 style="text-decoration: none;"
                 target="_blank"
               >
@@ -276,6 +283,7 @@ exports[`should verify snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
               href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >
@@ -319,6 +327,7 @@ exports[`should verify snapshot 1`] = `
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1iwtne7-MuiTypography-root-MuiLink-root"
                 href="https://confirm.udacity.com/PRCEZS2R"
+                rel="noreferrer"
                 style="text-decoration: none;"
                 target="_blank"
               >
@@ -348,6 +357,7 @@ exports[`should verify snapshot 1`] = `
             <a
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
               href="https://confirm.udacity.com/PRCEZS2R"
+              rel="noreferrer"
               tabindex="0"
               target="_blank"
             >

@@ -10,7 +10,13 @@ interface SocialLinkProps {
 const SocialLink = (props: SocialLinkProps) => {
   const { href, startIcon, text } = props;
   return (
-    <Link target="_blank" href={href} display="flex" color="#fff">
+    <Link
+      target="_blank"
+      href={href}
+      display="flex"
+      color="#fff"
+      rel="noreferrer"
+    >
       {startIcon}
       &nbsp;
       <Typography sx={{ textDecoration: "none" }}>{text}</Typography>

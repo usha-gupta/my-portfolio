@@ -9,6 +9,7 @@ import {
 } from "@mui/material";
 import { GitHub } from "@mui/icons-material";
 import SkillsData from "./data";
+import AdvanceImg from "../advance-img/AdvanceImg";
 
 const Skills = forwardRef((_, ref) => {
   return (
@@ -58,9 +59,10 @@ const Skills = forwardRef((_, ref) => {
                     {skill.name === "Github" ? (
                       <GitHub sx={{ fontSize: "6rem" }} />
                     ) : (
-                      <img
+                      <AdvanceImg
                         src={skill.logo}
-                        alt={skill.name}
+                        srcWebp={skill.logoWebp}
+                        altText={`${skill.name} logo`}
                         style={{ maxWidth: "100px", maxHeight: "100px" }}
                       />
                     )}
@@ -77,3 +79,7 @@ const Skills = forwardRef((_, ref) => {
 });
 
 export default Skills;
+
+// 21345567799
+// 2134556779
+// 213455677
