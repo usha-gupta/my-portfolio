@@ -5,7 +5,6 @@ import {
   CardActions,
   CardContent,
   Divider,
-  Theme,
   Typography,
   useMediaQuery,
   useTheme,

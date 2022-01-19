@@ -3630,7 +3630,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.0.0
+            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.1.0
           </p>
         </div>
       </div>
@@ -7036,7 +7036,7 @@ exports[`should verify the snapshot for light mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.0.0
+            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.1.0
           </p>
         </div>
       </div>

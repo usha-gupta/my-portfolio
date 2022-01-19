@@ -1,6 +1,5 @@
 import { CloudDownload } from "@mui/icons-material";
 import {
-  Avatar,
   Box,
   Button,
   Card,
@@ -9,7 +8,6 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
-import styled from "styled-components";
 import { forwardRef } from "react";
 import ProfilePic from "../../assets/images/profile.jpeg";
 import ProfilePicWebp from "../../assets/images/profile.webp";
