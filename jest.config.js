@@ -39,6 +39,8 @@ module.exports = {
     "!src/**/index.{ts,tsx}",
     "!src/reportWebVitals.ts",
     "!src/react-app-env.d.ts",
+    "!src/service-worker.ts",
+    "!src/serviceWorkerRegistration.ts",
   ],
   coverageReporters: ["json", "lcov", "text", "clover", "cobertura"],
   coverageThreshold: {

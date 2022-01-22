@@ -56,7 +56,7 @@ const ResponsiveDrawer: React.FunctionComponent<ResponsiveDrawerProps> = (
           src={Logo}
           srcWebp={LogoWebp}
           altText="Vishnu Bochiwal's Logo"
-          style={{ height: "8rem" }}
+          style={{ width: "100%", margin: "1rem 0" }}
         />
       </Box>
       <Divider />

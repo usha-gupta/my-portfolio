@@ -228,7 +228,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 <img
                   alt="Vishnu Bochiwal's Logo"
                   src="test-file-stub"
-                  style="height: 8rem;"
+                  style="width: 100%; margin: 1rem 0px;"
                 />
               </picture>
             </div>
