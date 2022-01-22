@@ -3,12 +3,12 @@ import React from "react";
 import DarkVariant from "./DarkVariant";
 import LightVariant from "./LightVariant";
 
-interface Props {
+interface DividerProps {
   width: string;
   variant: string;
 }
 
-const Divider = (props: Props) => {
+const Divider: React.FunctionComponent<DividerProps> = (props) => {
   const { width, variant } = props;
   return (
     <Box

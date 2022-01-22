@@ -7,7 +7,7 @@ interface AdvanceImgProps {
   style?: CSSProperties | undefined;
 }
 
-const AdvanceImg = (props: AdvanceImgProps) => {
+const AdvanceImg: React.FunctionComponent<AdvanceImgProps> = (props) => {
   const { src, srcWebp, altText, style } = props;
   return (
     <picture>

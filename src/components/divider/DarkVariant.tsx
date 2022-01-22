@@ -40,8 +40,6 @@ const Divider = styled.div`
   }
 `;
 
-const DarkVariant = () => {
-  return <Divider />;
-};
+const DarkVariant: React.FunctionComponent = () => <Divider />;
 
 export default DarkVariant;

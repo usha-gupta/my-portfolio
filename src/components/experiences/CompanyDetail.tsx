@@ -9,10 +9,11 @@ import {
   useMediaQuery,
   useTheme,
 } from "@mui/material";
+import React from "react";
 import { Company } from "./company.model";
 import AdvanceImg from "../advance-img/AdvanceImg";
 
-const CompanyDetail = (props: Company) => {
+const CompanyDetail: React.FunctionComponent<Company> = (props) => {
   const {
     logo,
     logoWeb,

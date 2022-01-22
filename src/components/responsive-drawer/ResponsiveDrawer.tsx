@@ -16,14 +16,16 @@ import AdvanceImg from "../advance-img/AdvanceImg";
 
 const drawerWidth = 240;
 
-interface Props {
+interface ResponsiveDrawerProps {
   children: JSX.Element;
   darkMode: boolean;
   toggleDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
   selectedIndex: number;
 }
 
-export default function ResponsiveDrawer(props: Props) {
+const ResponsiveDrawer: React.FunctionComponent<ResponsiveDrawerProps> = (
+  props
+) => {
   const { children, darkMode, toggleDarkMode, selectedIndex } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const theme = useTheme();
@@ -132,4 +134,6 @@ export default function ResponsiveDrawer(props: Props) {
       </Box>
     </Box>
   );
-}
+};
+
+export default ResponsiveDrawer;

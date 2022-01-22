@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { Box, ThemeProvider, useMediaQuery } from "@mui/material";
 import { Scrollspy } from "@makotot/ghostui";
 import GlobalStyle from "../../utils/global-style";
@@ -14,7 +14,7 @@ import Certifications from "../certifications/Certifications";
 import Education from "../education/Education";
 import Footer from "../footer/Footer";
 
-function App() {
+const App: React.FunctionComponent = () => {
   const prefersDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
   const [darkMode, setDarkMode] = useState(prefersDarkMode);
   useEffect(() => {
@@ -61,6 +61,6 @@ function App() {
       </Scrollspy>
     </ThemeProvider>
   );
-}
+};
 
 export default App;

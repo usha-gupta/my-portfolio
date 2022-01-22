@@ -40,8 +40,6 @@ const Divider = styled.div`
   }
 `;
 
-const LightVariant = () => {
-  return <Divider />;
-};
+const LightVariant: React.FunctionComponent = () => <Divider />;
 
 export default LightVariant;

@@ -70,7 +70,7 @@ const StyledName = styled(Typography)`
   }
 `;
 
-const Header = () => {
+const Header: React.FunctionComponent = () => {
   useEffect(() => {
     const typed = new Typed(".positions", {
       strings: ["Developer", "Architecture", "Engineer", "Consultant"],

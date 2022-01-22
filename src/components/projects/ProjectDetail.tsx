@@ -62,7 +62,7 @@ interface ProjectDetailProps {
   project: Project;
 }
 
-const ProjectDetail = (props: ProjectDetailProps) => {
+const ProjectDetail: React.FunctionComponent<ProjectDetailProps> = (props) => {
   const { open, handleClose, project } = props;
   const theme = useTheme();
   const fullScreen = useMediaQuery(theme.breakpoints.down("md"));

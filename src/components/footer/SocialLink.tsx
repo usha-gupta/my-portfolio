@@ -7,7 +7,7 @@ interface SocialLinkProps {
   text: string;
 }
 
-const SocialLink = (props: SocialLinkProps) => {
+const SocialLink: React.FunctionComponent<SocialLinkProps> = (props) => {
   const { href, startIcon, text } = props;
   return (
     <Link

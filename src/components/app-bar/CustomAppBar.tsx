@@ -5,19 +5,16 @@ import Logo from "../../assets/images/logo.png";
 import LogoWebp from "../../assets/images/logo.webp";
 import AdvanceImg from "../advance-img/AdvanceImg";
 
-interface Props {
+interface CustomAppBarProps {
   darkMode: boolean;
   toggleDarkMode: React.Dispatch<React.SetStateAction<boolean>>;
   toggleDrawer: () => void;
   drawerWidth: number;
 }
 
-const CustomAppBar = ({
-  darkMode,
-  toggleDarkMode,
-  toggleDrawer,
-  drawerWidth,
-}: Props) => {
+const CustomAppBar: React.FunctionComponent<CustomAppBarProps> = (props) => {
+  const { darkMode, toggleDarkMode, toggleDrawer, drawerWidth } = props;
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
