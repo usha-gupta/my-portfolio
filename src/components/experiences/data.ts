@@ -2,11 +2,24 @@ import { Company } from "./company.model";
 import TWLogo from "../../assets/images/thoughtworks-logo.svg";
 import IbmLogo from "../../assets/images/ibm-logo.png";
 import CDacLogo from "../../assets/images/c-dac-logo.png";
+import AmazonLogo from "../../assets/images/amazon.png";
 
 import IbmLogoWebp from "../../assets/images/ibm-logo.webp";
 import CDacLogoWebp from "../../assets/images/c-dac-logo.webp";
+import AmazonLogoWebp from "../../assets/images/amazon.webp";
 
 const companies: Company[] = [
+  {
+    logo: AmazonLogo,
+    logoWeb: AmazonLogoWebp,
+    name: "Amazon",
+    position: "Software Dev Engineer",
+    location: "Bangalore, IN",
+    description:
+      "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.",
+    accomplishments: ["Working at Device OS team"],
+    duration: "Jan 2022 - Present",
+  },
   {
     logo: TWLogo,
     logoWeb: "",
@@ -20,7 +33,7 @@ const companies: Company[] = [
       "Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing",
       "Created Backend API for product details page with basic product details, quanitity, prices, dealers etc",
     ],
-    duration: "Oct 2021 - Present",
+    duration: "Oct 2021 - Jan 2022",
   },
   {
     logo: IbmLogo,
