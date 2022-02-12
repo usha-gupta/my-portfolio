@@ -2,7 +2,17 @@
 
 exports[`Projects verify snapshot for projects 1`] = `
 <DocumentFragment>
-  <div
+  .c0 {
+  height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+<div
     class="MuiBox-root css-eeo3ga"
     id="projects-section"
   >
@@ -33,20 +43,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="Paisa Vasool screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               Paisa Vasool
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               It's a expense management and tracker app which also let you split the expenses among your friends and groups.
             </p>
@@ -86,20 +96,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="U-Move: Bike Rental App screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               U-Move: Bike Rental App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
             </p>
@@ -139,20 +149,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="Smart Queuing System screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               Smart Queuing System
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
             </p>
@@ -192,20 +202,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="People Counter App screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               People Counter App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
             </p>
@@ -245,20 +255,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="Status Downloader for WhatsApp screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               Status Downloader for WhatsApp
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               This is a android application to download and share WhatsApp status into your.
             </p>
@@ -298,20 +308,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="DP & Videos Downloader screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               DP & Videos Downloader
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
             </p>
@@ -351,20 +361,20 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="Red Basket - Groceries Shopping App screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               Red Basket - Groceries Shopping App
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
               This is a clone of Big Basket App.
             </p>
@@ -404,22 +414,22 @@ exports[`Projects verify snapshot for projects 1`] = `
             <img
               alt="Fuel Trades screenshot"
               src="test-file-stub"
-              style="display: block; width: 100%; height: 300px;"
+              style="display: block; width: 100%; height: 140px; object-fit: cover;"
             />
           </picture>
           <div
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1y15g74-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
               data-testid="project-title"
             >
               Fuel Trades
             </div>
             <p
-              class="MuiTypography-root MuiTypography-body2 css-b3lvtk-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-body2 c0 css-b3lvtk-MuiTypography-root"
             >
-              Web app that helps Boston teens find the nearest available short-term housing.
+              An android app to calculate fuel prices, toll prices and trip price for one way and round trip.
             </p>
           </div>
           <div

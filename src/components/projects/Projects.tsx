@@ -8,10 +8,21 @@ import {
   Grid,
   Typography,
 } from "@mui/material";
+import styled from "styled-components";
 import projects from "./data";
 import ProjectDetail from "./ProjectDetail";
 import { Project } from "./project.model";
 import AdvanceImg from "../advance-img/AdvanceImg";
+
+const ProjectDescriptionStyled = styled(Typography)`
+  height: 60px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: -webkit-box !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+`;
 
 const Projects = forwardRef((_, ref) => {
   const [openProjectDetail, setOpenProjectDetail] = useState(false);
@@ -63,7 +74,8 @@ const Projects = forwardRef((_, ref) => {
                 style={{
                   display: "block",
                   width: "100%",
-                  height: "300px",
+                  height: "140px",
+                  objectFit: "cover",
                 }}
               />
               <CardContent>
@@ -73,16 +85,21 @@ const Projects = forwardRef((_, ref) => {
                   component="div"
                   data-testid="project-title"
                   color="primary"
+                  sx={{
+                    textOverflow: "ellipsis",
+                    whiteSpace: "nowrap",
+                    overflow: "hidden",
+                  }}
                 >
                   {project.name}
                 </Typography>
-                <Typography
+                <ProjectDescriptionStyled
                   variant="body2"
                   color="text.secondary"
                   textAlign="justify"
                 >
                   {project.description}
-                </Typography>
+                </ProjectDescriptionStyled>
               </CardContent>
               <CardActions>
                 <Button size="small">Learn More</Button>

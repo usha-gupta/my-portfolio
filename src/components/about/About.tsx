@@ -62,7 +62,7 @@ const About = forwardRef((_, ref) => (
                 color="text.secondary"
                 textAlign="center"
               >
-                Software Engineer @ ThoughtWorks
+                Software Engineer @ Amazon
               </Typography>
             </CardContent>
             <CardActions

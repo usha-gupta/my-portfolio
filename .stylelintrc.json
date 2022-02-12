@@ -8,6 +8,14 @@
   "rules": {
     "string-quotes": "double",
     "selector-class-pattern": null,
-    "declaration-colon-newline-after": null
+    "declaration-colon-newline-after": null,
+    "value-no-vendor-prefix": [
+      true,
+      {
+        "ignoreValues": [
+          "box"
+        ]
+      }
+    ]
   }
 }

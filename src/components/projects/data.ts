@@ -163,7 +163,7 @@ const projects: Project[] = [
   {
     name: "Fuel Trades",
     description:
-      "Web app that helps Boston teens find the nearest available short-term housing.",
+      "An android app to calculate fuel prices, toll prices and trip price for one way and round trip.",
     image: FuelTradesImg,
     imageWebp: FuelTradesWebp,
     accomplishments: [
