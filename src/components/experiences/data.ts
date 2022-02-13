@@ -17,7 +17,7 @@ const companies: Company[] = [
     location: "Bangalore, IN",
     description:
       "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.",
-    accomplishments: ["Working at Device OS team"],
+    accomplishments: ["Working on Next Big Thing"],
     duration: "Jan 2022 - Present",
   },
   {

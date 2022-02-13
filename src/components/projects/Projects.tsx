@@ -87,7 +87,7 @@ const Projects = forwardRef((_, ref) => {
                   color="primary"
                   sx={{
                     textOverflow: "ellipsis",
-                    whiteSpace: "nowrap",
+                    whiteSpace: { xs: "inherit", sm: "nowrap" },
                     overflow: "hidden",
                   }}
                 >

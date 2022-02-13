@@ -738,7 +738,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Working at Device OS team
+                    Working on Next Big Thing
                   </p>
                 </li>
               </ul>
@@ -1103,7 +1103,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Paisa Vasool
@@ -1156,7 +1156,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     U-Move: Bike Rental App
@@ -1209,7 +1209,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Smart Queuing System
@@ -1262,7 +1262,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     People Counter App
@@ -1315,7 +1315,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
@@ -1368,7 +1368,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     DP & Videos Downloader
@@ -1421,7 +1421,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
@@ -1474,7 +1474,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Fuel Trades
@@ -3720,7 +3720,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.0
+            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.1
           </p>
         </div>
       </div>
@@ -4192,7 +4192,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Working at Device OS team
+                          Working on Next Big Thing
                         </p>
                       </li>
                     </ul>
@@ -4626,7 +4626,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Paisa Vasool
@@ -4679,7 +4679,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     U-Move: Bike Rental App
@@ -4732,7 +4732,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Smart Queuing System
@@ -4785,7 +4785,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     People Counter App
@@ -4838,7 +4838,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Status Downloader for WhatsApp
@@ -4891,7 +4891,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     DP & Videos Downloader
@@ -4944,7 +4944,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Red Basket - Groceries Shopping App
@@ -4997,7 +4997,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
                 >
                   <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-ooypt7-MuiTypography-root"
+                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
                     data-testid="project-title"
                   >
                     Fuel Trades
@@ -7243,7 +7243,7 @@ exports[`should verify the snapshot for light mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.0
+            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.1
           </p>
         </div>
       </div>

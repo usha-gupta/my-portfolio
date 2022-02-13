@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8ce17763-366b-4f26-af3d-428a928f882b/deploy-status)](https://app.netlify.com/sites/the-vis-sharma/deploys)
+![Deploy to Firebase Hosting on merge](https://github.com/the-vis-sharma/my-portfolio/actions/workflows/firebase-hosting-merge.yml/badge.svg)
 
 # Vishnu's Portfolio
 

@@ -50,7 +50,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               Paisa Vasool
@@ -103,7 +103,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               U-Move: Bike Rental App
@@ -156,7 +156,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               Smart Queuing System
@@ -209,7 +209,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               People Counter App
@@ -262,7 +262,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               Status Downloader for WhatsApp
@@ -315,7 +315,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               DP & Videos Downloader
@@ -368,7 +368,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               Red Basket - Groceries Shopping App
@@ -421,7 +421,7 @@ exports[`Projects verify snapshot for projects 1`] = `
             class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
           >
             <div
-              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-oaqt4h-MuiTypography-root"
+              class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-14szp5y-MuiTypography-root"
               data-testid="project-title"
             >
               Fuel Trades

@@ -70,7 +70,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Working at Device OS team
+              Working on Next Big Thing
             </p>
           </li>
         </ul>
@@ -459,7 +459,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Working at Device OS team
+              Working on Next Big Thing
             </p>
           </li>
         </ul>
