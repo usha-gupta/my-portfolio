@@ -55,7 +55,7 @@ const ResponsiveDrawer: React.FunctionComponent<ResponsiveDrawerProps> = (
         <AdvanceImg
           src={Logo}
           srcWebp={LogoWebp}
-          altText="Vishnu Bochiwal's Logo"
+          altText="Usha Gupta's Logo"
           style={{ width: "100%", margin: "1rem 0" }}
         />
       </Box>
@@ -79,7 +79,7 @@ const ResponsiveDrawer: React.FunctionComponent<ResponsiveDrawerProps> = (
           component={Link}
           rel="noopener"
           target="_blank"
-          href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+          href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
         >
           <ListItemIcon>
             <CloudDownload />

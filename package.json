@@ -1,9 +1,24 @@
 {
-  "name": "vishnu-portfolio",
-  "description": "This is portfolio website created by Vishnu Bochiwal using ReactJS and MUI",
+  "name": "usha-portfolio",
+  "description": "This is portfolio website created by Usha Gupta using ReactJS and MUI",
   "repository": "https://github.com/the-vis-sharma/my-portfolio",
-  "version": "1.2.1",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "jest --config ./jest.config.js",
+    "test:coverage": "jest --config ./jest.config.js --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'",
+    "prettier": "prettier --check './src/**/*.{ts,tsx,js,jsx}'",
+    "prettier:fix": "prettier --write './src/**/*.{ts,tsx,js,jsx}'",
+    "stylelint": "stylelint './src/**/*.{ts,tsx,js,jsx}'",
+    "stylelint:fix": "stylelint --fix './src/**/*.{ts,tsx,js,jsx}'",
+    "lint-staged": "lint-staged",
+    "postinstall": "husky install"
+  },
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -38,21 +53,6 @@
     "workbox-routing": "^5.1.4",
     "workbox-strategies": "^5.1.4",
     "workbox-streams": "^5.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "jest --config ./jest.config.js",
-    "test:coverage": "jest --config ./jest.config.js --coverage",
-    "eject": "react-scripts eject",
-    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
-    "lint:fix": "eslint --fix './src/**/*.{ts,tsx,js,jsx}'",
-    "prettier": "prettier --check './src/**/*.{ts,tsx,js,jsx}'",
-    "prettier:fix": "prettier --write './src/**/*.{ts,tsx,js,jsx}'",
-    "stylelint": "stylelint './src/**/*.{ts,tsx,js,jsx}'",
-    "stylelint:fix": "stylelint --fix './src/**/*.{ts,tsx,js,jsx}'",
-    "lint-staged": "lint-staged",
-    "postinstall": "husky install"
   },
   "browserslist": {
     "production": [

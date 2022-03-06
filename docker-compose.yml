@@ -1,7 +1,7 @@
 version: '3'
 services:
-  vishnu-portfolio-ui:
-    container_name: vishnu-portfolio
+  usha-portfolio-ui:
+    container_name: usha-portfolio
     build:
       context: .
       dockerfile: Dockerfile

@@ -2,13 +2,13 @@ import { initializeApp } from "firebase/app";
 import { initializeAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC9K02-tlEq0ZybHU7aCG3M3QGOeF_MX6E",
-  authDomain: "the-vis-sharma.firebaseapp.com",
-  projectId: "the-vis-sharma",
-  storageBucket: "the-vis-sharma.appspot.com",
-  messagingSenderId: "522959365081",
-  appId: "1:522959365081:web:300842f4a2bade7bcd2fc8",
-  measurementId: "G-GFP07EYKRR",
+  apiKey: "AIzaSyBRmKmkNjAVT-YDKL243J2CJnNWTvcorEk",
+  authDomain: "the-usha-gupta.firebaseapp.com",
+  projectId: "the-usha-gupta",
+  storageBucket: "the-usha-gupta.appspot.com",
+  messagingSenderId: "427647736903",
+  appId: "1:427647736903:web:73b47045fdd6295ef82562",
+  measurementId: "G-QRTNFDK63T",
 };
 
 const enableFirebaseAnalytics = (): void => {

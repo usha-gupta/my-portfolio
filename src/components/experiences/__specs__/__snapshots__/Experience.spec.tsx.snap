@@ -22,86 +22,6 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
         >
           <picture>
             <source
-              srcset="test-file-stub"
-              type="image/webp"
-            />
-            <source
-              srcset="test-file-stub"
-              type="image/jpeg"
-            />
-            <img
-              alt="Amazon Logo"
-              src="test-file-stub"
-              style="height: 40px;"
-            />
-          </picture>
-          <div
-            class="MuiBox-root css-0"
-          >
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
-            >
-              Software Dev Engineer
-            </h6>
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
-            >
-              Bangalore, IN
-            </h6>
-          </div>
-        </div>
-        <hr
-          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-        />
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
-        >
-          Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.
-        </p>
-        <h6
-          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
-        >
-          ACCOMPLISHMENTS
-        </h6>
-        <ul>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Working on Next Big Thing
-            </p>
-          </li>
-        </ul>
-      </div>
-      <hr
-        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-      />
-      <div
-        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-      >
-        <button
-          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
-          disabled=""
-          tabindex="-1"
-          type="button"
-        >
-          Jan 2022 - Present
-        </button>
-      </div>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
-    >
-      <div
-        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-      >
-        <div
-          class="MuiBox-root css-out6mg"
-        >
-          <picture>
-            <source
               srcset=""
               type="image/webp"
             />
@@ -110,7 +30,87 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
               type="image/jpeg"
             />
             <img
-              alt="Thoughtworks Logo"
+              alt="Freshworks Logo"
+              src="test-file-stub"
+              style="height: 40px;"
+            />
+          </picture>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
+            >
+              Software Engineer
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
+            >
+              Bangalore, IN
+            </h6>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
+        >
+          Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        >
+          ACCOMPLISHMENTS
+        </h6>
+        <ul>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Working on FreshDesk Product
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          Feb 2022 - Present
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiBox-root css-out6mg"
+        >
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Cognizant Logo"
               src="test-file-stub"
               style="height: 40px;"
             />
@@ -136,7 +136,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
         <p
           class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
         >
-          Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+          Cognizant is an American multinational information technology services and consulting company.
         </p>
         <h6
           class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
@@ -150,7 +150,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+              Build project from scratch using Angular and Spring Boot and delivered successfully to client with almost no defects handling thousand of users.
             </p>
           </li>
           <li
@@ -159,7 +159,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+              Created Test Completion Report Automation project using Angular, Java and Python to generate well formatted TCR reports for different projects within a minutes using Apache POI Lib
             </p>
           </li>
           <li
@@ -168,7 +168,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+              Solved business critical problems for clients using latest technologies.
             </p>
           </li>
         </ul>
@@ -185,7 +185,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
           tabindex="-1"
           type="button"
         >
-          Oct 2021 - Jan 2022
+          Oct 2019 - Feb 2022
         </button>
       </div>
     </div>
@@ -208,7 +208,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
               type="image/jpeg"
             />
             <img
-              alt="IBM Logo"
+              alt="LinuxWorld Informatics Pvt. Ltd. Logo"
               src="test-file-stub"
               style="height: 40px;"
             />
@@ -219,114 +219,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <h6
               class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
             >
-              Full Stack Developer
-            </h6>
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
-            >
-              Bangalore, IN
-            </h6>
-          </div>
-        </div>
-        <hr
-          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-        />
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
-        >
-          International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
-        </p>
-        <h6
-          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
-        >
-          ACCOMPLISHMENTS
-        </h6>
-        <ul>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Improved live tracking speed by 15% by optimising code
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Completed 400+ user stories and implemented 15+ new features.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <hr
-        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-      />
-      <div
-        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-      >
-        <button
-          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
-          disabled=""
-          tabindex="-1"
-          type="button"
-        >
-          Jun 2019 - Oct 2021
-        </button>
-      </div>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
-    >
-      <div
-        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-      >
-        <div
-          class="MuiBox-root css-out6mg"
-        >
-          <picture>
-            <source
-              srcset="test-file-stub"
-              type="image/webp"
-            />
-            <source
-              srcset="test-file-stub"
-              type="image/jpeg"
-            />
-            <img
-              alt="C-DAC Logo"
-              src="test-file-stub"
-              style="height: 40px;"
-            />
-          </picture>
-          <div
-            class="MuiBox-root css-0"
-          >
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
-            >
-              Machine Learning Trainee
+              Internship Trainee
             </h6>
             <h6
               class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
@@ -341,7 +234,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
         <p
           class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
         >
-          The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+          Linux World India is a leading name among the training institutes of India. The institute is active in the field of training from several years and has produced a number of professionals.
         </p>
         <h6
           class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
@@ -355,7 +248,7 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+              Done Industry 4.0 training by building Smarter World project.
             </p>
           </li>
           <li
@@ -364,7 +257,96 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+              Worked on AI, ML/DL with IoT using realtime data processing with Spark, BigData - Hadoop Framework running app on Kubernetes Clusters.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          May 2019 - Jun 2019
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiBox-root css-out6mg"
+        >
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Dotsquares Logo"
+              src="test-file-stub"
+              style="height: 40px;"
+            />
+          </picture>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
+            >
+              Salesforce Intern
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
+            >
+              Jaipur, IN
+            </h6>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
+        >
+          Dotsquares is an award winning offshore website design, mobile apps development and digital outsourcing agency based in East Sussex. Upscale your Bandwidth!
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        >
+          ACCOMPLISHMENTS
+        </h6>
+        <ul>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Worked on Force.com platform to build Recruiting App using HTML, CSS, DataLoader, Java etc.
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              It reduced the paper work for both candidates and recruiters
             </p>
           </li>
         </ul>
@@ -411,86 +393,6 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
         >
           <picture>
             <source
-              srcset="test-file-stub"
-              type="image/webp"
-            />
-            <source
-              srcset="test-file-stub"
-              type="image/jpeg"
-            />
-            <img
-              alt="Amazon Logo"
-              src="test-file-stub"
-              style="height: 40px;"
-            />
-          </picture>
-          <div
-            class="MuiBox-root css-0"
-          >
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
-            >
-              Software Dev Engineer
-            </h6>
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
-            >
-              Bangalore, IN
-            </h6>
-          </div>
-        </div>
-        <hr
-          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-        />
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
-        >
-          Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.
-        </p>
-        <h6
-          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
-        >
-          ACCOMPLISHMENTS
-        </h6>
-        <ul>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Working on Next Big Thing
-            </p>
-          </li>
-        </ul>
-      </div>
-      <hr
-        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-      />
-      <div
-        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-      >
-        <button
-          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
-          disabled=""
-          tabindex="-1"
-          type="button"
-        >
-          Jan 2022 - Present
-        </button>
-      </div>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
-    >
-      <div
-        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-      >
-        <div
-          class="MuiBox-root css-out6mg"
-        >
-          <picture>
-            <source
               srcset=""
               type="image/webp"
             />
@@ -499,7 +401,87 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
               type="image/jpeg"
             />
             <img
-              alt="Thoughtworks Logo"
+              alt="Freshworks Logo"
+              src="test-file-stub"
+              style="height: 40px;"
+            />
+          </picture>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
+            >
+              Software Engineer
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
+            >
+              Bangalore, IN
+            </h6>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
+        >
+          Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        >
+          ACCOMPLISHMENTS
+        </h6>
+        <ul>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Working on FreshDesk Product
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          Feb 2022 - Present
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiBox-root css-out6mg"
+        >
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Cognizant Logo"
               src="test-file-stub"
               style="height: 40px;"
             />
@@ -525,7 +507,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
         <p
           class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
         >
-          Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+          Cognizant is an American multinational information technology services and consulting company.
         </p>
         <h6
           class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
@@ -539,7 +521,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+              Build project from scratch using Angular and Spring Boot and delivered successfully to client with almost no defects handling thousand of users.
             </p>
           </li>
           <li
@@ -548,7 +530,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+              Created Test Completion Report Automation project using Angular, Java and Python to generate well formatted TCR reports for different projects within a minutes using Apache POI Lib
             </p>
           </li>
           <li
@@ -557,7 +539,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+              Solved business critical problems for clients using latest technologies.
             </p>
           </li>
         </ul>
@@ -574,7 +556,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
           tabindex="-1"
           type="button"
         >
-          Oct 2021 - Jan 2022
+          Oct 2019 - Feb 2022
         </button>
       </div>
     </div>
@@ -597,7 +579,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
               type="image/jpeg"
             />
             <img
-              alt="IBM Logo"
+              alt="LinuxWorld Informatics Pvt. Ltd. Logo"
               src="test-file-stub"
               style="height: 40px;"
             />
@@ -608,114 +590,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <h6
               class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
             >
-              Full Stack Developer
-            </h6>
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
-            >
-              Bangalore, IN
-            </h6>
-          </div>
-        </div>
-        <hr
-          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-        />
-        <p
-          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
-        >
-          International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
-        </p>
-        <h6
-          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
-        >
-          ACCOMPLISHMENTS
-        </h6>
-        <ul>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Improved live tracking speed by 15% by optimising code
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
-            </p>
-          </li>
-          <li
-            style="text-align: justify;"
-          >
-            <p
-              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
-            >
-              Completed 400+ user stories and implemented 15+ new features.
-            </p>
-          </li>
-        </ul>
-      </div>
-      <hr
-        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-      />
-      <div
-        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-      >
-        <button
-          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
-          disabled=""
-          tabindex="-1"
-          type="button"
-        >
-          Jun 2019 - Oct 2021
-        </button>
-      </div>
-    </div>
-    <div
-      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
-    >
-      <div
-        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-      >
-        <div
-          class="MuiBox-root css-out6mg"
-        >
-          <picture>
-            <source
-              srcset="test-file-stub"
-              type="image/webp"
-            />
-            <source
-              srcset="test-file-stub"
-              type="image/jpeg"
-            />
-            <img
-              alt="C-DAC Logo"
-              src="test-file-stub"
-              style="height: 40px;"
-            />
-          </picture>
-          <div
-            class="MuiBox-root css-0"
-          >
-            <h6
-              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
-            >
-              Machine Learning Trainee
+              Internship Trainee
             </h6>
             <h6
               class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
@@ -730,7 +605,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
         <p
           class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
         >
-          The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+          Linux World India is a leading name among the training institutes of India. The institute is active in the field of training from several years and has produced a number of professionals.
         </p>
         <h6
           class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
@@ -744,7 +619,7 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+              Done Industry 4.0 training by building Smarter World project.
             </p>
           </li>
           <li
@@ -753,7 +628,96 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+              Worked on AI, ML/DL with IoT using realtime data processing with Spark, BigData - Hadoop Framework running app on Kubernetes Clusters.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
+      />
+      <div
+        class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+      >
+        <button
+          class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
+          disabled=""
+          tabindex="-1"
+          type="button"
+        >
+          May 2019 - Jun 2019
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
+    >
+      <div
+        class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+      >
+        <div
+          class="MuiBox-root css-out6mg"
+        >
+          <picture>
+            <source
+              srcset="test-file-stub"
+              type="image/webp"
+            />
+            <source
+              srcset="test-file-stub"
+              type="image/jpeg"
+            />
+            <img
+              alt="Dotsquares Logo"
+              src="test-file-stub"
+              style="height: 40px;"
+            />
+          </picture>
+          <div
+            class="MuiBox-root css-0"
+          >
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle1 css-1wwkujw-MuiTypography-root"
+            >
+              Salesforce Intern
+            </h6>
+            <h6
+              class="MuiTypography-root MuiTypography-subtitle2 css-37mko6-MuiTypography-root"
+            >
+              Jaipur, IN
+            </h6>
+          </div>
+        </div>
+        <hr
+          class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+        />
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-1oetjkv-MuiTypography-root"
+        >
+          Dotsquares is an award winning offshore website design, mobile apps development and digital outsourcing agency based in East Sussex. Upscale your Bandwidth!
+        </p>
+        <h6
+          class="MuiTypography-root MuiTypography-subtitle2 css-ati914-MuiTypography-root"
+        >
+          ACCOMPLISHMENTS
+        </h6>
+        <ul>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Worked on Force.com platform to build Recruiting App using HTML, CSS, DataLoader, Java etc.
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              It reduced the paper work for both candidates and recruiters
             </p>
           </li>
         </ul>

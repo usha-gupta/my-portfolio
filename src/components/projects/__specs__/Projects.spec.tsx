@@ -11,11 +11,11 @@ describe("Projects", () => {
     const { getAllByTestId, getByTestId } = render(<Projects />);
     const projectCard = getAllByTestId("project-card");
     act(() => {
-      fireEvent.click(projectCard[2]);
+      fireEvent.click(projectCard[0]);
     });
 
     expect(getByTestId("modal-project-title").textContent).toEqual(
-      getAllByTestId("project-title")[2].textContent
+      getAllByTestId("project-title")[0].textContent
     );
   });
 
@@ -23,7 +23,7 @@ describe("Projects", () => {
     const { getAllByTestId, queryByTestId, getByRole } = render(<Projects />);
     const projectCard = getAllByTestId("project-card");
     act(() => {
-      fireEvent.click(projectCard[2]);
+      fireEvent.click(projectCard[0]);
     });
 
     await waitFor(() => {

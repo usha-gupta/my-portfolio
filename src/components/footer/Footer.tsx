@@ -16,9 +16,9 @@ const Footer = forwardRef((_, ref) => (
         justifyContent={{ xs: "center", sm: "flex-start" }}
       >
         <SocialLink
-          href="mailto:the.vis.sharma@gmail.com"
+          href="mailto:usha.gupta2040@gmail.com"
           startIcon={<Email />}
-          text="the.vis.sharma@gmail.com"
+          text="usha.gupta2040@gmail.com"
         />
       </Grid>
       <Grid
@@ -30,23 +30,9 @@ const Footer = forwardRef((_, ref) => (
         justifyContent={{ xs: "center", sm: "flex-start" }}
       >
         <SocialLink
-          href="mailto:bochiwal.visnu@gmail.com"
-          startIcon={<Email />}
-          text="bochiwal.visnu@gmail.com"
-        />
-      </Grid>
-      <Grid
-        item
-        lg={3}
-        sm={6}
-        xs={12}
-        display="flex"
-        justifyContent={{ xs: "center", sm: "flex-start" }}
-      >
-        <SocialLink
-          href="https://www.linkedin.com/in/the-vis-sharma/"
+          href="https://www.linkedin.com/in/usha-gupta26/"
           startIcon={<LinkedIn />}
-          text="/the-vis-sharma"
+          text="/usha-gupta26"
         />
       </Grid>
       <Grid
@@ -58,9 +44,9 @@ const Footer = forwardRef((_, ref) => (
         justifyContent={{ xs: "center", sm: "flex-start" }}
       >
         <SocialLink
-          href="https://github.com/the-vis-sharma"
+          href="https://github.com/usha-gupta"
           startIcon={<GitHub />}
-          text="/the-vis-sharma"
+          text="/usha-gupta"
         />
       </Grid>
     </Grid>
@@ -90,7 +76,7 @@ const Footer = forwardRef((_, ref) => (
       variant="body2"
       color="white"
     >
-      © 2022 Vishnu Bochiwal | All Right Reserved | &nbsp;
+      © 2022 Usha Gupta | All Right Reserved | &nbsp;
       {`v${AppInfo.version}`}
     </Typography>
   </Box>

@@ -14,7 +14,7 @@ exports[`should verify snapshot 1`] = `
       >
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-          href="mailto:the.vis.sharma@gmail.com"
+          href="mailto:usha.gupta2040@gmail.com"
           rel="noreferrer"
           target="_blank"
         >
@@ -33,7 +33,7 @@ exports[`should verify snapshot 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-3hfxt3-MuiTypography-root"
           >
-            the.vis.sharma@gmail.com
+            usha.gupta2040@gmail.com
           </p>
         </a>
       </div>
@@ -42,35 +42,7 @@ exports[`should verify snapshot 1`] = `
       >
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-          href="mailto:bochiwal.visnu@gmail.com"
-          rel="noreferrer"
-          target="_blank"
-        >
-          <svg
-            aria-hidden="true"
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-            data-testid="EmailIcon"
-            focusable="false"
-            viewBox="0 0 24 24"
-          >
-            <path
-              d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
-            />
-          </svg>
-           
-          <p
-            class="MuiTypography-root MuiTypography-body1 css-3hfxt3-MuiTypography-root"
-          >
-            bochiwal.visnu@gmail.com
-          </p>
-        </a>
-      </div>
-      <div
-        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3 css-uus11e-MuiGrid-root"
-      >
-        <a
-          class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-          href="https://www.linkedin.com/in/the-vis-sharma/"
+          href="https://www.linkedin.com/in/usha-gupta26/"
           rel="noreferrer"
           target="_blank"
         >
@@ -89,7 +61,7 @@ exports[`should verify snapshot 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-3hfxt3-MuiTypography-root"
           >
-            /the-vis-sharma
+            /usha-gupta26
           </p>
         </a>
       </div>
@@ -98,7 +70,7 @@ exports[`should verify snapshot 1`] = `
       >
         <a
           class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-          href="https://github.com/the-vis-sharma"
+          href="https://github.com/usha-gupta"
           rel="noreferrer"
           target="_blank"
         >
@@ -117,7 +89,7 @@ exports[`should verify snapshot 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body1 css-3hfxt3-MuiTypography-root"
           >
-            /the-vis-sharma
+            /usha-gupta
           </p>
         </a>
       </div>
@@ -137,7 +109,7 @@ exports[`should verify snapshot 1`] = `
     <p
       class="MuiTypography-root MuiTypography-body2 css-13z6ubz-MuiTypography-root"
     >
-      © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.1
+      © 2022 Usha Gupta | All Right Reserved |  v1.0.0
     </p>
   </div>
 </DocumentFragment>

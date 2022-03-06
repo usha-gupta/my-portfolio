@@ -175,7 +175,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 type="image/jpeg"
               />
               <img
-                alt="Vishnu Bochiwal's Logo"
+                alt="Usha Gupta's Logo"
                 src="test-file-stub"
                 style="height: 3.5rem;"
               />
@@ -236,7 +236,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   type="image/jpeg"
                 />
                 <img
-                  alt="Vishnu Bochiwal's Logo"
+                  alt="Usha Gupta's Logo"
                   src="test-file-stub"
                   style="width: 100%; margin: 1rem 0px;"
                 />
@@ -496,7 +496,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               </div>
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-padding MuiListItem-button css-12zeqyk-MuiTypography-root-MuiLink-root-MuiButtonBase-root-MuiListItem-root"
-                href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
                 rel="noopener"
                 tabindex="0"
                 target="_blank"
@@ -552,7 +552,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             <h5
               class="MuiTypography-root MuiTypography-h5 c3 css-1n1jaap-MuiTypography-root"
             >
-              Vishnu Bochiwal
+              Usha Gupta
             </h5>
             <p
               class="MuiTypography-root MuiTypography-body1 c4 css-1adtc89-MuiTypography-root"
@@ -593,7 +593,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   type="image/jpeg"
                 />
                 <img
-                  alt="Vishnu Bochiwal"
+                  alt="Usha Gupta"
                   src="test-file-stub"
                   style="width: 200px; height: 200px; position: absolute; top: 0px; left: 50%; transform: translate(-50%, 0); border: 5px solid #008073; border-radius: 50%;"
                 />
@@ -607,12 +607,12 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <div
                     class="MuiTypography-root MuiTypography-h4 css-1jkvi1x-MuiTypography-root"
                   >
-                    Vishnu Bochiwal
+                    Usha Gupta
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-h5salg-MuiTypography-root"
                   >
-                    Software Engineer @ Amazon
+                    Software Engineer @ Freshworks
                   </p>
                 </div>
                 <div
@@ -620,7 +620,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 >
                   <a
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-195mai-MuiButtonBase-root-MuiButton-root"
-                    href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                    href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
                     rel="noreferrer"
                     tabindex="0"
                     target="_blank"
@@ -654,7 +654,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                I'm a full stack software engineer having almost 3 years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
+                I'm a full stack software engineer having almost two and half years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
               </p>
             </div>
           </div>
@@ -690,86 +690,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
               >
                 <picture>
                   <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Amazon Logo"
-                    src="test-file-stub"
-                    style="height: 40px;"
-                  />
-                </picture>
-                <div
-                  class="MuiBox-root css-0"
-                >
-                  <h6
-                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
-                  >
-                    Software Dev Engineer
-                  </h6>
-                  <h6
-                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
-                  >
-                    Bangalore, IN
-                  </h6>
-                </div>
-              </div>
-              <hr
-                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
-              />
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
-              >
-                Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.
-              </p>
-              <h6
-                class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
-              >
-                ACCOMPLISHMENTS
-              </h6>
-              <ul>
-                <li
-                  style="text-align: justify;"
-                >
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                  >
-                    Working on Next Big Thing
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <hr
-              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-            />
-            <div
-              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-            >
-              <button
-                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                disabled=""
-                tabindex="-1"
-                type="button"
-              >
-                Jan 2022 - Present
-              </button>
-            </div>
-          </div>
-          <div
-            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-wh8a98-MuiPaper-root-MuiCard-root"
-          >
-            <div
-              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-            >
-              <div
-                class="MuiBox-root css-out6mg"
-              >
-                <picture>
-                  <source
                     srcset=""
                     type="image/webp"
                   />
@@ -778,7 +698,87 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     type="image/jpeg"
                   />
                   <img
-                    alt="Thoughtworks Logo"
+                    alt="Freshworks Logo"
+                    src="test-file-stub"
+                    style="height: 40px;"
+                  />
+                </picture>
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                  >
+                    Software Engineer
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                  >
+                    Bangalore, IN
+                  </h6>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
+              >
+                ACCOMPLISHMENTS
+              </h6>
+              <ul>
+                <li
+                  style="text-align: justify;"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                  >
+                    Working on FreshDesk Product
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                Feb 2022 - Present
+              </button>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-wh8a98-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-out6mg"
+              >
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Cognizant Logo"
                     src="test-file-stub"
                     style="height: 40px;"
                   />
@@ -804,7 +804,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+                Cognizant is an American multinational information technology services and consulting company.
               </p>
               <h6
                 class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
@@ -818,7 +818,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
+                    Build project from scratch using Angular and Spring Boot and delivered successfully to client with almost no defects handling thousand of users.
                   </p>
                 </li>
                 <li
@@ -827,7 +827,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
+                    Created Test Completion Report Automation project using Angular, Java and Python to generate well formatted TCR reports for different projects within a minutes using Apache POI Lib
                   </p>
                 </li>
                 <li
@@ -836,7 +836,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                    Solved business critical problems for clients using latest technologies.
                   </p>
                 </li>
               </ul>
@@ -853,7 +853,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 tabindex="-1"
                 type="button"
               >
-                Oct 2021 - Jan 2022
+                Oct 2019 - Feb 2022
               </button>
             </div>
           </div>
@@ -876,7 +876,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     type="image/jpeg"
                   />
                   <img
-                    alt="IBM Logo"
+                    alt="LinuxWorld Informatics Pvt. Ltd. Logo"
                     src="test-file-stub"
                     style="height: 40px;"
                   />
@@ -887,114 +887,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
                   >
-                    Full Stack Developer
-                  </h6>
-                  <h6
-                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
-                  >
-                    Bangalore, IN
-                  </h6>
-                </div>
-              </div>
-              <hr
-                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
-              />
-              <p
-                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
-              >
-                International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
-              </p>
-              <h6
-                class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
-              >
-                ACCOMPLISHMENTS
-              </h6>
-              <ul>
-                <li
-                  style="text-align: justify;"
-                >
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                  >
-                    Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
-                  </p>
-                </li>
-                <li
-                  style="text-align: justify;"
-                >
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                  >
-                    Improved live tracking speed by 15% by optimising code
-                  </p>
-                </li>
-                <li
-                  style="text-align: justify;"
-                >
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                  >
-                    Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
-                  </p>
-                </li>
-                <li
-                  style="text-align: justify;"
-                >
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                  >
-                    Completed 400+ user stories and implemented 15+ new features.
-                  </p>
-                </li>
-              </ul>
-            </div>
-            <hr
-              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-            />
-            <div
-              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-            >
-              <button
-                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                disabled=""
-                tabindex="-1"
-                type="button"
-              >
-                Jun 2019 - Oct 2021
-              </button>
-            </div>
-          </div>
-          <div
-            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-wh8a98-MuiPaper-root-MuiCard-root"
-          >
-            <div
-              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-            >
-              <div
-                class="MuiBox-root css-out6mg"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="C-DAC Logo"
-                    src="test-file-stub"
-                    style="height: 40px;"
-                  />
-                </picture>
-                <div
-                  class="MuiBox-root css-0"
-                >
-                  <h6
-                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
-                  >
-                    Machine Learning Trainee
+                    Internship Trainee
                   </h6>
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
@@ -1009,7 +902,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+                Linux World India is a leading name among the training institutes of India. The institute is active in the field of training from several years and has produced a number of professionals.
               </p>
               <h6
                 class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
@@ -1023,7 +916,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                    Done Industry 4.0 training by building Smarter World project.
                   </p>
                 </li>
                 <li
@@ -1032,7 +925,96 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                    Worked on AI, ML/DL with IoT using realtime data processing with Spark, BigData - Hadoop Framework running app on Kubernetes Clusters.
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <hr
+              class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
+            />
+            <div
+              class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
+            >
+              <button
+                class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
+                disabled=""
+                tabindex="-1"
+                type="button"
+              >
+                May 2019 - Jun 2019
+              </button>
+            </div>
+          </div>
+          <div
+            class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-wh8a98-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-out6mg"
+              >
+                <picture>
+                  <source
+                    srcset="test-file-stub"
+                    type="image/webp"
+                  />
+                  <source
+                    srcset="test-file-stub"
+                    type="image/jpeg"
+                  />
+                  <img
+                    alt="Dotsquares Logo"
+                    src="test-file-stub"
+                    style="height: 40px;"
+                  />
+                </picture>
+                <div
+                  class="MuiBox-root css-0"
+                >
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                  >
+                    Salesforce Intern
+                  </h6>
+                  <h6
+                    class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                  >
+                    Jaipur, IN
+                  </h6>
+                </div>
+              </div>
+              <hr
+                class="MuiDivider-root MuiDivider-fullWidth css-hbclku-MuiDivider-root"
+              />
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+              >
+                Dotsquares is an award winning offshore website design, mobile apps development and digital outsourcing agency based in East Sussex. Upscale your Bandwidth!
+              </p>
+              <h6
+                class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
+              >
+                ACCOMPLISHMENTS
+              </h6>
+              <ul>
+                <li
+                  style="text-align: justify;"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                  >
+                    Worked on Force.com platform to build Recruiting App using HTML, CSS, DataLoader, Java etc.
+                  </p>
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                  >
+                    It reduced the paper work for both candidates and recruiters
                   </p>
                 </li>
               </ul>
@@ -1130,377 +1112,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 </div>
               </div>
             </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="U-Move: Bike Rental App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    U-Move: Bike Rental App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Smart Queuing System screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Smart Queuing System
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="People Counter App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    People Counter App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Status Downloader for WhatsApp screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Status Downloader for WhatsApp
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    This is a android application to download and share WhatsApp status into your.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="DP & Videos Downloader screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    DP & Videos Downloader
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Red Basket - Groceries Shopping App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Red Basket - Groceries Shopping App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    This is a clone of Big Basket App.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Fuel Trades screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Fuel Trades
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-5au6j7-MuiTypography-root"
-                  >
-                    An android app to calculate fuel prices, toll prices and trip price for one way and round trip.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-199nkft-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
@@ -1548,7 +1159,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   >
                     <picture>
                       <source
-                        srcset="test-file-stub"
+                        srcset=""
                         type="image/webp"
                       />
                       <source
@@ -1556,7 +1167,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="ReactJS logo"
+                        alt="Ember JS logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -1565,35 +1176,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    ReactJS
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Redux logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Redux
+                    Ember JS
                   </p>
                 </div>
                 <div
@@ -1696,6 +1279,34 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
+                        alt="SASS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    SASS
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
                         alt="Material Design logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
@@ -1706,6 +1317,34 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Material Design
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Boostrap logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Boostrap
                   </p>
                 </div>
               </div>
@@ -1800,7 +1439,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Node.Js logo"
+                        alt="Ruby On Rails logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -1809,35 +1448,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Node.Js
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Core PHP logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Core PHP
+                    Ruby On Rails
                   </p>
                 </div>
               </div>
@@ -1916,118 +1527,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     Mockito
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Cucumber logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cucumber
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Spock Framework logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Spock Framework
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Jest logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Jest
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="React Testing Library logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    React Testing Library
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -2064,7 +1563,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Java 11 logo"
+                        alt="Java 8 logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -2073,7 +1572,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Java 11
+                    Java 8
                   </p>
                 </div>
                 <div
@@ -2092,7 +1591,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Python 3 logo"
+                        alt="Ruby logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -2101,63 +1600,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Python 3
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="C/C++ logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    C/C++
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Shell Scripting logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Shell Scripting
+                    Ruby
                   </p>
                 </div>
                 <div
@@ -2264,62 +1707,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     Android Development
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Flutter logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Flutter
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Ionic 4 logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Ionic 4
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -2366,62 +1753,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     MySQL
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="MongoDB logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    MongoDB
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Cassandra logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cassandra
                   </p>
                 </div>
                 <div
@@ -2498,34 +1829,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Google Cloud
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="AWS logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    AWS
                   </p>
                 </div>
                 <div
@@ -2630,118 +1933,6 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Docker
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Ansible logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Ansible
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Jenkins logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Jenkins
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Grafana logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Grafana
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Prometheus logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Prometheus
                   </p>
                 </div>
               </div>
@@ -2859,229 +2050,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   >
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Google Cloud Certified Professional Cloud Architect
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
-                  >
-                    A Google Cloud Certified - Professional Cloud Architect enables organizations to leverage Google Cloud technologies. Through an understanding of cloud architecture and Google technology, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Google | June 2021 - June 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      AWS Certified Cloud Practitioner
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
-                  >
-                    Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    AWS | August 2020 - August 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Microsoft Certified: Azure Data Scientist Associate
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
-                  >
-                    Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Microsoft | January 2021 - January 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      href="https://www.credly.com/badges/27f9824e-0a8e-4edb-b5c3-5b87d682f5ef/public_url"
                       rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
@@ -3111,81 +2080,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   </button>
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-v4sxju-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://confirm.udacity.com/PRCEZS2R"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Intel® Edge AI For IoT Developers Nanodegree
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-5au6j7-MuiTypography-root"
-                  >
-                    Earner of this certificate knows the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of computer vision and deep learning inference applications and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-rr7dug-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Udacity | July 2020
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1eggpli-MuiButtonBase-root-MuiButton-root"
-                    href="https://confirm.udacity.com/PRCEZS2R"
+                    href="https://www.credly.com/badges/27f9824e-0a8e-4edb-b5c3-5b87d682f5ef/public_url"
                     rel="noreferrer"
                     tabindex="0"
                     target="_blank"
@@ -3348,7 +2243,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    67.20%
+                    68.16%
                   </button>
                 </div>
               </div>
@@ -3377,7 +2272,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     >
                       School/College:
                     </span>
-                     Adarsh Vidya Mandir
+                     Rajvansh Public Sr. Sec. School
                   </h6>
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle1 css-2rdmh4-MuiTypography-root"
@@ -3417,7 +2312,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    May 2013 - March 2014
+                    May 2014 - March 2015
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
@@ -3440,7 +2335,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    Jaswantgarh IN
+                    Jaipur IN
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
@@ -3463,7 +2358,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    70.60%
+                    74.20%
                   </button>
                 </div>
               </div>
@@ -3492,7 +2387,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                     >
                       School/College:
                     </span>
-                     Adarsh Vidya Mandir
+                     Rajvansh Public Sr. Sec. School
                   </h6>
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle1 css-2rdmh4-MuiTypography-root"
@@ -3532,7 +2427,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    May 2011 - March 2012
+                    May 2012 - March 2013
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-znznpu-MuiButtonBase-root-MuiButton-root"
@@ -3555,7 +2450,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    Jaswantgarh IN
+                    Jaipur IN
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1eggpli-MuiButtonBase-root-MuiButton-root"
@@ -3578,7 +2473,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                         />
                       </svg>
                     </span>
-                    77.83%
+                    70%
                   </button>
                 </div>
               </div>
@@ -3597,7 +2492,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="mailto:the.vis.sharma@gmail.com"
+                href="mailto:usha.gupta2040@gmail.com"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -3616,7 +2511,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  the.vis.sharma@gmail.com
+                  usha.gupta2040@gmail.com
                 </p>
               </a>
             </div>
@@ -3625,35 +2520,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="mailto:bochiwal.visnu@gmail.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                  data-testid="EmailIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
-                  />
-                </svg>
-                 
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
-                >
-                  bochiwal.visnu@gmail.com
-                </p>
-              </a>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3 css-uus11e-MuiGrid-root"
-            >
-              <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="https://www.linkedin.com/in/the-vis-sharma/"
+                href="https://www.linkedin.com/in/usha-gupta26/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -3672,7 +2539,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  /the-vis-sharma
+                  /usha-gupta26
                 </p>
               </a>
             </div>
@@ -3681,7 +2548,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="https://github.com/the-vis-sharma"
+                href="https://github.com/usha-gupta"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -3700,7 +2567,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  /the-vis-sharma
+                  /usha-gupta
                 </p>
               </a>
             </div>
@@ -3720,7 +2587,7 @@ exports[`should verify the snapshot for dark mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.1
+            © 2022 Usha Gupta | All Right Reserved |  v1.0.0
           </p>
         </div>
       </div>
@@ -3904,7 +2771,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 type="image/jpeg"
               />
               <img
-                alt="Vishnu Bochiwal's Logo"
+                alt="Usha Gupta's Logo"
                 src="test-file-stub"
                 style="height: 3.5rem;"
               />
@@ -3963,7 +2830,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             <h5
               class="MuiTypography-root MuiTypography-h5 c3 css-1n1jaap-MuiTypography-root"
             >
-              Vishnu Bochiwal
+              Usha Gupta
             </h5>
             <p
               class="MuiTypography-root MuiTypography-body1 c4 css-1adtc89-MuiTypography-root"
@@ -4004,7 +2871,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   type="image/jpeg"
                 />
                 <img
-                  alt="Vishnu Bochiwal"
+                  alt="Usha Gupta"
                   src="test-file-stub"
                   style="width: 200px; height: 200px; position: absolute; top: 0px; left: 50%; transform: translate(-50%, 0); border: 5px solid #008073; border-radius: 50%;"
                 />
@@ -4018,12 +2885,12 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <div
                     class="MuiTypography-root MuiTypography-h4 css-1jkvi1x-MuiTypography-root"
                   >
-                    Vishnu Bochiwal
+                    Usha Gupta
                   </div>
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-qe2ovw-MuiTypography-root"
                   >
-                    Software Engineer @ Amazon
+                    Software Engineer @ Freshworks
                   </p>
                 </div>
                 <div
@@ -4031,7 +2898,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 >
                   <a
                     class="MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary MuiButton-sizeMedium MuiButton-outlinedSizeMedium MuiButtonBase-root  css-1f78ynr-MuiButtonBase-root-MuiButton-root"
-                    href="https://drive.google.com/file/d/1BrGKXBXLKrarrtJx_iilwX50S5U9wWzv/view"
+                    href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
                     rel="noreferrer"
                     tabindex="0"
                     target="_blank"
@@ -4065,7 +2932,7 @@ exports[`should verify the snapshot for light mode 1`] = `
               <p
                 class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
               >
-                I'm a full stack software engineer having almost 3 years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
+                I'm a full stack software engineer having almost two and half years of experience developing and delivering which are handling millions of users daily. I have a deep interest and passion for technology. I love writing and owning codes and enjoy working with people who will keep challenging you at every stage. I have strong problem solving, analytic, decision-making and excellent communication with interpersonal skills. I'm self-driven and motivated with the desire to work in a fast-paced, results-driven agile environment with varied responsibilities. I love to challenge myself to deliver these solutions with the highest quality.
               </p>
             </div>
           </div>
@@ -4102,114 +2969,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 <div
                   class="MuiBox-root css-v7v99c"
                 >
-                  Jan 2022 - Present
-                </div>
-              </div>
-              <div
-                class="MuiTimelineSeparator-root css-1fe7e6p-MuiTimelineSeparator-root"
-              >
-                <span
-                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
-                />
-                <span
-                  class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledPrimary css-18aap9a-MuiTimelineDot-root"
-                >
-                  <svg
-                    aria-hidden="true"
-                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                    data-testid="AccessTimeFilledIcon"
-                    focusable="false"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41z"
-                    />
-                  </svg>
-                </span>
-                <span
-                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
-                />
-              </div>
-              <div
-                class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-1pfkyee-MuiTypography-root-MuiTimelineContent-root"
-              >
-                <div
-                  class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
-                >
-                  <div
-                    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                  >
-                    <div
-                      class="MuiBox-root css-out6mg"
-                    >
-                      <picture>
-                        <source
-                          srcset="test-file-stub"
-                          type="image/webp"
-                        />
-                        <source
-                          srcset="test-file-stub"
-                          type="image/jpeg"
-                        />
-                        <img
-                          alt="Amazon Logo"
-                          src="test-file-stub"
-                          style="height: 40px;"
-                        />
-                      </picture>
-                      <div
-                        class="MuiBox-root css-0"
-                      >
-                        <h6
-                          class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
-                        >
-                          Software Dev Engineer
-                        </h6>
-                        <h6
-                          class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
-                        >
-                          Bangalore, IN
-                        </h6>
-                      </div>
-                    </div>
-                    <hr
-                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
-                    />
-                    <p
-                      class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
-                    >
-                      Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.
-                    </p>
-                    <h6
-                      class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
-                    >
-                      ACCOMPLISHMENTS
-                    </h6>
-                    <ul>
-                      <li
-                        style="text-align: justify;"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                        >
-                          Working on Next Big Thing
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </li>
-            <li
-              class="MuiTimelineItem-root MuiTimelineItem-positionRight css-ny8qih-MuiTimelineItem-root"
-            >
-              <div
-                class="MuiTypography-root MuiTypography-body2 MuiTimelineOppositeContent-root MuiTimelineOppositeContent-positionRight css-89rx6e-MuiTypography-root-MuiTimelineOppositeContent-root"
-              >
-                <div
-                  class="MuiBox-root css-v7v99c"
-                >
-                  Oct 2021 - Jan 2022
+                  Feb 2022 - Present
                 </div>
               </div>
               <div
@@ -4259,7 +3019,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                           type="image/jpeg"
                         />
                         <img
-                          alt="Thoughtworks Logo"
+                          alt="Freshworks Logo"
                           src="test-file-stub"
                           style="height: 40px;"
                         />
@@ -4270,7 +3030,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <h6
                           class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
                         >
-                          Full Stack Developer
+                          Software Engineer
                         </h6>
                         <h6
                           class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
@@ -4285,7 +3045,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
                     >
-                      Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.
+                      Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.
                     </p>
                     <h6
                       class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
@@ -4299,25 +3059,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members
-                        </p>
-                      </li>
-                      <li
-                        style="text-align: justify;"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                        >
-                          Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing
-                        </p>
-                      </li>
-                      <li
-                        style="text-align: justify;"
-                      >
-                        <p
-                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
-                        >
-                          Created Backend API for product details page with basic product details, quanitity, prices, dealers etc
+                          Working on FreshDesk Product
                         </p>
                       </li>
                     </ul>
@@ -4334,7 +3076,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 <div
                   class="MuiBox-root css-v7v99c"
                 >
-                  Jun 2019 - Oct 2021
+                  Oct 2019 - Feb 2022
                 </div>
               </div>
               <div
@@ -4384,7 +3126,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                           type="image/jpeg"
                         />
                         <img
-                          alt="IBM Logo"
+                          alt="Cognizant Logo"
                           src="test-file-stub"
                           style="height: 40px;"
                         />
@@ -4410,7 +3152,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
                     >
-                      International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.
+                      Cognizant is an American multinational information technology services and consulting company.
                     </p>
                     <h6
                       class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
@@ -4424,7 +3166,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.
+                          Build project from scratch using Angular and Spring Boot and delivered successfully to client with almost no defects handling thousand of users.
                         </p>
                       </li>
                       <li
@@ -4433,7 +3175,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Improved live tracking speed by 15% by optimising code
+                          Created Test Completion Report Automation project using Angular, Java and Python to generate well formatted TCR reports for different projects within a minutes using Apache POI Lib
                         </p>
                       </li>
                       <li
@@ -4442,7 +3184,114 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.
+                          Solved business critical problems for clients using latest technologies.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="MuiTimelineItem-root MuiTimelineItem-positionRight css-ny8qih-MuiTimelineItem-root"
+            >
+              <div
+                class="MuiTypography-root MuiTypography-body2 MuiTimelineOppositeContent-root MuiTimelineOppositeContent-positionRight css-89rx6e-MuiTypography-root-MuiTimelineOppositeContent-root"
+              >
+                <div
+                  class="MuiBox-root css-v7v99c"
+                >
+                  May 2019 - Jun 2019
+                </div>
+              </div>
+              <div
+                class="MuiTimelineSeparator-root css-1fe7e6p-MuiTimelineSeparator-root"
+              >
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+                <span
+                  class="MuiTimelineDot-root MuiTimelineDot-filled MuiTimelineDot-filledPrimary css-18aap9a-MuiTimelineDot-root"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="AccessTimeFilledIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zm3.3 14.71L11 12.41V7h2v4.59l3.71 3.71-1.42 1.41z"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="MuiTimelineConnector-root css-1ami7lv-MuiTimelineConnector-root"
+                />
+              </div>
+              <div
+                class="MuiTypography-root MuiTypography-body1 MuiTimelineContent-root MuiTimelineContent-positionRight css-1pfkyee-MuiTypography-root-MuiTimelineContent-root"
+              >
+                <div
+                  class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1wqstqh-MuiPaper-root-MuiCard-root"
+                >
+                  <div
+                    class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+                  >
+                    <div
+                      class="MuiBox-root css-out6mg"
+                    >
+                      <picture>
+                        <source
+                          srcset="test-file-stub"
+                          type="image/webp"
+                        />
+                        <source
+                          srcset="test-file-stub"
+                          type="image/jpeg"
+                        />
+                        <img
+                          alt="LinuxWorld Informatics Pvt. Ltd. Logo"
+                          src="test-file-stub"
+                          style="height: 40px;"
+                        />
+                      </picture>
+                      <div
+                        class="MuiBox-root css-0"
+                      >
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
+                        >
+                          Internship Trainee
+                        </h6>
+                        <h6
+                          class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
+                        >
+                          Jaipur, IN
+                        </h6>
+                      </div>
+                    </div>
+                    <hr
+                      class="MuiDivider-root MuiDivider-fullWidth css-ctpjxq-MuiDivider-root"
+                    />
+                    <p
+                      class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
+                    >
+                      Linux World India is a leading name among the training institutes of India. The institute is active in the field of training from several years and has produced a number of professionals.
+                    </p>
+                    <h6
+                      class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
+                    >
+                      ACCOMPLISHMENTS
+                    </h6>
+                    <ul>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                        >
+                          Done Industry 4.0 training by building Smarter World project.
                         </p>
                       </li>
                       <li
@@ -4451,7 +3300,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Completed 400+ user stories and implemented 15+ new features.
+                          Worked on AI, ML/DL with IoT using realtime data processing with Spark, BigData - Hadoop Framework running app on Kubernetes Clusters.
                         </p>
                       </li>
                     </ul>
@@ -4518,7 +3367,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                           type="image/jpeg"
                         />
                         <img
-                          alt="C-DAC Logo"
+                          alt="Dotsquares Logo"
                           src="test-file-stub"
                           style="height: 40px;"
                         />
@@ -4529,7 +3378,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <h6
                           class="MuiTypography-root MuiTypography-subtitle1 css-3donpr-MuiTypography-root"
                         >
-                          Machine Learning Trainee
+                          Salesforce Intern
                         </h6>
                         <h6
                           class="MuiTypography-root MuiTypography-subtitle2 css-toxn3p-MuiTypography-root"
@@ -4544,7 +3393,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     <p
                       class="MuiTypography-root MuiTypography-body1 css-1tlvbra-MuiTypography-root"
                     >
-                      The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.
+                      Dotsquares is an award winning offshore website design, mobile apps development and digital outsourcing agency based in East Sussex. Upscale your Bandwidth!
                     </p>
                     <h6
                       class="MuiTypography-root MuiTypography-subtitle2 css-1gjkil8-MuiTypography-root"
@@ -4558,7 +3407,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast
+                          Worked on Force.com platform to build Recruiting App using HTML, CSS, DataLoader, Java etc.
                         </p>
                       </li>
                       <li
@@ -4567,7 +3416,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval
+                          It reduced the paper work for both candidates and recruiters
                         </p>
                       </li>
                     </ul>
@@ -4653,377 +3502,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                 </div>
               </div>
             </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="U-Move: Bike Rental App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    U-Move: Bike Rental App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    A Bike Rental Project with Angular 8 Admin portal, Ionic 4 App for android & iOS with spring boot for backend.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Smart Queuing System screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Smart Queuing System
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    This is used to detect the people in queue to smartly manage the queue at various places in our day to day life.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="People Counter App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    People Counter App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    The app will detect people in a designated area, providing the number of people in the frame, the average duration of people spend and total count.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Status Downloader for WhatsApp screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Status Downloader for WhatsApp
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    This is a android application to download and share WhatsApp status into your.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="DP & Videos Downloader screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    DP & Videos Downloader
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    View & Download Instagram Profile Picture & Videos in full & HD Resolution and Zoom Picture with The DP & Videos Downloader app.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Red Basket - Groceries Shopping App screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Red Basket - Groceries Shopping App
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    This is a clone of Big Basket App.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 MuiGrid-grid-lg-4 css-hhotpj-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="project-card"
-              >
-                <picture>
-                  <source
-                    srcset="test-file-stub"
-                    type="image/webp"
-                  />
-                  <source
-                    srcset="test-file-stub"
-                    type="image/jpeg"
-                  />
-                  <img
-                    alt="Fuel Trades screenshot"
-                    src="test-file-stub"
-                    style="display: block; width: 100%; height: 140px; object-fit: cover;"
-                  />
-                </picture>
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-1evdgmm-MuiTypography-root"
-                    data-testid="project-title"
-                  >
-                    Fuel Trades
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 c7 css-xnth2h-MuiTypography-root"
-                  >
-                    An android app to calculate fuel prices, toll prices and trip price for one way and round trip.
-                  </p>
-                </div>
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1t6e9jv-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeSmall MuiButton-textSizeSmall MuiButtonBase-root  css-1uvkcrt-MuiButtonBase-root-MuiButton-root"
-                    tabindex="0"
-                    type="button"
-                  >
-                    Learn More
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </button>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         <div
@@ -5071,7 +3549,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   >
                     <picture>
                       <source
-                        srcset="test-file-stub"
+                        srcset=""
                         type="image/webp"
                       />
                       <source
@@ -5079,7 +3557,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="ReactJS logo"
+                        alt="Ember JS logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -5088,35 +3566,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    ReactJS
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Redux logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Redux
+                    Ember JS
                   </p>
                 </div>
                 <div
@@ -5219,6 +3669,34 @@ exports[`should verify the snapshot for light mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
+                        alt="SASS logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    SASS
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
                         alt="Material Design logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
@@ -5229,6 +3707,34 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Material Design
+                  </p>
+                </div>
+                <div
+                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
+                >
+                  <div
+                    class="MuiBox-root css-1cojkpq"
+                  >
+                    <picture>
+                      <source
+                        srcset="test-file-stub"
+                        type="image/webp"
+                      />
+                      <source
+                        srcset="test-file-stub"
+                        type="image/jpeg"
+                      />
+                      <img
+                        alt="Boostrap logo"
+                        src="test-file-stub"
+                        style="max-width: 100px; max-height: 100px;"
+                      />
+                    </picture>
+                  </div>
+                  <p
+                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
+                  >
+                    Boostrap
                   </p>
                 </div>
               </div>
@@ -5323,7 +3829,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Node.Js logo"
+                        alt="Ruby On Rails logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -5332,35 +3838,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Node.Js
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Core PHP logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Core PHP
+                    Ruby On Rails
                   </p>
                 </div>
               </div>
@@ -5439,118 +3917,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     Mockito
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Cucumber logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cucumber
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Spock Framework logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Spock Framework
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Jest logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Jest
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="React Testing Library logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    React Testing Library
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -5587,7 +3953,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Java 11 logo"
+                        alt="Java 8 logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -5596,7 +3962,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Java 11
+                    Java 8
                   </p>
                 </div>
                 <div
@@ -5615,7 +3981,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         type="image/jpeg"
                       />
                       <img
-                        alt="Python 3 logo"
+                        alt="Ruby logo"
                         src="test-file-stub"
                         style="max-width: 100px; max-height: 100px;"
                       />
@@ -5624,63 +3990,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
-                    Python 3
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="C/C++ logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    C/C++
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Shell Scripting logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Shell Scripting
+                    Ruby
                   </p>
                 </div>
                 <div
@@ -5787,62 +4097,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     Android Development
                   </p>
                 </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Flutter logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Flutter
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Ionic 4 logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Ionic 4
-                  </p>
-                </div>
               </div>
             </div>
           </div>
@@ -5889,62 +4143,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     MySQL
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="MongoDB logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    MongoDB
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Cassandra logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Cassandra
                   </p>
                 </div>
                 <div
@@ -6021,34 +4219,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Google Cloud
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="AWS logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    AWS
                   </p>
                 </div>
                 <div
@@ -6153,118 +4323,6 @@ exports[`should verify the snapshot for light mode 1`] = `
                     class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
                   >
                     Docker
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Ansible logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Ansible
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Jenkins logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Jenkins
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Grafana logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Grafana
-                  </p>
-                </div>
-                <div
-                  class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-4 MuiGrid-grid-lg-2 css-126zddl-MuiGrid-root"
-                >
-                  <div
-                    class="MuiBox-root css-1cojkpq"
-                  >
-                    <picture>
-                      <source
-                        srcset="test-file-stub"
-                        type="image/webp"
-                      />
-                      <source
-                        srcset="test-file-stub"
-                        type="image/jpeg"
-                      />
-                      <img
-                        alt="Prometheus logo"
-                        src="test-file-stub"
-                        style="max-width: 100px; max-height: 100px;"
-                      />
-                    </picture>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body1 css-170lsb0-MuiTypography-root"
-                  >
-                    Prometheus
                   </p>
                 </div>
               </div>
@@ -6382,229 +4440,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   >
                     <a
                       class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Google Cloud Certified Professional Cloud Architect
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
-                  >
-                    A Google Cloud Certified - Professional Cloud Architect enables organizations to leverage Google Cloud technologies. Through an understanding of cloud architecture and Google technology, this individual can design, develop, and manage robust, secure, scalable, highly available, and dynamic solutions to drive business objectives.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Google | June 2021 - June 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.credential.net/c9bf219d-3d0f-4072-94e4-894db446b28b"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      AWS Certified Cloud Practitioner
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
-                  >
-                    Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    AWS | August 2020 - August 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/acc77122-d057-4eac-a133-1a1b4e86edc3?source=linked_in_profile"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Microsoft Certified: Azure Data Scientist Associate
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
-                  >
-                    Earning the Azure Data Scientist Associate certification validates the skills and knowledge to apply Azure’s machine learning techniques to train, evaluate, and deploy models that solve business problems.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Microsoft | January 2021 - January 2023
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/497502bd-2058-45a5-9dad-3abe690c8d57?source=linked_in_profile"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
+                      href="https://www.credly.com/badges/27f9824e-0a8e-4edb-b5c3-5b87d682f5ef/public_url"
                       rel="noreferrer"
                       style="text-decoration: none;"
                       target="_blank"
@@ -6634,81 +4470,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                   </button>
                   <a
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
-                    href="https://www.youracclaim.com/badges/8d0994cf-2fd0-4092-81f9-416cd0985fe0/public_url"
-                    rel="noreferrer"
-                    tabindex="0"
-                    target="_blank"
-                  >
-                    View
-                    <span
-                      class="MuiButton-endIcon MuiButton-iconSizeMedium css-9tj150-MuiButton-endIcon"
-                    >
-                      <svg
-                        aria-hidden="true"
-                        class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                        data-testid="ArrowForwardIcon"
-                        focusable="false"
-                        viewBox="0 0 24 24"
-                      >
-                        <path
-                          d="m12 4-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"
-                        />
-                      </svg>
-                    </span>
-                    <span
-                      class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-sm-12 MuiGrid-grid-md-6 css-kgax03-MuiGrid-root"
-            >
-              <div
-                class="MuiPaper-root MuiPaper-outlined MuiPaper-rounded MuiCard-root css-1v5z4dq-MuiPaper-root-MuiCard-root"
-                data-testid="certification-card"
-              >
-                <div
-                  class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
-                >
-                  <div
-                    class="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom css-rajz9p-MuiTypography-root"
-                    data-testid="certification-title"
-                  >
-                    <a
-                      class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1q9mib-MuiTypography-root-MuiLink-root"
-                      href="https://confirm.udacity.com/PRCEZS2R"
-                      rel="noreferrer"
-                      style="text-decoration: none;"
-                      target="_blank"
-                    >
-                      Intel® Edge AI For IoT Developers Nanodegree
-                    </a>
-                  </div>
-                  <p
-                    class="MuiTypography-root MuiTypography-body2 css-xnth2h-MuiTypography-root"
-                  >
-                    Earner of this certificate knows the Intel® Distribution of OpenVINO™ Toolkit to fast-track development of computer vision and deep learning inference applications and utilize the Intel® DevCloud for the Edge to test model performance on the various hardware types.
-                  </p>
-                </div>
-                <hr
-                  class="MuiDivider-root MuiDivider-fullWidth css-9mgopn-MuiDivider-root"
-                />
-                <div
-                  class="MuiCardActions-root MuiCardActions-spacing css-1vbr7to-MuiCardActions-root"
-                >
-                  <button
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
-                    disabled=""
-                    tabindex="-1"
-                    type="button"
-                  >
-                    Udacity | July 2020
-                  </button>
-                  <a
-                    class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
-                    href="https://confirm.udacity.com/PRCEZS2R"
+                    href="https://www.credly.com/badges/27f9824e-0a8e-4edb-b5c3-5b87d682f5ef/public_url"
                     rel="noreferrer"
                     tabindex="0"
                     target="_blank"
@@ -6871,7 +4633,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    67.20%
+                    68.16%
                   </button>
                 </div>
               </div>
@@ -6900,7 +4662,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     >
                       School/College:
                     </span>
-                     Adarsh Vidya Mandir
+                     Rajvansh Public Sr. Sec. School
                   </h6>
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle1 css-136nzxr-MuiTypography-root"
@@ -6940,7 +4702,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    May 2013 - March 2014
+                    May 2014 - March 2015
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
@@ -6963,7 +4725,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    Jaswantgarh IN
+                    Jaipur IN
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
@@ -6986,7 +4748,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    70.60%
+                    74.20%
                   </button>
                 </div>
               </div>
@@ -7015,7 +4777,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                     >
                       School/College:
                     </span>
-                     Adarsh Vidya Mandir
+                     Rajvansh Public Sr. Sec. School
                   </h6>
                   <h6
                     class="MuiTypography-root MuiTypography-subtitle1 css-136nzxr-MuiTypography-root"
@@ -7055,7 +4817,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    May 2011 - March 2012
+                    May 2012 - March 2013
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-18fsdmr-MuiButtonBase-root-MuiButton-root"
@@ -7078,7 +4840,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    Jaswantgarh IN
+                    Jaipur IN
                   </button>
                   <button
                     class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1r9v9qo-MuiButtonBase-root-MuiButton-root"
@@ -7101,7 +4863,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                         />
                       </svg>
                     </span>
-                    77.83%
+                    70%
                   </button>
                 </div>
               </div>
@@ -7120,7 +4882,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="mailto:the.vis.sharma@gmail.com"
+                href="mailto:usha.gupta2040@gmail.com"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -7139,7 +4901,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  the.vis.sharma@gmail.com
+                  usha.gupta2040@gmail.com
                 </p>
               </a>
             </div>
@@ -7148,35 +4910,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="mailto:bochiwal.visnu@gmail.com"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <svg
-                  aria-hidden="true"
-                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-                  data-testid="EmailIcon"
-                  focusable="false"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
-                  />
-                </svg>
-                 
-                <p
-                  class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
-                >
-                  bochiwal.visnu@gmail.com
-                </p>
-              </a>
-            </div>
-            <div
-              class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-lg-3 css-uus11e-MuiGrid-root"
-            >
-              <a
-                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="https://www.linkedin.com/in/the-vis-sharma/"
+                href="https://www.linkedin.com/in/usha-gupta26/"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -7195,7 +4929,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  /the-vis-sharma
+                  /usha-gupta26
                 </p>
               </a>
             </div>
@@ -7204,7 +4938,7 @@ exports[`should verify the snapshot for light mode 1`] = `
             >
               <a
                 class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-s5jmrt-MuiTypography-root-MuiLink-root"
-                href="https://github.com/the-vis-sharma"
+                href="https://github.com/usha-gupta"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -7223,7 +4957,7 @@ exports[`should verify the snapshot for light mode 1`] = `
                 <p
                   class="MuiTypography-root MuiTypography-body1 css-14zo2mj-MuiTypography-root"
                 >
-                  /the-vis-sharma
+                  /usha-gupta
                 </p>
               </a>
             </div>
@@ -7243,7 +4977,7 @@ exports[`should verify the snapshot for light mode 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-1xr3kop-MuiTypography-root"
           >
-            © 2022 Vishnu Bochiwal | All Right Reserved |  v1.2.1
+            © 2022 Usha Gupta | All Right Reserved |  v1.0.0
           </p>
         </div>
       </div>

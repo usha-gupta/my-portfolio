@@ -124,7 +124,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              67.20%
+              68.16%
             </button>
           </div>
         </div>
@@ -153,7 +153,7 @@ exports[`should verify snapshot 1`] = `
               >
                 School/College:
               </span>
-               Adarsh Vidya Mandir
+               Rajvansh Public Sr. Sec. School
             </h6>
             <h6
               class="MuiTypography-root MuiTypography-subtitle1 css-ecpxie-MuiTypography-root"
@@ -193,7 +193,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              May 2013 - March 2014
+              May 2014 - March 2015
             </button>
             <button
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1poohah-MuiButtonBase-root-MuiButton-root"
@@ -216,7 +216,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              Jaswantgarh IN
+              Jaipur IN
             </button>
             <button
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
@@ -239,7 +239,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              70.60%
+              74.20%
             </button>
           </div>
         </div>
@@ -268,7 +268,7 @@ exports[`should verify snapshot 1`] = `
               >
                 School/College:
               </span>
-               Adarsh Vidya Mandir
+               Rajvansh Public Sr. Sec. School
             </h6>
             <h6
               class="MuiTypography-root MuiTypography-subtitle1 css-ecpxie-MuiTypography-root"
@@ -308,7 +308,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              May 2011 - March 2012
+              May 2012 - March 2013
             </button>
             <button
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1poohah-MuiButtonBase-root-MuiButton-root"
@@ -331,7 +331,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              Jaswantgarh IN
+              Jaipur IN
             </button>
             <button
               class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButtonBase-root Mui-disabled  css-1e6y48t-MuiButtonBase-root-MuiButton-root"
@@ -354,7 +354,7 @@ exports[`should verify snapshot 1`] = `
                   />
                 </svg>
               </span>
-              77.83%
+              70%
             </button>
           </div>
         </div>

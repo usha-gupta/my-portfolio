@@ -39,7 +39,7 @@ const CustomAppBar: React.FunctionComponent<CustomAppBarProps> = (props) => {
             <AdvanceImg
               src={Logo}
               srcWebp={LogoWebp}
-              altText="Vishnu Bochiwal's Logo"
+              altText="Usha Gupta's Logo"
               style={{ height: "3.5rem" }}
             />
           </Box>

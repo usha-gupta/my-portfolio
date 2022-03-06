@@ -1,67 +1,65 @@
 import { Company } from "./company.model";
-import TWLogo from "../../assets/images/thoughtworks-logo.svg";
-import IbmLogo from "../../assets/images/ibm-logo.png";
-import CDacLogo from "../../assets/images/c-dac-logo.png";
-import AmazonLogo from "../../assets/images/amazon.png";
+import CognizantLogo from "../../assets/images/cognizant.png";
+import LWLogo from "../../assets/images/lw.png";
+import DotSquaresLogo from "../../assets/images/dot-squares.png";
+import FreshworksLogo from "../../assets/images/freshworks.svg";
 
-import IbmLogoWebp from "../../assets/images/ibm-logo.webp";
-import CDacLogoWebp from "../../assets/images/c-dac-logo.webp";
-import AmazonLogoWebp from "../../assets/images/amazon.webp";
+import CognizantLogoWebp from "../../assets/images/cognizant.webp";
+import LWLogoWebp from "../../assets/images/lw.webp";
+import DotSquaresLogoWebp from "../../assets/images/dot-squares.webp";
 
 const companies: Company[] = [
   {
-    logo: AmazonLogo,
-    logoWeb: AmazonLogoWebp,
-    name: "Amazon",
-    position: "Software Dev Engineer",
-    location: "Bangalore, IN",
-    description:
-      "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Google, Apple, Meta, and Microsoft.",
-    accomplishments: ["Working on Next Big Thing"],
-    duration: "Jan 2022 - Present",
-  },
-  {
-    logo: TWLogo,
+    logo: FreshworksLogo,
     logoWeb: "",
-    name: "Thoughtworks",
+    name: "Freshworks",
+    position: "Software Engineer",
+    location: "Bangalore, IN",
+    description:
+      "Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.",
+    accomplishments: ["Working on FreshDesk Product"],
+    duration: "Feb 2022 - Present",
+  },
+  {
+    logo: CognizantLogo,
+    logoWeb: CognizantLogoWebp,
+    name: "Cognizant",
     position: "Full Stack Developer",
     location: "Bangalore, IN",
     description:
-      "Thoughtworks is a leading global technology consultancy that integrates strategy, design and software engineering to enable enterprises and technology disruptors across the globe to thrive as modern digital businesses.",
+      "Cognizant is an American multinational information technology services and consulting company.",
     accomplishments: [
-      "Building a e-commerce website from scratch using ReactJS, Spring Boot, Microservices, Material Design etc with a team of 15 members",
-      "Done initial setup of UI repo as Mono repo using yarn workspace with eslint, stylelint, prettier, husky pre-commit hook, lint-staged and jest for testing",
-      "Created Backend API for product details page with basic product details, quanitity, prices, dealers etc",
+      "Build project from scratch using Angular and Spring Boot and delivered successfully to client with almost no defects handling thousand of users.",
+      "Created Test Completion Report Automation project using Angular, Java and Python to generate well formatted TCR reports for different projects within a minutes using Apache POI Lib",
+      "Solved business critical problems for clients using latest technologies.",
     ],
-    duration: "Oct 2021 - Jan 2022",
+    duration: "Oct 2019 - Feb 2022",
   },
   {
-    logo: IbmLogo,
-    logoWeb: IbmLogoWebp,
-    name: "IBM",
-    position: "Full Stack Developer",
-    location: "Bangalore, IN",
-    description:
-      "International Business Machines Corporation is an American multinational technology company headquartered in Armonk, New York, with operations in over 170 countries.",
-    accomplishments: [
-      "Working as a full stack developer on a large-scale, cloud-native, and distributed crew logistics solution with tools & technologies like Spring Boot, React.Js, Groovy, Micro-services, Redis, Cassandra, Kafka, Kibana, Grafana, Portainer in an agile team.",
-      "Improved live tracking speed by 15% by optimising code",
-      "Improved scalability, fault tolerance, and reliability by designing micro-service architecture after event storming with stakeholders.",
-      "Completed 400+ user stories and implemented 15+ new features.",
-    ],
-    duration: "Jun 2019 - Oct 2021",
-  },
-  {
-    logo: CDacLogo,
-    logoWeb: CDacLogoWebp,
-    name: "C-DAC",
-    position: "Machine Learning Trainee",
+    logo: LWLogo,
+    logoWeb: LWLogoWebp,
+    name: "LinuxWorld Informatics Pvt. Ltd.",
+    position: "Internship Trainee",
     location: "Jaipur, IN",
     description:
-      "The Centre for Development of Advanced Computing is an Indian autonomous scientific society, operating under the Ministry of Electronics and Information Technology.",
+      "Linux World India is a leading name among the training institutes of India. The institute is active in the field of training from several years and has produced a number of professionals.",
     accomplishments: [
-      "Gained experience in machine learning using python by working on a project of weather prediction android app which shows weather forecast",
-      "Used multi-dimension linear regression model for prediction using 100 years of historical data set using information retrieval",
+      "Done Industry 4.0 training by building Smarter World project.",
+      "Worked on AI, ML/DL with IoT using realtime data processing with Spark, BigData - Hadoop Framework running app on Kubernetes Clusters.",
+    ],
+    duration: "May 2019 - Jun 2019",
+  },
+  {
+    logo: DotSquaresLogo,
+    logoWeb: DotSquaresLogoWebp,
+    name: "Dotsquares",
+    position: "Salesforce Intern",
+    location: "Jaipur, IN",
+    description:
+      "Dotsquares is an award winning offshore website design, mobile apps development and digital outsourcing agency based in East Sussex. Upscale your Bandwidth!",
+    accomplishments: [
+      "Worked on Force.com platform to build Recruiting App using HTML, CSS, DataLoader, Java etc.",
+      "It reduced the paper work for both candidates and recruiters",
     ],
     duration: "May 2018 - Jul 2018",
   },

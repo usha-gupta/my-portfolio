@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import styled from "styled-components";
 import Typed from "typed.js";
 
-import backgroundImage from "../../assets/images/bg-intro.jpg";
+import backgroundImage from "../../assets/images/bg_header.jpg";
 
 const StyledWrapper = styled.section`
   height: 100vh;
@@ -73,7 +73,7 @@ const StyledName = styled(Typography)`
 const Header: React.FunctionComponent = () => {
   useEffect(() => {
     const typed = new Typed(".positions", {
-      strings: ["Developer", "Architecture", "Engineer", "Consultant"],
+      strings: ["Developer", "Engineer", "Consultant"],
       startDelay: 300,
       typeSpeed: 130,
       backSpeed: 50,
@@ -91,7 +91,7 @@ const Header: React.FunctionComponent = () => {
     <StyledWrapper>
       <Overlay />
       <Content>
-        <StyledName variant="h5">Vishnu Bochiwal</StyledName>
+        <StyledName variant="h5">Usha Gupta</StyledName>
         <StyledCaption>
           I&apos;m a Software
           <StyledSpan className="positions" />

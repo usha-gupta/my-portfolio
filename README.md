@@ -1,6 +1,6 @@
-![Deploy to Firebase Hosting on merge](https://github.com/the-vis-sharma/my-portfolio/actions/workflows/firebase-hosting-merge.yml/badge.svg)
+![Deploy to Firebase Hosting on merge](https://github.com/usha-gupta/my-portfolio/actions/workflows/firebase-hosting-merge.yml/badge.svg)
 
-# Vishnu's Portfolio
+# Usha's Portfolio
 
 This is portfolio website created using ReactJS and MUI.
 
