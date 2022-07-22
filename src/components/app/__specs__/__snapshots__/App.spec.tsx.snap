@@ -738,7 +738,25 @@ exports[`should verify the snapshot for dark mode 1`] = `
                   <p
                     class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                   >
-                    Working on FreshDesk Product
+                    Working as a Full Stack Developer on the famous and growing product Freshdesk
+                  </p>
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                  >
+                    Design, Developed and delivered Deep LInk feature
+                  </p>
+                </li>
+                <li
+                  style="text-align: justify;"
+                >
+                  <p
+                    class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                  >
+                    Redesigned timeline activities UI and synced with FreshChat and FreshCaller for Contact and Tickets
                   </p>
                 </li>
               </ul>
@@ -3059,7 +3077,25 @@ exports[`should verify the snapshot for light mode 1`] = `
                         <p
                           class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
                         >
-                          Working on FreshDesk Product
+                          Working as a Full Stack Developer on the famous and growing product Freshdesk
+                        </p>
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                        >
+                          Design, Developed and delivered Deep LInk feature
+                        </p>
+                      </li>
+                      <li
+                        style="text-align: justify;"
+                      >
+                        <p
+                          class="MuiTypography-root MuiTypography-body2 css-1chm2gf-MuiTypography-root"
+                        >
+                          Redesigned timeline activities UI and synced with FreshChat and FreshCaller for Contact and Tickets
                         </p>
                       </li>
                     </ul>

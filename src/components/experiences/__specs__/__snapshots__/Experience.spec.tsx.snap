@@ -70,7 +70,25 @@ exports[`test experiences component verify snapshot for larger display 1`] = `
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Working on FreshDesk Product
+              Working as a Full Stack Developer on the famous and growing product Freshdesk
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Design, Developed and delivered Deep LInk feature
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Redesigned timeline activities UI and synced with FreshChat and FreshCaller for Contact and Tickets
             </p>
           </li>
         </ul>
@@ -441,7 +459,25 @@ exports[`test experiences component verify snapshot for tablet or lesser size di
             <p
               class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
             >
-              Working on FreshDesk Product
+              Working as a Full Stack Developer on the famous and growing product Freshdesk
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Design, Developed and delivered Deep LInk feature
+            </p>
+          </li>
+          <li
+            style="text-align: justify;"
+          >
+            <p
+              class="MuiTypography-root MuiTypography-body2 css-1ip9kmw-MuiTypography-root"
+            >
+              Redesigned timeline activities UI and synced with FreshChat and FreshCaller for Contact and Tickets
             </p>
           </li>
         </ul>

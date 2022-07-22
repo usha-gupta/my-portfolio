@@ -17,7 +17,11 @@ const companies: Company[] = [
     location: "Bangalore, IN",
     description:
       "Freshworks is a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes.",
-    accomplishments: ["Working on FreshDesk Product"],
+    accomplishments: [
+      "Working as a Full Stack Developer on the famous and growing product Freshdesk",
+      "Design, Developed and delivered Deep LInk feature",
+      "Redesigned timeline activities UI and synced with FreshChat and FreshCaller for Contact and Tickets",
+    ],
     duration: "Feb 2022 - Present",
   },
   {
