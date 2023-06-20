@@ -79,7 +79,7 @@ const ResponsiveDrawer: React.FunctionComponent<ResponsiveDrawerProps> = (
           component={Link}
           rel="noopener"
           target="_blank"
-          href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
+          href="https://drive.google.com/file/d/1_BaIknV3frghVjX-YhguU2T_2NX4pHp1/view?usp=sharing"
         >
           <ListItemIcon>
             <CloudDownload />

@@ -73,7 +73,7 @@ const About = forwardRef((_, ref) => (
                 startIcon={<CloudDownload />}
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1vYLtWeUhAPuTAqLlO4GueO_yok8vXcvq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1_BaIknV3frghVjX-YhguU2T_2NX4pHp1/view?usp=sharing"
               >
                 Resume
               </Button>
